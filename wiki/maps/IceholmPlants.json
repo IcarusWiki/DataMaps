@@ -1,0 +1,135 @@
+{
+	"$schema": "https://icarus.wiki.gg/extensions/DataMaps/schemas/v17.3.json",
+	"crs": {
+		"order": "xy",
+		"topLeft": [
+			-100800.0,
+			-100800.0
+		],
+		"bottomRight": [
+			100800.0,
+			100800.0
+		]
+	},
+	"backgrounds": [
+		{
+			"name": "Iceholm",
+			"associatedLayer": null,
+			"image": "MAP Iceholm.jpg",
+			"overlays": [
+				{
+					"name": "Grid",
+					"image": "MAP Grid 4096.png",
+					"at": [
+						[
+							-100800.0,
+							-100800.0
+						],
+						[
+							100800.0,
+							100800.0
+						]
+					]
+				}
+			]
+		}
+	],
+	"settings": {
+		"enableSearch": true,
+		"showCoordinates": true
+	},
+	"groups": {
+		"Mushroom": {
+			"name": "Mushrooms",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Mushroom.png"
+		}
+	},
+	"markers": {
+		"Mushroom": [
+			{
+				"x": -63167.73,
+				"y": 14709.99,
+				"id": "Mushroom-1",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 9",
+				"article": "Mushrooms"
+			},
+			{
+				"x": -60485.71,
+				"y": 15323.83,
+				"id": "Mushroom-2",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 72",
+				"article": "Mushrooms"
+			},
+			{
+				"x": -57749.22,
+				"y": 16540.1,
+				"id": "Mushroom-3",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 2",
+				"article": "Mushrooms"
+			},
+			{
+				"x": -55044.42,
+				"y": 15277.89,
+				"id": "Mushroom-4",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 53",
+				"article": "Mushrooms"
+			},
+			{
+				"x": -51901.29,
+				"y": 14766.27,
+				"id": "Mushroom-5",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 13",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 9386.66,
+				"y": 38267.44,
+				"id": "Mushroom-6",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 32",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 31173.21,
+				"y": 4301.21,
+				"id": "Mushroom-7",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 46",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 35503.95,
+				"y": 2192.62,
+				"id": "Mushroom-8",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 70",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 40412.88,
+				"y": 1594.66,
+				"id": "Mushroom-9",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 33",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 49845.82,
+				"y": 25346.43,
+				"id": "Mushroom-10",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 67",
+				"article": "Mushrooms"
+			}
+		]
+	}
+}

@@ -1,0 +1,4057 @@
+{
+	"$schema": "https://icarus.wiki.gg/extensions/DataMaps/schemas/v17.3.json",
+	"crs": {
+		"order": "xy",
+		"topLeft": [
+			-100800.0,
+			-100800.0
+		],
+		"bottomRight": [
+			100800.0,
+			100800.0
+		]
+	},
+	"backgrounds": [
+		{
+			"name": "Cactus",
+			"associatedLayer": null,
+			"image": "MAP Cactus.jpg",
+			"overlays": [
+				{
+					"name": "Grid",
+					"image": "MAP Grid 4096.png",
+					"at": [
+						[
+							-100800.0,
+							-100800.0
+						],
+						[
+							100800.0,
+							100800.0
+						]
+					]
+				}
+			]
+		}
+	],
+	"settings": {
+		"enableSearch": true,
+		"showCoordinates": true
+	},
+	"groups": {
+		"Aloe": {
+			"name": "Aloe",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Fibre.png"
+		},
+		"Cactus": {
+			"name": "Cactus",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Fibre.png"
+		},
+		"PalmBush": {
+			"name": "Palm Bush",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Fibre.png"
+		},
+		"Reed": {
+			"name": "Reed Flowers",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Reeds.png"
+		},
+		"Sponge": {
+			"name": "Sponge",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Sponge.png"
+		},
+		"Squash": {
+			"name": "Squash",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Squash.png"
+		}
+	},
+	"markers": {
+		"Aloe": [
+			{
+				"x": -96803.87,
+				"y": -47300.0,
+				"id": "Aloe-1",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": -96366.86,
+				"y": -85097.15,
+				"id": "Aloe-2",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 5",
+				"article": "Aloe"
+			},
+			{
+				"x": -93560.2,
+				"y": -53361.76,
+				"id": "Aloe-3",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 32",
+				"article": "Aloe"
+			},
+			{
+				"x": -92004.48,
+				"y": -37581.12,
+				"id": "Aloe-4",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 7",
+				"article": "Aloe"
+			},
+			{
+				"x": -88772.82,
+				"y": -48706.03,
+				"id": "Aloe-5",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": -87607.46,
+				"y": -56957.78,
+				"id": "Aloe-6",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 15",
+				"article": "Aloe"
+			},
+			{
+				"x": -85211.12,
+				"y": -48811.25,
+				"id": "Aloe-7",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 11",
+				"article": "Aloe"
+			},
+			{
+				"x": -85156.66,
+				"y": -63609.39,
+				"id": "Aloe-8",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 15",
+				"article": "Aloe"
+			},
+			{
+				"x": -84982.85,
+				"y": -60679.64,
+				"id": "Aloe-9",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 8",
+				"article": "Aloe"
+			},
+			{
+				"x": -79211.42,
+				"y": -58328.26,
+				"id": "Aloe-10",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 10",
+				"article": "Aloe"
+			},
+			{
+				"x": -79079.91,
+				"y": 8956.17,
+				"id": "Aloe-11",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 10",
+				"article": "Aloe"
+			},
+			{
+				"x": -76583.91,
+				"y": 2324.4,
+				"id": "Aloe-12",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 8",
+				"article": "Aloe"
+			},
+			{
+				"x": -65896.84,
+				"y": 45897.22,
+				"id": "Aloe-13",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": -64859.55,
+				"y": 35360.27,
+				"id": "Aloe-14",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": -64323.84,
+				"y": -10088.31,
+				"id": "Aloe-15",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 9",
+				"article": "Aloe"
+			},
+			{
+				"x": -63119.45,
+				"y": 39612.54,
+				"id": "Aloe-16",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": -62517.55,
+				"y": -611.23,
+				"id": "Aloe-17",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 3",
+				"article": "Aloe"
+			},
+			{
+				"x": -60943.84,
+				"y": -51180.07,
+				"id": "Aloe-18",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 7",
+				"article": "Aloe"
+			},
+			{
+				"x": -57165.19,
+				"y": 46331.01,
+				"id": "Aloe-19",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": -54361.14,
+				"y": 65502.78,
+				"id": "Aloe-20",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": -54237.11,
+				"y": 47936.04,
+				"id": "Aloe-21",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 9",
+				"article": "Aloe"
+			},
+			{
+				"x": -53929.84,
+				"y": -21093.24,
+				"id": "Aloe-22",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 3",
+				"article": "Aloe"
+			},
+			{
+				"x": -53087.98,
+				"y": 51293.26,
+				"id": "Aloe-23",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 4",
+				"article": "Aloe"
+			},
+			{
+				"x": -51199.78,
+				"y": -53352.71,
+				"id": "Aloe-24",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 5",
+				"article": "Aloe"
+			},
+			{
+				"x": -47950.7,
+				"y": -18474.3,
+				"id": "Aloe-25",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 5",
+				"article": "Aloe"
+			},
+			{
+				"x": -46304.43,
+				"y": -2061.93,
+				"id": "Aloe-26",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": -46064.16,
+				"y": -57513.95,
+				"id": "Aloe-27",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": -45777.84,
+				"y": 56100.46,
+				"id": "Aloe-28",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 5",
+				"article": "Aloe"
+			},
+			{
+				"x": -45719.09,
+				"y": 8454.62,
+				"id": "Aloe-29",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 8",
+				"article": "Aloe"
+			},
+			{
+				"x": -44692.03,
+				"y": -10971.16,
+				"id": "Aloe-30",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 5",
+				"article": "Aloe"
+			},
+			{
+				"x": -43669.22,
+				"y": 1134.25,
+				"id": "Aloe-31",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 8",
+				"article": "Aloe"
+			},
+			{
+				"x": -43526.48,
+				"y": -14555.58,
+				"id": "Aloe-32",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 17",
+				"article": "Aloe"
+			},
+			{
+				"x": -39416.09,
+				"y": 12557.77,
+				"id": "Aloe-33",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": -38801.24,
+				"y": 35083.94,
+				"id": "Aloe-34",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": -38649.29,
+				"y": -61222.34,
+				"id": "Aloe-35",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 3",
+				"article": "Aloe"
+			},
+			{
+				"x": -36351.32,
+				"y": -29000.04,
+				"id": "Aloe-36",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": -36240.4,
+				"y": -17399.07,
+				"id": "Aloe-37",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": -35018.8,
+				"y": -77170.94,
+				"id": "Aloe-38",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 7",
+				"article": "Aloe"
+			},
+			{
+				"x": -33445.71,
+				"y": 40851.94,
+				"id": "Aloe-39",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": -32624.67,
+				"y": 9185.77,
+				"id": "Aloe-40",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": -30825.46,
+				"y": 54983.56,
+				"id": "Aloe-41",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 4",
+				"article": "Aloe"
+			},
+			{
+				"x": -27572.93,
+				"y": -3107.92,
+				"id": "Aloe-42",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": -27396.44,
+				"y": 6077.47,
+				"id": "Aloe-43",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": -26069.13,
+				"y": 2118.25,
+				"id": "Aloe-44",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 11",
+				"article": "Aloe"
+			},
+			{
+				"x": -26038.9,
+				"y": 65450.77,
+				"id": "Aloe-45",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 13",
+				"article": "Aloe"
+			},
+			{
+				"x": -25639.96,
+				"y": 46397.62,
+				"id": "Aloe-46",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": -25188.06,
+				"y": 30730.34,
+				"id": "Aloe-47",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 18",
+				"article": "Aloe"
+			},
+			{
+				"x": -23264.79,
+				"y": -63804.67,
+				"id": "Aloe-48",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 10",
+				"article": "Aloe"
+			},
+			{
+				"x": -23238.0,
+				"y": 53666.25,
+				"id": "Aloe-49",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": -22318.69,
+				"y": -18971.26,
+				"id": "Aloe-50",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 5",
+				"article": "Aloe"
+			},
+			{
+				"x": -19871.1,
+				"y": 60587.77,
+				"id": "Aloe-51",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 9",
+				"article": "Aloe"
+			},
+			{
+				"x": -15273.61,
+				"y": 53646.58,
+				"id": "Aloe-52",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 3",
+				"article": "Aloe"
+			},
+			{
+				"x": -15054.96,
+				"y": 28219.72,
+				"id": "Aloe-53",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": -14535.38,
+				"y": -28475.03,
+				"id": "Aloe-54",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 24",
+				"article": "Aloe"
+			},
+			{
+				"x": -13265.26,
+				"y": -44962.3,
+				"id": "Aloe-55",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 14",
+				"article": "Aloe"
+			},
+			{
+				"x": -11689.59,
+				"y": -29647.2,
+				"id": "Aloe-56",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 15",
+				"article": "Aloe"
+			},
+			{
+				"x": -10090.73,
+				"y": -47378.94,
+				"id": "Aloe-57",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 15",
+				"article": "Aloe"
+			},
+			{
+				"x": -7895.47,
+				"y": 65977.06,
+				"id": "Aloe-58",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": -6290.79,
+				"y": 53408.93,
+				"id": "Aloe-59",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 8",
+				"article": "Aloe"
+			},
+			{
+				"x": -6153.19,
+				"y": -49054.55,
+				"id": "Aloe-60",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 27",
+				"article": "Aloe"
+			},
+			{
+				"x": -4052.72,
+				"y": -84687.32,
+				"id": "Aloe-61",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": -2177.91,
+				"y": 60995.14,
+				"id": "Aloe-62",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": 1311.82,
+				"y": -79540.68,
+				"id": "Aloe-63",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": 4242.05,
+				"y": -22612.07,
+				"id": "Aloe-64",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 28",
+				"article": "Aloe"
+			},
+			{
+				"x": 4315.66,
+				"y": 61534.79,
+				"id": "Aloe-65",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 11",
+				"article": "Aloe"
+			},
+			{
+				"x": 7060.65,
+				"y": -80889.49,
+				"id": "Aloe-66",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 4",
+				"article": "Aloe"
+			},
+			{
+				"x": 11313.27,
+				"y": -79541.05,
+				"id": "Aloe-67",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": 15035.67,
+				"y": -79435.91,
+				"id": "Aloe-68",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 31",
+				"article": "Aloe"
+			},
+			{
+				"x": 16768.81,
+				"y": 7993.69,
+				"id": "Aloe-69",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 3",
+				"article": "Aloe"
+			},
+			{
+				"x": 18085.61,
+				"y": -35731.77,
+				"id": "Aloe-70",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": 19533.91,
+				"y": -40016.11,
+				"id": "Aloe-71",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 3",
+				"article": "Aloe"
+			},
+			{
+				"x": 20706.18,
+				"y": -34740.28,
+				"id": "Aloe-72",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 10",
+				"article": "Aloe"
+			},
+			{
+				"x": 20939.85,
+				"y": -29717.43,
+				"id": "Aloe-73",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": 20988.39,
+				"y": 35600.0,
+				"id": "Aloe-74",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": 23294.46,
+				"y": -36266.75,
+				"id": "Aloe-75",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": 24891.25,
+				"y": -63241.25,
+				"id": "Aloe-76",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 5",
+				"article": "Aloe"
+			},
+			{
+				"x": 25788.41,
+				"y": -76775.65,
+				"id": "Aloe-77",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": 26100.0,
+				"y": -83500.0,
+				"id": "Aloe-78",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": 26367.7,
+				"y": -47813.25,
+				"id": "Aloe-79",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 7",
+				"article": "Aloe"
+			},
+			{
+				"x": 27258.3,
+				"y": -29753.99,
+				"id": "Aloe-80",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 3",
+				"article": "Aloe"
+			},
+			{
+				"x": 27483.25,
+				"y": 57125.63,
+				"id": "Aloe-81",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": 33445.98,
+				"y": 46988.59,
+				"id": "Aloe-82",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 8",
+				"article": "Aloe"
+			},
+			{
+				"x": 35373.13,
+				"y": -88134.16,
+				"id": "Aloe-83",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 7",
+				"article": "Aloe"
+			},
+			{
+				"x": 36952.16,
+				"y": -22252.73,
+				"id": "Aloe-84",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 7",
+				"article": "Aloe"
+			},
+			{
+				"x": 38771.54,
+				"y": -56513.49,
+				"id": "Aloe-85",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 4",
+				"article": "Aloe"
+			},
+			{
+				"x": 42470.22,
+				"y": -7835.42,
+				"id": "Aloe-86",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": 42843.11,
+				"y": -67727.79,
+				"id": "Aloe-87",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": 43564.82,
+				"y": -84174.21,
+				"id": "Aloe-88",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": 45110.73,
+				"y": -25887.2,
+				"id": "Aloe-89",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 3",
+				"article": "Aloe"
+			},
+			{
+				"x": 45629.68,
+				"y": -29863.15,
+				"id": "Aloe-90",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 16",
+				"article": "Aloe"
+			},
+			{
+				"x": 46421.66,
+				"y": -79102.29,
+				"id": "Aloe-91",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 2",
+				"article": "Aloe"
+			},
+			{
+				"x": 47012.38,
+				"y": 32572.97,
+				"id": "Aloe-92",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 13",
+				"article": "Aloe"
+			},
+			{
+				"x": 47429.18,
+				"y": -55645.03,
+				"id": "Aloe-93",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 10",
+				"article": "Aloe"
+			},
+			{
+				"x": 48876.46,
+				"y": 36756.8,
+				"id": "Aloe-94",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": 53069.09,
+				"y": 51500.0,
+				"id": "Aloe-95",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": 53761.68,
+				"y": 22882.92,
+				"id": "Aloe-96",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 6",
+				"article": "Aloe"
+			},
+			{
+				"x": 55597.2,
+				"y": 41889.52,
+				"id": "Aloe-97",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 3",
+				"article": "Aloe"
+			},
+			{
+				"x": 64490.68,
+				"y": -28515.89,
+				"id": "Aloe-98",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 4",
+				"article": "Aloe"
+			},
+			{
+				"x": 64649.26,
+				"y": 16643.4,
+				"id": "Aloe-99",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 10",
+				"article": "Aloe"
+			},
+			{
+				"x": 66002.78,
+				"y": 26718.84,
+				"id": "Aloe-100",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 4",
+				"article": "Aloe"
+			},
+			{
+				"x": 69186.07,
+				"y": 17969.95,
+				"id": "Aloe-101",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": 69566.3,
+				"y": -3683.5,
+				"id": "Aloe-102",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			},
+			{
+				"x": 74566.16,
+				"y": -64779.44,
+				"id": "Aloe-103",
+				"name": "Aloe",
+				"description": "Amount of Aloe: 1",
+				"article": "Aloe"
+			}
+		],
+		"Cactus": [
+			{
+				"x": -29489.36,
+				"y": 37693.86,
+				"id": "Cactus-1",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 5",
+				"article": "Cactus"
+			},
+			{
+				"x": -7178.04,
+				"y": 2853.57,
+				"id": "Cactus-2",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 3",
+				"article": "Cactus"
+			},
+			{
+				"x": -3852.34,
+				"y": -14913.14,
+				"id": "Cactus-3",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 8",
+				"article": "Cactus"
+			},
+			{
+				"x": -3203.57,
+				"y": -7999.45,
+				"id": "Cactus-4",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 3",
+				"article": "Cactus"
+			},
+			{
+				"x": 51.48,
+				"y": 26026.03,
+				"id": "Cactus-5",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 3",
+				"article": "Cactus"
+			},
+			{
+				"x": 1092.23,
+				"y": 6961.22,
+				"id": "Cactus-6",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 1",
+				"article": "Cactus"
+			},
+			{
+				"x": 2887.18,
+				"y": 11966.76,
+				"id": "Cactus-7",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 5",
+				"article": "Cactus"
+			},
+			{
+				"x": 2969.52,
+				"y": -3635.91,
+				"id": "Cactus-8",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 1",
+				"article": "Cactus"
+			},
+			{
+				"x": 3308.6,
+				"y": -7066.55,
+				"id": "Cactus-9",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 7",
+				"article": "Cactus"
+			},
+			{
+				"x": 5365.17,
+				"y": -11002.62,
+				"id": "Cactus-10",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 2",
+				"article": "Cactus"
+			},
+			{
+				"x": 14348.93,
+				"y": 32726.15,
+				"id": "Cactus-11",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 3",
+				"article": "Cactus"
+			},
+			{
+				"x": 18004.01,
+				"y": 22303.36,
+				"id": "Cactus-12",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 2",
+				"article": "Cactus"
+			},
+			{
+				"x": 20970.43,
+				"y": 36012.0,
+				"id": "Cactus-13",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 5",
+				"article": "Cactus"
+			},
+			{
+				"x": 20990.04,
+				"y": 20130.0,
+				"id": "Cactus-14",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 2",
+				"article": "Cactus"
+			},
+			{
+				"x": 22598.45,
+				"y": 26983.47,
+				"id": "Cactus-15",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 1",
+				"article": "Cactus"
+			},
+			{
+				"x": 25330.04,
+				"y": 6710.43,
+				"id": "Cactus-16",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 1",
+				"article": "Cactus"
+			},
+			{
+				"x": 27324.92,
+				"y": 20680.53,
+				"id": "Cactus-17",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 3",
+				"article": "Cactus"
+			},
+			{
+				"x": 35293.02,
+				"y": 46685.31,
+				"id": "Cactus-18",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 1",
+				"article": "Cactus"
+			},
+			{
+				"x": 37623.46,
+				"y": 26541.49,
+				"id": "Cactus-19",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 4",
+				"article": "Cactus"
+			},
+			{
+				"x": 39958.8,
+				"y": 15511.62,
+				"id": "Cactus-20",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 6",
+				"article": "Cactus"
+			},
+			{
+				"x": 43087.24,
+				"y": 12255.08,
+				"id": "Cactus-21",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 4",
+				"article": "Cactus"
+			},
+			{
+				"x": 45429.63,
+				"y": 44161.22,
+				"id": "Cactus-22",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 2",
+				"article": "Cactus"
+			},
+			{
+				"x": 46680.35,
+				"y": 31719.05,
+				"id": "Cactus-23",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 3",
+				"article": "Cactus"
+			},
+			{
+				"x": 49757.54,
+				"y": 12258.72,
+				"id": "Cactus-24",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 6",
+				"article": "Cactus"
+			},
+			{
+				"x": 51497.33,
+				"y": 5668.27,
+				"id": "Cactus-25",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 2",
+				"article": "Cactus"
+			},
+			{
+				"x": 54437.29,
+				"y": 49934.47,
+				"id": "Cactus-26",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 3",
+				"article": "Cactus"
+			},
+			{
+				"x": 55705.37,
+				"y": -1563.16,
+				"id": "Cactus-27",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 3",
+				"article": "Cactus"
+			},
+			{
+				"x": 65600.0,
+				"y": 26236.76,
+				"id": "Cactus-28",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 1",
+				"article": "Cactus"
+			},
+			{
+				"x": 69016.75,
+				"y": 19038.47,
+				"id": "Cactus-29",
+				"name": "Cactus",
+				"description": "Amount of Cactus: 3",
+				"article": "Cactus"
+			}
+		],
+		"PalmBush": [
+			{
+				"x": -93925.79,
+				"y": -54552.71,
+				"id": "PalmBush-1",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 28",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -93028.83,
+				"y": -51360.69,
+				"id": "PalmBush-2",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 10",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -91174.74,
+				"y": -55337.35,
+				"id": "PalmBush-3",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 43",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -90868.68,
+				"y": -37674.73,
+				"id": "PalmBush-4",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 7",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -90176.34,
+				"y": -47483.46,
+				"id": "PalmBush-5",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 42",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -88876.19,
+				"y": -58219.26,
+				"id": "PalmBush-6",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 26",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -88316.23,
+				"y": 35404.64,
+				"id": "PalmBush-7",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 18",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -87500.66,
+				"y": -51264.74,
+				"id": "PalmBush-8",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -87244.08,
+				"y": -46809.67,
+				"id": "PalmBush-9",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 11",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -87240.01,
+				"y": -41290.67,
+				"id": "PalmBush-10",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 54",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -87198.53,
+				"y": -53981.91,
+				"id": "PalmBush-11",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 13",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -85244.66,
+				"y": 31464.19,
+				"id": "PalmBush-12",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 30",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -84618.79,
+				"y": 34577.15,
+				"id": "PalmBush-13",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 12",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -84406.42,
+				"y": -63603.55,
+				"id": "PalmBush-14",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 11",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -83552.58,
+				"y": -53249.92,
+				"id": "PalmBush-15",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 45",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -81270.03,
+				"y": -60827.08,
+				"id": "PalmBush-16",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 30",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -79778.26,
+				"y": -56751.62,
+				"id": "PalmBush-17",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 7",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -79008.04,
+				"y": 8439.8,
+				"id": "PalmBush-18",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 18",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -77070.11,
+				"y": 3853.76,
+				"id": "PalmBush-19",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 16",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -73130.57,
+				"y": 50032.85,
+				"id": "PalmBush-20",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 13",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -68916.46,
+				"y": 47707.7,
+				"id": "PalmBush-21",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 9",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -66126.91,
+				"y": 42589.9,
+				"id": "PalmBush-22",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 31",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -65955.49,
+				"y": 39828.78,
+				"id": "PalmBush-23",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 4",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -60897.41,
+				"y": -49452.88,
+				"id": "PalmBush-24",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 16",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -58802.85,
+				"y": -56148.44,
+				"id": "PalmBush-25",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 10",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -56359.63,
+				"y": 61955.32,
+				"id": "PalmBush-26",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 34",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -54443.91,
+				"y": 50078.62,
+				"id": "PalmBush-27",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 6",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -52725.63,
+				"y": -56216.19,
+				"id": "PalmBush-28",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 30",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -52703.33,
+				"y": 65005.25,
+				"id": "PalmBush-29",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 26",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -52633.17,
+				"y": 56234.06,
+				"id": "PalmBush-30",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 19",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -51909.37,
+				"y": -18592.0,
+				"id": "PalmBush-31",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 19",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -51449.74,
+				"y": 3060.67,
+				"id": "PalmBush-32",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 32",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -49772.0,
+				"y": 64480.62,
+				"id": "PalmBush-33",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 11",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -48864.62,
+				"y": 26734.81,
+				"id": "PalmBush-34",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 14",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -48718.46,
+				"y": 22543.18,
+				"id": "PalmBush-35",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 7",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -48337.42,
+				"y": 34966.98,
+				"id": "PalmBush-36",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 7",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -48257.5,
+				"y": -54548.09,
+				"id": "PalmBush-37",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 36",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -47561.96,
+				"y": 56453.34,
+				"id": "PalmBush-38",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 29",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -45853.63,
+				"y": 10050.83,
+				"id": "PalmBush-39",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 25",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -45332.15,
+				"y": 60137.58,
+				"id": "PalmBush-40",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 10",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -45291.64,
+				"y": -6960.54,
+				"id": "PalmBush-41",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 17",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -44970.8,
+				"y": 2301.72,
+				"id": "PalmBush-42",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 47",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -44840.71,
+				"y": 57088.49,
+				"id": "PalmBush-43",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 11",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -44337.27,
+				"y": 54218.09,
+				"id": "PalmBush-44",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 3",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -44065.62,
+				"y": 43318.47,
+				"id": "PalmBush-45",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 72",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -41757.0,
+				"y": 1644.48,
+				"id": "PalmBush-46",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -41697.76,
+				"y": -2562.5,
+				"id": "PalmBush-47",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 59",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -41284.99,
+				"y": -64877.45,
+				"id": "PalmBush-48",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 21",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -40895.59,
+				"y": -8471.71,
+				"id": "PalmBush-49",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 42",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -40336.76,
+				"y": 6376.76,
+				"id": "PalmBush-50",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 19",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -40330.67,
+				"y": -5247.72,
+				"id": "PalmBush-51",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 3",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -39904.41,
+				"y": 45629.68,
+				"id": "PalmBush-52",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 4",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -39794.56,
+				"y": -42942.55,
+				"id": "PalmBush-53",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 10",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -39328.68,
+				"y": 36283.79,
+				"id": "PalmBush-54",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 29",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -39170.31,
+				"y": 57627.48,
+				"id": "PalmBush-55",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 21",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -39052.99,
+				"y": 12683.96,
+				"id": "PalmBush-56",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 47",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -38252.99,
+				"y": -21957.62,
+				"id": "PalmBush-57",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -36806.81,
+				"y": 7759.08,
+				"id": "PalmBush-58",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 25",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -35823.4,
+				"y": -78193.39,
+				"id": "PalmBush-59",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -35194.51,
+				"y": -41048.98,
+				"id": "PalmBush-60",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 6",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -34829.88,
+				"y": 39677.74,
+				"id": "PalmBush-61",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 41",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -34024.72,
+				"y": -16027.66,
+				"id": "PalmBush-62",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 14",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -33247.75,
+				"y": 7947.81,
+				"id": "PalmBush-63",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 65",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -33233.11,
+				"y": 13677.01,
+				"id": "PalmBush-64",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 22",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -32004.6,
+				"y": -11339.96,
+				"id": "PalmBush-65",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 21",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -30793.28,
+				"y": 54942.02,
+				"id": "PalmBush-66",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 13",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -30137.34,
+				"y": -79843.25,
+				"id": "PalmBush-67",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 22",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -30116.56,
+				"y": 42739.18,
+				"id": "PalmBush-68",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 8",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -29593.99,
+				"y": 6239.17,
+				"id": "PalmBush-69",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 27",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -29306.31,
+				"y": -15293.6,
+				"id": "PalmBush-70",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 34",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -28216.36,
+				"y": 9829.76,
+				"id": "PalmBush-71",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 28",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -28020.17,
+				"y": -84171.93,
+				"id": "PalmBush-72",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 22",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -27842.23,
+				"y": -3447.69,
+				"id": "PalmBush-73",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 35",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -27705.81,
+				"y": -10596.54,
+				"id": "PalmBush-74",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 50",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -27339.54,
+				"y": -86762.38,
+				"id": "PalmBush-75",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -25974.9,
+				"y": 66773.89,
+				"id": "PalmBush-76",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 20",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -25693.39,
+				"y": 1813.46,
+				"id": "PalmBush-77",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 69",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -25569.56,
+				"y": 46044.32,
+				"id": "PalmBush-78",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 49",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -25461.71,
+				"y": 69695.48,
+				"id": "PalmBush-79",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -25282.47,
+				"y": -18441.25,
+				"id": "PalmBush-80",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 29",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -23784.22,
+				"y": 31289.34,
+				"id": "PalmBush-81",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 3",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -23502.1,
+				"y": 53147.62,
+				"id": "PalmBush-82",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 41",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -23356.95,
+				"y": -2111.62,
+				"id": "PalmBush-83",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 21",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -23002.79,
+				"y": 65844.62,
+				"id": "PalmBush-84",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 13",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -21119.53,
+				"y": 30013.34,
+				"id": "PalmBush-85",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 17",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -20150.44,
+				"y": 60432.46,
+				"id": "PalmBush-86",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 18",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -19578.29,
+				"y": -16725.44,
+				"id": "PalmBush-87",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 15",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -18427.45,
+				"y": 28017.9,
+				"id": "PalmBush-88",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -17180.91,
+				"y": 52210.52,
+				"id": "PalmBush-89",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 40",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -16720.93,
+				"y": -13137.86,
+				"id": "PalmBush-90",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -15897.86,
+				"y": 16484.58,
+				"id": "PalmBush-91",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 24",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -15763.79,
+				"y": 29447.6,
+				"id": "PalmBush-92",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 18",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -15305.42,
+				"y": 18485.75,
+				"id": "PalmBush-93",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 6",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -14507.11,
+				"y": -29100.16,
+				"id": "PalmBush-94",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 26",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -14418.38,
+				"y": 13054.82,
+				"id": "PalmBush-95",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 8",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -14078.2,
+				"y": -60708.66,
+				"id": "PalmBush-96",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 10",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -12940.29,
+				"y": -47280.77,
+				"id": "PalmBush-97",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 6",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -12803.07,
+				"y": -49966.1,
+				"id": "PalmBush-98",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -12203.27,
+				"y": 33242.28,
+				"id": "PalmBush-99",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 29",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -11224.61,
+				"y": -29565.95,
+				"id": "PalmBush-100",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 22",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -11110.4,
+				"y": 16055.98,
+				"id": "PalmBush-101",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 4",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -10181.97,
+				"y": -25545.52,
+				"id": "PalmBush-102",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 9",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -9821.31,
+				"y": -58438.81,
+				"id": "PalmBush-103",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 15",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -9159.75,
+				"y": -46620.47,
+				"id": "PalmBush-104",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 15",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -8201.08,
+				"y": 53631.56,
+				"id": "PalmBush-105",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 12",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -5194.46,
+				"y": -52012.69,
+				"id": "PalmBush-106",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 12",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -3501.73,
+				"y": -45456.2,
+				"id": "PalmBush-107",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 5",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -2891.83,
+				"y": 73066.39,
+				"id": "PalmBush-108",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 18",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -2536.8,
+				"y": 54001.91,
+				"id": "PalmBush-109",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 32",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -2520.58,
+				"y": -42029.81,
+				"id": "PalmBush-110",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 8",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 0.0,
+				"y": 0.0,
+				"id": "PalmBush-111",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 24",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 276.02,
+				"y": 19050.88,
+				"id": "PalmBush-112",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 7",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 902.36,
+				"y": 73601.76,
+				"id": "PalmBush-113",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 7",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 1189.77,
+				"y": -28081.85,
+				"id": "PalmBush-114",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 2632.64,
+				"y": -83163.83,
+				"id": "PalmBush-115",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 18",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 2820.6,
+				"y": -23169.39,
+				"id": "PalmBush-116",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 15",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 3845.74,
+				"y": 66134.27,
+				"id": "PalmBush-117",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 23",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 4147.43,
+				"y": 48762.74,
+				"id": "PalmBush-118",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 13",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 4477.87,
+				"y": -26941.16,
+				"id": "PalmBush-119",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 12",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 7612.23,
+				"y": 66574.11,
+				"id": "PalmBush-120",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 15",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 7845.59,
+				"y": 17011.08,
+				"id": "PalmBush-121",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 3",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 8034.91,
+				"y": -29876.79,
+				"id": "PalmBush-122",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 7",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 9137.89,
+				"y": 54499.0,
+				"id": "PalmBush-123",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 13",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 9887.27,
+				"y": -79132.4,
+				"id": "PalmBush-124",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 18",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 13780.84,
+				"y": 53038.08,
+				"id": "PalmBush-125",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 16",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 15068.76,
+				"y": -45544.49,
+				"id": "PalmBush-126",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 15241.04,
+				"y": -42723.9,
+				"id": "PalmBush-127",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 4",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 15373.4,
+				"y": -80064.43,
+				"id": "PalmBush-128",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 42",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 15461.05,
+				"y": -38117.25,
+				"id": "PalmBush-129",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 12",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 17963.8,
+				"y": -72635.11,
+				"id": "PalmBush-130",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 24",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 18362.27,
+				"y": -82897.85,
+				"id": "PalmBush-131",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 22",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 18651.47,
+				"y": 7004.67,
+				"id": "PalmBush-132",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 20",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 18706.59,
+				"y": -63636.9,
+				"id": "PalmBush-133",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 4",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 19826.11,
+				"y": 37095.56,
+				"id": "PalmBush-134",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 30",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 20442.27,
+				"y": -33909.13,
+				"id": "PalmBush-135",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 65",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 20827.32,
+				"y": -44216.89,
+				"id": "PalmBush-136",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 60",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 21018.77,
+				"y": -46844.14,
+				"id": "PalmBush-137",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 21143.87,
+				"y": -85897.53,
+				"id": "PalmBush-138",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 9",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 21532.05,
+				"y": -66279.6,
+				"id": "PalmBush-139",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 49",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 21586.58,
+				"y": -39883.92,
+				"id": "PalmBush-140",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 37",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 21924.49,
+				"y": -35876.95,
+				"id": "PalmBush-141",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 23",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 21997.57,
+				"y": -53713.81,
+				"id": "PalmBush-142",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 4",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 22094.98,
+				"y": 54720.71,
+				"id": "PalmBush-143",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 41",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 22265.42,
+				"y": -31545.77,
+				"id": "PalmBush-144",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 43",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 25077.39,
+				"y": -60013.33,
+				"id": "PalmBush-145",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 29",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 25333.96,
+				"y": -71226.66,
+				"id": "PalmBush-146",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 4",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 26295.93,
+				"y": -22356.61,
+				"id": "PalmBush-147",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 22",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 27356.2,
+				"y": -45813.59,
+				"id": "PalmBush-148",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 81",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 27545.46,
+				"y": -35471.48,
+				"id": "PalmBush-149",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 36",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 27821.97,
+				"y": 57414.37,
+				"id": "PalmBush-150",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 8",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 27841.44,
+				"y": -32231.21,
+				"id": "PalmBush-151",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 71",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 27907.12,
+				"y": -85166.88,
+				"id": "PalmBush-152",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 11",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 28057.56,
+				"y": -81497.54,
+				"id": "PalmBush-153",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 34",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 28293.33,
+				"y": -52598.57,
+				"id": "PalmBush-154",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 20",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 29018.06,
+				"y": -30449.57,
+				"id": "PalmBush-155",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 7",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 29238.76,
+				"y": -28120.24,
+				"id": "PalmBush-156",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 45",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 29976.14,
+				"y": -70870.29,
+				"id": "PalmBush-157",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 29",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 30322.21,
+				"y": 48362.65,
+				"id": "PalmBush-158",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 14",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 30572.02,
+				"y": -79736.42,
+				"id": "PalmBush-159",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 8",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 31615.48,
+				"y": 13496.94,
+				"id": "PalmBush-160",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 17",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 31830.18,
+				"y": -30163.62,
+				"id": "PalmBush-161",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 10",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 34602.55,
+				"y": -86324.8,
+				"id": "PalmBush-162",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 34",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 34743.19,
+				"y": -60353.66,
+				"id": "PalmBush-163",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 38",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 35025.01,
+				"y": -85043.54,
+				"id": "PalmBush-164",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 11",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 35414.71,
+				"y": 46102.25,
+				"id": "PalmBush-165",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 8",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 35467.18,
+				"y": -77774.36,
+				"id": "PalmBush-166",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 17",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 35695.29,
+				"y": -72262.47,
+				"id": "PalmBush-167",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 48",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 35843.85,
+				"y": -63131.48,
+				"id": "PalmBush-168",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 35954.57,
+				"y": -21584.74,
+				"id": "PalmBush-169",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 20",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 36217.77,
+				"y": -69521.76,
+				"id": "PalmBush-170",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 5",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 37294.98,
+				"y": -56468.4,
+				"id": "PalmBush-171",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 29",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 37483.46,
+				"y": -87554.8,
+				"id": "PalmBush-172",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 21",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 37855.39,
+				"y": 54923.09,
+				"id": "PalmBush-173",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 19",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 38722.3,
+				"y": -16795.9,
+				"id": "PalmBush-174",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 9",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 39092.5,
+				"y": -23421.12,
+				"id": "PalmBush-175",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 37",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 39365.22,
+				"y": -72840.8,
+				"id": "PalmBush-176",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 37",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 40362.03,
+				"y": -77999.06,
+				"id": "PalmBush-177",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 40",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 40419.81,
+				"y": -67796.97,
+				"id": "PalmBush-178",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 32",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 40590.54,
+				"y": -55955.67,
+				"id": "PalmBush-179",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 27",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 41429.66,
+				"y": 45755.85,
+				"id": "PalmBush-180",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 26",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 41643.49,
+				"y": -84371.5,
+				"id": "PalmBush-181",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 55",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 41930.1,
+				"y": -5694.48,
+				"id": "PalmBush-182",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 11",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 42667.33,
+				"y": 37089.86,
+				"id": "PalmBush-183",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 36",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 43231.8,
+				"y": -714.77,
+				"id": "PalmBush-184",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 9",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 43644.16,
+				"y": -22589.21,
+				"id": "PalmBush-185",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 72",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 43830.34,
+				"y": -27618.7,
+				"id": "PalmBush-186",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 14",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 44404.1,
+				"y": -9748.1,
+				"id": "PalmBush-187",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 3",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 44426.5,
+				"y": 44085.54,
+				"id": "PalmBush-188",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 19",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 44782.52,
+				"y": -57859.69,
+				"id": "PalmBush-189",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 12",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 44805.96,
+				"y": -79840.24,
+				"id": "PalmBush-190",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 52",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 45006.04,
+				"y": 50992.47,
+				"id": "PalmBush-191",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 44",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 45515.5,
+				"y": 39633.79,
+				"id": "PalmBush-192",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 32",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 45785.07,
+				"y": -69812.54,
+				"id": "PalmBush-193",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 43",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 46129.01,
+				"y": -28136.6,
+				"id": "PalmBush-194",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 62",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 46265.96,
+				"y": -47657.69,
+				"id": "PalmBush-195",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 109",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 46700.24,
+				"y": 34884.04,
+				"id": "PalmBush-196",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 57",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 46807.39,
+				"y": -33128.42,
+				"id": "PalmBush-197",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 48",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 46849.09,
+				"y": -21559.51,
+				"id": "PalmBush-198",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 14",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 48080.04,
+				"y": 31230.34,
+				"id": "PalmBush-199",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 34",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 48501.91,
+				"y": -42254.15,
+				"id": "PalmBush-200",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 21",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 48544.4,
+				"y": -72715.34,
+				"id": "PalmBush-201",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 32",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 48592.64,
+				"y": -78153.53,
+				"id": "PalmBush-202",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 33",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 49399.42,
+				"y": -24132.79,
+				"id": "PalmBush-203",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 49757.62,
+				"y": -36199.25,
+				"id": "PalmBush-204",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 7",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 49857.03,
+				"y": 36073.99,
+				"id": "PalmBush-205",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 29",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 51686.27,
+				"y": 44183.02,
+				"id": "PalmBush-206",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 29",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 51781.59,
+				"y": -66873.03,
+				"id": "PalmBush-207",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 28",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 51845.44,
+				"y": -30552.04,
+				"id": "PalmBush-208",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 4",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 51914.19,
+				"y": -41633.29,
+				"id": "PalmBush-209",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 66",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 52810.77,
+				"y": 51186.23,
+				"id": "PalmBush-210",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 52900.77,
+				"y": 11200.22,
+				"id": "PalmBush-211",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 16",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 53839.33,
+				"y": -72026.95,
+				"id": "PalmBush-212",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 43",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 54751.13,
+				"y": 21701.6,
+				"id": "PalmBush-213",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 24",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 56194.87,
+				"y": 47247.58,
+				"id": "PalmBush-214",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 40",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 56197.81,
+				"y": 42534.14,
+				"id": "PalmBush-215",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 46",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 56677.12,
+				"y": 25479.03,
+				"id": "PalmBush-216",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 14",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 59135.57,
+				"y": 17195.25,
+				"id": "PalmBush-217",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 28",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 59510.01,
+				"y": -72482.75,
+				"id": "PalmBush-218",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 68",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 63927.29,
+				"y": -64263.76,
+				"id": "PalmBush-219",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 64288.99,
+				"y": 15826.59,
+				"id": "PalmBush-220",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 34",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 65116.07,
+				"y": 39129.45,
+				"id": "PalmBush-221",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 42",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 65506.67,
+				"y": 37325.89,
+				"id": "PalmBush-222",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 37",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 66324.18,
+				"y": 34322.37,
+				"id": "PalmBush-223",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 44",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 66476.84,
+				"y": -64408.32,
+				"id": "PalmBush-224",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 67",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 66709.05,
+				"y": 29080.98,
+				"id": "PalmBush-225",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 19",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 66807.16,
+				"y": 31677.64,
+				"id": "PalmBush-226",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 67440.84,
+				"y": 24003.86,
+				"id": "PalmBush-227",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 10",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 69156.26,
+				"y": -57488.3,
+				"id": "PalmBush-228",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 6",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 69259.14,
+				"y": -54258.58,
+				"id": "PalmBush-229",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 15",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 69364.22,
+				"y": 19515.91,
+				"id": "PalmBush-230",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 25",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 70819.91,
+				"y": 39783.84,
+				"id": "PalmBush-231",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 37",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 71514.51,
+				"y": -65657.39,
+				"id": "PalmBush-232",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 16",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 74508.12,
+				"y": -64520.94,
+				"id": "PalmBush-233",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 21",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 74563.97,
+				"y": -58155.61,
+				"id": "PalmBush-234",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 35",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 76056.31,
+				"y": 35008.23,
+				"id": "PalmBush-235",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 26",
+				"article": "Palm Bush"
+			}
+		],
+		"Reed": [
+			{
+				"x": -52896.18,
+				"y": 59157.96,
+				"id": "Reed-1",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 58",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -48235.15,
+				"y": 59636.43,
+				"id": "Reed-2",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 31",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -44999.18,
+				"y": 36118.37,
+				"id": "Reed-3",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 21",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -38629.78,
+				"y": -11315.43,
+				"id": "Reed-4",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 7",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -37941.88,
+				"y": 2741.46,
+				"id": "Reed-5",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 35",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -35458.04,
+				"y": 52633.85,
+				"id": "Reed-6",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 11",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -33879.09,
+				"y": -13068.36,
+				"id": "Reed-7",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 12",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -32185.52,
+				"y": 52579.05,
+				"id": "Reed-8",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 36",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -29915.82,
+				"y": 4546.63,
+				"id": "Reed-9",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 27",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -25925.88,
+				"y": 52042.46,
+				"id": "Reed-10",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 25",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -20134.8,
+				"y": 52321.62,
+				"id": "Reed-11",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 10",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -12593.69,
+				"y": 52775.1,
+				"id": "Reed-12",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 20",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -5439.95,
+				"y": 52896.23,
+				"id": "Reed-13",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 12",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -479.33,
+				"y": 52873.53,
+				"id": "Reed-14",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 6",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 2255.04,
+				"y": 52359.29,
+				"id": "Reed-15",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 20",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 7339.03,
+				"y": 52506.79,
+				"id": "Reed-16",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 23",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 18669.17,
+				"y": 51495.32,
+				"id": "Reed-17",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 41",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 26855.89,
+				"y": -40214.31,
+				"id": "Reed-18",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 32",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 27669.59,
+				"y": -37445.47,
+				"id": "Reed-19",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 9",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 28000.04,
+				"y": 51776.62,
+				"id": "Reed-20",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 23",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 28620.8,
+				"y": -55607.31,
+				"id": "Reed-21",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 22",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 34862.06,
+				"y": -25781.03,
+				"id": "Reed-22",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 11",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 41764.12,
+				"y": -50530.92,
+				"id": "Reed-23",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 49",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 42105.5,
+				"y": 47953.01,
+				"id": "Reed-24",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 21",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 43084.46,
+				"y": -69644.84,
+				"id": "Reed-25",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 30",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 46692.13,
+				"y": -76488.64,
+				"id": "Reed-26",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 29",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 47424.16,
+				"y": -38610.36,
+				"id": "Reed-27",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 24",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 49452.38,
+				"y": -74442.99,
+				"id": "Reed-28",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 21",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 51380.16,
+				"y": 31274.9,
+				"id": "Reed-29",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 1",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 53536.46,
+				"y": 28694.46,
+				"id": "Reed-30",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 31",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 55031.4,
+				"y": 40376.64,
+				"id": "Reed-31",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 4",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 55808.35,
+				"y": 26144.21,
+				"id": "Reed-32",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 2",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 59843.11,
+				"y": 22707.18,
+				"id": "Reed-33",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 26",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 63972.97,
+				"y": 21626.34,
+				"id": "Reed-34",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 24",
+				"article": "Reed Flowers"
+			}
+		],
+		"Sponge": [
+			{
+				"x": -40089.96,
+				"y": 41728.23,
+				"id": "Sponge-1",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 104",
+				"article": "Sponge"
+			},
+			{
+				"x": -39310.95,
+				"y": 11399.03,
+				"id": "Sponge-2",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 290",
+				"article": "Sponge"
+			},
+			{
+				"x": -38390.17,
+				"y": -3958.99,
+				"id": "Sponge-3",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 54",
+				"article": "Sponge"
+			},
+			{
+				"x": -35523.49,
+				"y": 45018.36,
+				"id": "Sponge-4",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 82",
+				"article": "Sponge"
+			},
+			{
+				"x": -35414.8,
+				"y": 7578.69,
+				"id": "Sponge-5",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 92",
+				"article": "Sponge"
+			},
+			{
+				"x": -35288.81,
+				"y": -2980.81,
+				"id": "Sponge-6",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 128",
+				"article": "Sponge"
+			},
+			{
+				"x": -34640.06,
+				"y": -6119.71,
+				"id": "Sponge-7",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 192",
+				"article": "Sponge"
+			},
+			{
+				"x": -33549.39,
+				"y": -817.81,
+				"id": "Sponge-8",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 54",
+				"article": "Sponge"
+			},
+			{
+				"x": -32586.25,
+				"y": 2988.57,
+				"id": "Sponge-9",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 174",
+				"article": "Sponge"
+			},
+			{
+				"x": -30908.54,
+				"y": -5482.7,
+				"id": "Sponge-10",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 76",
+				"article": "Sponge"
+			},
+			{
+				"x": -30207.0,
+				"y": 46952.5,
+				"id": "Sponge-11",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 150",
+				"article": "Sponge"
+			},
+			{
+				"x": -28339.62,
+				"y": 49777.41,
+				"id": "Sponge-12",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 8",
+				"article": "Sponge"
+			},
+			{
+				"x": 5998.27,
+				"y": 52283.86,
+				"id": "Sponge-13",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 52",
+				"article": "Sponge"
+			},
+			{
+				"x": 29828.72,
+				"y": -65206.41,
+				"id": "Sponge-14",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 10",
+				"article": "Sponge"
+			},
+			{
+				"x": 30346.28,
+				"y": -78659.19,
+				"id": "Sponge-15",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 20",
+				"article": "Sponge"
+			},
+			{
+				"x": 31644.9,
+				"y": -60292.56,
+				"id": "Sponge-16",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 22",
+				"article": "Sponge"
+			},
+			{
+				"x": 32040.39,
+				"y": 53283.1,
+				"id": "Sponge-17",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 50",
+				"article": "Sponge"
+			},
+			{
+				"x": 33684.41,
+				"y": -54277.1,
+				"id": "Sponge-18",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 70",
+				"article": "Sponge"
+			},
+			{
+				"x": 34885.79,
+				"y": -51406.34,
+				"id": "Sponge-19",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 46",
+				"article": "Sponge"
+			},
+			{
+				"x": 35087.4,
+				"y": -30619.12,
+				"id": "Sponge-20",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 26",
+				"article": "Sponge"
+			},
+			{
+				"x": 35625.27,
+				"y": -47734.8,
+				"id": "Sponge-21",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 54",
+				"article": "Sponge"
+			},
+			{
+				"x": 36480.93,
+				"y": -34195.94,
+				"id": "Sponge-22",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 72",
+				"article": "Sponge"
+			},
+			{
+				"x": 36538.57,
+				"y": -38447.68,
+				"id": "Sponge-23",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 42",
+				"article": "Sponge"
+			},
+			{
+				"x": 37192.4,
+				"y": -71607.67,
+				"id": "Sponge-24",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 82",
+				"article": "Sponge"
+			},
+			{
+				"x": 39435.79,
+				"y": -42275.39,
+				"id": "Sponge-25",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 60",
+				"article": "Sponge"
+			},
+			{
+				"x": 53036.0,
+				"y": 39333.89,
+				"id": "Sponge-26",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 8",
+				"article": "Sponge"
+			},
+			{
+				"x": 56402.18,
+				"y": 34964.53,
+				"id": "Sponge-27",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 54",
+				"article": "Sponge"
+			},
+			{
+				"x": 58222.34,
+				"y": 33390.28,
+				"id": "Sponge-28",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 246",
+				"article": "Sponge"
+			},
+			{
+				"x": 60366.99,
+				"y": 38376.99,
+				"id": "Sponge-29",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 64",
+				"article": "Sponge"
+			},
+			{
+				"x": 63258.33,
+				"y": 34403.14,
+				"id": "Sponge-30",
+				"name": "Sponge",
+				"description": "Amount of Sponge: 116",
+				"article": "Sponge"
+			}
+		],
+		"Squash": [
+			{
+				"x": -93317.05,
+				"y": -54087.18,
+				"id": "Squash-1",
+				"name": "Squash",
+				"description": "Amount of Squash: 5",
+				"article": "Squash"
+			},
+			{
+				"x": -87379.3,
+				"y": -58799.24,
+				"id": "Squash-2",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": -86830.67,
+				"y": -50718.46,
+				"id": "Squash-3",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": -85531.14,
+				"y": 30806.98,
+				"id": "Squash-4",
+				"name": "Squash",
+				"description": "Amount of Squash: 22",
+				"article": "Squash"
+			},
+			{
+				"x": -85330.33,
+				"y": -63749.04,
+				"id": "Squash-5",
+				"name": "Squash",
+				"description": "Amount of Squash: 7",
+				"article": "Squash"
+			},
+			{
+				"x": -82432.94,
+				"y": 32129.27,
+				"id": "Squash-6",
+				"name": "Squash",
+				"description": "Amount of Squash: 6",
+				"article": "Squash"
+			},
+			{
+				"x": -79075.15,
+				"y": -58446.01,
+				"id": "Squash-7",
+				"name": "Squash",
+				"description": "Amount of Squash: 3",
+				"article": "Squash"
+			},
+			{
+				"x": -63524.06,
+				"y": 28494.28,
+				"id": "Squash-8",
+				"name": "Squash",
+				"description": "Amount of Squash: 3",
+				"article": "Squash"
+			},
+			{
+				"x": -60989.96,
+				"y": -51281.4,
+				"id": "Squash-9",
+				"name": "Squash",
+				"description": "Amount of Squash: 3",
+				"article": "Squash"
+			},
+			{
+				"x": -51566.64,
+				"y": 49343.1,
+				"id": "Squash-10",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": -45520.34,
+				"y": -10499.15,
+				"id": "Squash-11",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": -45047.84,
+				"y": -858.85,
+				"id": "Squash-12",
+				"name": "Squash",
+				"description": "Amount of Squash: 4",
+				"article": "Squash"
+			},
+			{
+				"x": -43014.9,
+				"y": -15412.23,
+				"id": "Squash-13",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": -39042.69,
+				"y": 35886.27,
+				"id": "Squash-14",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": -37000.0,
+				"y": -42600.0,
+				"id": "Squash-15",
+				"name": "Squash",
+				"description": "Amount of Squash: 4",
+				"article": "Squash"
+			},
+			{
+				"x": -35774.53,
+				"y": -17450.76,
+				"id": "Squash-16",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": -31244.94,
+				"y": 54814.7,
+				"id": "Squash-17",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": -26265.69,
+				"y": 30834.32,
+				"id": "Squash-18",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": -26134.9,
+				"y": -18559.27,
+				"id": "Squash-19",
+				"name": "Squash",
+				"description": "Amount of Squash: 7",
+				"article": "Squash"
+			},
+			{
+				"x": -25594.04,
+				"y": 64451.41,
+				"id": "Squash-20",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": -24881.64,
+				"y": -62412.18,
+				"id": "Squash-21",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": -24621.41,
+				"y": 46478.59,
+				"id": "Squash-22",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": -20576.57,
+				"y": 60889.29,
+				"id": "Squash-23",
+				"name": "Squash",
+				"description": "Amount of Squash: 5",
+				"article": "Squash"
+			},
+			{
+				"x": -19096.28,
+				"y": -13921.09,
+				"id": "Squash-24",
+				"name": "Squash",
+				"description": "Amount of Squash: 4",
+				"article": "Squash"
+			},
+			{
+				"x": -16153.32,
+				"y": -29256.44,
+				"id": "Squash-25",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": -16059.77,
+				"y": 16863.1,
+				"id": "Squash-26",
+				"name": "Squash",
+				"description": "Amount of Squash: 5",
+				"article": "Squash"
+			},
+			{
+				"x": -12843.63,
+				"y": -45427.68,
+				"id": "Squash-27",
+				"name": "Squash",
+				"description": "Amount of Squash: 7",
+				"article": "Squash"
+			},
+			{
+				"x": -8865.73,
+				"y": 67691.52,
+				"id": "Squash-28",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": -7147.28,
+				"y": -48303.44,
+				"id": "Squash-29",
+				"name": "Squash",
+				"description": "Amount of Squash: 3",
+				"article": "Squash"
+			},
+			{
+				"x": -6125.06,
+				"y": 51807.58,
+				"id": "Squash-30",
+				"name": "Squash",
+				"description": "Amount of Squash: 3",
+				"article": "Squash"
+			},
+			{
+				"x": 4783.82,
+				"y": -23150.0,
+				"id": "Squash-31",
+				"name": "Squash",
+				"description": "Amount of Squash: 13",
+				"article": "Squash"
+			},
+			{
+				"x": 12111.22,
+				"y": -23988.78,
+				"id": "Squash-32",
+				"name": "Squash",
+				"description": "Amount of Squash: 4",
+				"article": "Squash"
+			},
+			{
+				"x": 14203.84,
+				"y": -79968.03,
+				"id": "Squash-33",
+				"name": "Squash",
+				"description": "Amount of Squash: 5",
+				"article": "Squash"
+			},
+			{
+				"x": 16723.95,
+				"y": -72200.0,
+				"id": "Squash-34",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": 20956.19,
+				"y": -42791.58,
+				"id": "Squash-35",
+				"name": "Squash",
+				"description": "Amount of Squash: 8",
+				"article": "Squash"
+			},
+			{
+				"x": 20970.43,
+				"y": 36012.0,
+				"id": "Squash-36",
+				"name": "Squash",
+				"description": "Amount of Squash: 5",
+				"article": "Squash"
+			},
+			{
+				"x": 21029.99,
+				"y": -29924.02,
+				"id": "Squash-37",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": 21096.63,
+				"y": -35109.53,
+				"id": "Squash-38",
+				"name": "Squash",
+				"description": "Amount of Squash: 3",
+				"article": "Squash"
+			},
+			{
+				"x": 21210.95,
+				"y": -39743.84,
+				"id": "Squash-39",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": 21527.58,
+				"y": -45953.75,
+				"id": "Squash-40",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": 25330.04,
+				"y": 6710.43,
+				"id": "Squash-41",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": 25649.53,
+				"y": -76892.72,
+				"id": "Squash-42",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": 27008.3,
+				"y": -47076.32,
+				"id": "Squash-43",
+				"name": "Squash",
+				"description": "Amount of Squash: 8",
+				"article": "Squash"
+			},
+			{
+				"x": 27158.01,
+				"y": -35664.54,
+				"id": "Squash-44",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": 27458.5,
+				"y": -30854.41,
+				"id": "Squash-45",
+				"name": "Squash",
+				"description": "Amount of Squash: 4",
+				"article": "Squash"
+			},
+			{
+				"x": 31084.87,
+				"y": -26773.19,
+				"id": "Squash-46",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": 35293.02,
+				"y": 46685.31,
+				"id": "Squash-47",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": 36248.98,
+				"y": -22011.12,
+				"id": "Squash-48",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": 36719.92,
+				"y": -71174.76,
+				"id": "Squash-49",
+				"name": "Squash",
+				"description": "Amount of Squash: 6",
+				"article": "Squash"
+			},
+			{
+				"x": 38613.0,
+				"y": -56676.03,
+				"id": "Squash-50",
+				"name": "Squash",
+				"description": "Amount of Squash: 8",
+				"article": "Squash"
+			},
+			{
+				"x": 40801.39,
+				"y": -22615.0,
+				"id": "Squash-51",
+				"name": "Squash",
+				"description": "Amount of Squash: 4",
+				"article": "Squash"
+			},
+			{
+				"x": 41978.82,
+				"y": -67678.98,
+				"id": "Squash-52",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": 45429.63,
+				"y": 44161.22,
+				"id": "Squash-53",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": 45579.66,
+				"y": -25207.57,
+				"id": "Squash-54",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": 45947.84,
+				"y": -49749.9,
+				"id": "Squash-55",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": 46680.35,
+				"y": 31719.05,
+				"id": "Squash-56",
+				"name": "Squash",
+				"description": "Amount of Squash: 3",
+				"article": "Squash"
+			},
+			{
+				"x": 46873.77,
+				"y": -32483.89,
+				"id": "Squash-57",
+				"name": "Squash",
+				"description": "Amount of Squash: 2",
+				"article": "Squash"
+			},
+			{
+				"x": 47294.39,
+				"y": -28630.2,
+				"id": "Squash-58",
+				"name": "Squash",
+				"description": "Amount of Squash: 5",
+				"article": "Squash"
+			},
+			{
+				"x": 47456.63,
+				"y": -55507.9,
+				"id": "Squash-59",
+				"name": "Squash",
+				"description": "Amount of Squash: 3",
+				"article": "Squash"
+			},
+			{
+				"x": 51319.73,
+				"y": -43450.0,
+				"id": "Squash-60",
+				"name": "Squash",
+				"description": "Amount of Squash: 5",
+				"article": "Squash"
+			},
+			{
+				"x": 54437.29,
+				"y": 49934.47,
+				"id": "Squash-61",
+				"name": "Squash",
+				"description": "Amount of Squash: 3",
+				"article": "Squash"
+			},
+			{
+				"x": 65600.0,
+				"y": 26236.76,
+				"id": "Squash-62",
+				"name": "Squash",
+				"description": "Amount of Squash: 1",
+				"article": "Squash"
+			},
+			{
+				"x": 69016.75,
+				"y": 19038.47,
+				"id": "Squash-63",
+				"name": "Squash",
+				"description": "Amount of Squash: 3",
+				"article": "Squash"
+			}
+		]
+	}
+}

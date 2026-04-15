@@ -1,0 +1,7311 @@
+{
+	"$schema": "https://icarus.wiki.gg/extensions/DataMaps/schemas/v17.3.json",
+	"crs": {
+		"order": "xy",
+		"topLeft": [
+			-100800.0,
+			-100800.0
+		],
+		"bottomRight": [
+			100800.0,
+			100800.0
+		]
+	},
+	"backgrounds": [
+		{
+			"name": "Holdfast",
+			"associatedLayer": null,
+			"image": "MAP Holdfast.jpg",
+			"overlays": [
+				{
+					"name": "Grid",
+					"image": "MAP Grid 4096.png",
+					"at": [
+						[
+							-100800.0,
+							-100800.0
+						],
+						[
+							100800.0,
+							100800.0
+						]
+					]
+				}
+			]
+		}
+	],
+	"settings": {
+		"enableSearch": true,
+		"showCoordinates": true
+	},
+	"groups": {
+		"Beans": {
+			"name": "Soy Beans",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Bean.png"
+		},
+		"Berries": {
+			"name": "Wild Berries",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Wild Berry.png"
+		},
+		"Carrot": {
+			"name": "Carrots",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Carrot.png"
+		},
+		"Cocoa": {
+			"name": "Cocoa",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Cocoa.png"
+		},
+		"Coffee": {
+			"name": "Coffee Beans",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Coffee Bean.png"
+		},
+		"ConiferFlower": {
+			"name": "Conifer Flower",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Fibre.png"
+		},
+		"Corn": {
+			"name": "Corn",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Corn_Cob.png"
+		},
+		"Pumpkin": {
+			"name": "Pumpkin",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Pumpkin.png"
+		},
+		"Reed": {
+			"name": "Reed Flowers",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Reeds.png"
+		},
+		"Tea": {
+			"name": "Tea",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Tea.png"
+		},
+		"Watermelon": {
+			"name": "Watermelon",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Watermelon.png"
+		},
+		"Wheat": {
+			"name": "Wheat",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Wheat.png"
+		},
+		"Yeast": {
+			"name": "Yeast",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Yeast.png"
+		}
+	},
+	"markers": {
+		"Beans": [
+			{
+				"x": -27356.34,
+				"y": -26673.08,
+				"id": "Beans-1",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 3",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -17100.0,
+				"y": 13521.12,
+				"id": "Beans-2",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 1",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 18828.9,
+				"y": 35820.3,
+				"id": "Beans-3",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 4",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 20277.69,
+				"y": 25324.07,
+				"id": "Beans-4",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 3",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 21267.26,
+				"y": 13417.13,
+				"id": "Beans-5",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 4",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 21581.52,
+				"y": -14495.4,
+				"id": "Beans-6",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 1",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 23888.18,
+				"y": 19257.19,
+				"id": "Beans-7",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 9",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 30200.0,
+				"y": 7200.0,
+				"id": "Beans-8",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 1",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 30200.0,
+				"y": 17200.0,
+				"id": "Beans-9",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 1",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 30764.83,
+				"y": -15469.87,
+				"id": "Beans-10",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 3",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 30918.49,
+				"y": -25307.58,
+				"id": "Beans-11",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 8",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 31079.05,
+				"y": 23407.64,
+				"id": "Beans-12",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 5",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 34117.73,
+				"y": 29417.49,
+				"id": "Beans-13",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 2",
+				"article": "Soy Beans"
+			}
+		],
+		"Berries": [
+			{
+				"x": -9.15162540343837e+36,
+				"y": -410607616000.0,
+				"id": "Berries-1",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -3.127526961560834e+36,
+				"y": -11060414.0,
+				"id": "Berries-2",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -6.752235500734665e+34,
+				"y": 1.4443971746500419e+23,
+				"id": "Berries-3",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -6.893839871802406e+33,
+				"y": -1681271.5,
+				"id": "Berries-4",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -2.3934702167274016e+32,
+				"y": -1.23,
+				"id": "Berries-5",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -1.4845066498959803e+32,
+				"y": 0.0,
+				"id": "Berries-6",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -5.808684859247688e+30,
+				"y": -0.0,
+				"id": "Berries-7",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -7.52484483709986e+27,
+				"y": -617705280.0,
+				"id": "Berries-8",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -5.013442571035902e+21,
+				"y": -0.0,
+				"id": "Berries-9",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -3.3729274964659405e+17,
+				"y": 0.0,
+				"id": "Berries-10",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -54229.95,
+				"y": -44929.95,
+				"id": "Berries-11",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -53970.21,
+				"y": -20740.54,
+				"id": "Berries-12",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -53100.0,
+				"y": -25796.58,
+				"id": "Berries-13",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -52757.5,
+				"y": 58637.77,
+				"id": "Berries-14",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -52718.56,
+				"y": -5132.04,
+				"id": "Berries-15",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -52450.0,
+				"y": -15163.38,
+				"id": "Berries-16",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -51341.03,
+				"y": -8953.0,
+				"id": "Berries-17",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -50744.86,
+				"y": 72788.93,
+				"id": "Berries-18",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -49683.29,
+				"y": -23933.29,
+				"id": "Berries-19",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -49279.07,
+				"y": 70367.1,
+				"id": "Berries-20",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -48463.69,
+				"y": -33412.77,
+				"id": "Berries-21",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -48233.49,
+				"y": -52100.0,
+				"id": "Berries-22",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -47490.67,
+				"y": 546.18,
+				"id": "Berries-23",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -47002.59,
+				"y": -28327.93,
+				"id": "Berries-24",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -46450.0,
+				"y": -42716.54,
+				"id": "Berries-25",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -46350.0,
+				"y": 46867.45,
+				"id": "Berries-26",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -45994.7,
+				"y": 11224.6,
+				"id": "Berries-27",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -45473.84,
+				"y": 6025.66,
+				"id": "Berries-28",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -43583.28,
+				"y": -54582.03,
+				"id": "Berries-29",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -42641.66,
+				"y": -32638.86,
+				"id": "Berries-30",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -42350.0,
+				"y": 70900.0,
+				"id": "Berries-31",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -41940.17,
+				"y": -41498.59,
+				"id": "Berries-32",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -41694.53,
+				"y": 45443.75,
+				"id": "Berries-33",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -41469.27,
+				"y": -47612.46,
+				"id": "Berries-34",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -41226.61,
+				"y": -36738.76,
+				"id": "Berries-35",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -40467.5,
+				"y": 34432.5,
+				"id": "Berries-36",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -38608.69,
+				"y": 70491.3,
+				"id": "Berries-37",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -36820.23,
+				"y": -38096.02,
+				"id": "Berries-38",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -36291.17,
+				"y": 52514.17,
+				"id": "Berries-39",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -35534.57,
+				"y": 59519.23,
+				"id": "Berries-40",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -35296.52,
+				"y": -51954.19,
+				"id": "Berries-41",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 7",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -35052.49,
+				"y": 28954.77,
+				"id": "Berries-42",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -34817.27,
+				"y": -12802.48,
+				"id": "Berries-43",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -34402.86,
+				"y": 73073.61,
+				"id": "Berries-44",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -34138.64,
+				"y": 45858.9,
+				"id": "Berries-45",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -34104.72,
+				"y": -42630.43,
+				"id": "Berries-46",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -32300.34,
+				"y": 40385.41,
+				"id": "Berries-47",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -32243.04,
+				"y": -26943.04,
+				"id": "Berries-48",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -30935.67,
+				"y": -19045.81,
+				"id": "Berries-49",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 8",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -30909.0,
+				"y": 57102.44,
+				"id": "Berries-50",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -30250.0,
+				"y": -53425.55,
+				"id": "Berries-51",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -29784.84,
+				"y": -44445.36,
+				"id": "Berries-52",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -29118.05,
+				"y": 73851.75,
+				"id": "Berries-53",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -28623.95,
+				"y": -28542.22,
+				"id": "Berries-54",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -27358.73,
+				"y": -48853.62,
+				"id": "Berries-55",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -27086.28,
+				"y": 40775.33,
+				"id": "Berries-56",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -26763.54,
+				"y": -18188.57,
+				"id": "Berries-57",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -26750.0,
+				"y": 2504.28,
+				"id": "Berries-58",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -26317.45,
+				"y": -52720.34,
+				"id": "Berries-59",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -26160.77,
+				"y": 52539.23,
+				"id": "Berries-60",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -25907.54,
+				"y": 73035.65,
+				"id": "Berries-61",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -25512.41,
+				"y": 36498.58,
+				"id": "Berries-62",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -25487.62,
+				"y": 945936347955200.0,
+				"id": "Berries-63",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -25237.87,
+				"y": -5093.65,
+				"id": "Berries-64",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 7",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -23916.08,
+				"y": 17197.26,
+				"id": "Berries-65",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -23729.46,
+				"y": 4025.8,
+				"id": "Berries-66",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -23383.68,
+				"y": -27488.42,
+				"id": "Berries-67",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -23216.61,
+				"y": -47290.71,
+				"id": "Berries-68",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -23118.63,
+				"y": 47889.25,
+				"id": "Berries-69",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -23000.0,
+				"y": -11800.0,
+				"id": "Berries-70",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -22921.7,
+				"y": 61526.15,
+				"id": "Berries-71",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -22875.18,
+				"y": -52886.83,
+				"id": "Berries-72",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 10",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -22869.43,
+				"y": 54650.0,
+				"id": "Berries-73",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -22790.67,
+				"y": -18112.14,
+				"id": "Berries-74",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -22460.14,
+				"y": 9250.0,
+				"id": "Berries-75",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -20949.1,
+				"y": 35483.29,
+				"id": "Berries-76",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -20939.95,
+				"y": 40125.34,
+				"id": "Berries-77",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -20670.95,
+				"y": 27659.77,
+				"id": "Berries-78",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -19837.48,
+				"y": 72057.59,
+				"id": "Berries-79",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -19116.5,
+				"y": -15579.23,
+				"id": "Berries-80",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 7",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -19111.03,
+				"y": 14873.09,
+				"id": "Berries-81",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -18922.99,
+				"y": -48773.42,
+				"id": "Berries-82",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -18376.5,
+				"y": 1123.49,
+				"id": "Berries-83",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -17138.1,
+				"y": 54638.61,
+				"id": "Berries-84",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -16814.29,
+				"y": -28963.07,
+				"id": "Berries-85",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -16401.59,
+				"y": 45119.98,
+				"id": "Berries-86",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -16250.0,
+				"y": -52781.79,
+				"id": "Berries-87",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -15982.96,
+				"y": 33899.35,
+				"id": "Berries-88",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -15592.48,
+				"y": 16876.03,
+				"id": "Berries-89",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -15527.05,
+				"y": 23122.5,
+				"id": "Berries-90",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 8",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -15451.16,
+				"y": 48448.85,
+				"id": "Berries-91",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -14496.94,
+				"y": -15550.62,
+				"id": "Berries-92",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -12300.0,
+				"y": -28844.2,
+				"id": "Berries-93",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -9951.07,
+				"y": 43885.81,
+				"id": "Berries-94",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -9149.72,
+				"y": -29779.95,
+				"id": "Berries-95",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -8839.51,
+				"y": 62280.5,
+				"id": "Berries-96",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -7165.98,
+				"y": 31173.94,
+				"id": "Berries-97",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -6754.99,
+				"y": 72476.44,
+				"id": "Berries-98",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -6354.82,
+				"y": 42882.79,
+				"id": "Berries-99",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -5870.59,
+				"y": 8962.44,
+				"id": "Berries-100",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -5426.3,
+				"y": -53500.0,
+				"id": "Berries-101",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -3099.27,
+				"y": 25550.64,
+				"id": "Berries-102",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -2740.03,
+				"y": 60534.47,
+				"id": "Berries-103",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -2367.16,
+				"y": 6127.17,
+				"id": "Berries-104",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -2069.97,
+				"y": 70204.18,
+				"id": "Berries-105",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -1594.84,
+				"y": 44130.69,
+				"id": "Berries-106",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -1425.9,
+				"y": 17058.88,
+				"id": "Berries-107",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -333.0,
+				"y": 36150.0,
+				"id": "Berries-108",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.2,
+				"y": 179399676657664.0,
+				"id": "Berries-109",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.06,
+				"y": -4.237274890098442e+17,
+				"id": "Berries-110",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": -424100002529280.0,
+				"id": "Berries-111",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": -1.1273530663658042e+31,
+				"id": "Berries-112",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 2.912817056583927e+36,
+				"id": "Berries-113",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 5.9917018877691285e+35,
+				"id": "Berries-114",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 58302128128.0,
+				"id": "Berries-115",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 4.039474038278183e+28,
+				"id": "Berries-116",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 24162465792.0,
+				"id": "Berries-117",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": -1.0587913530720653e+32,
+				"id": "Berries-118",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 986722533376.0,
+				"id": "Berries-119",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 341087059968.0,
+				"id": "Berries-120",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 2.978547361325432e+27,
+				"id": "Berries-121",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 5.0208657522670174e+19,
+				"id": "Berries-122",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 5.114746955857572e+32,
+				"id": "Berries-123",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 18375612825600.0,
+				"id": "Berries-124",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": -2.1900987694080153e+24,
+				"id": "Berries-125",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 4428025114394624.0,
+				"id": "Berries-126",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": -29736062.0,
+				"id": "Berries-127",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": -3.2463233654764304e+30,
+				"id": "Berries-128",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": 8.906709949669786e+33,
+				"id": "Berries-129",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -0.0,
+				"y": -5.028475519253483e+36,
+				"id": "Berries-130",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 1.0633823966279327e+37,
+				"id": "Berries-131",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": -562949953421312.0,
+				"id": "Berries-132",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 1.5474250491067253e+26,
+				"id": "Berries-133",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": -1638087.88,
+				"id": "Berries-134",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 1.7187494297138627e+19,
+				"id": "Berries-135",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 1.1858525168350828e+25,
+				"id": "Berries-136",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": -189159931904.0,
+				"id": "Berries-137",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 20456011776.0,
+				"id": "Berries-138",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 8.72366656080132e+36,
+				"id": "Berries-139",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 9.868199733074271e+30,
+				"id": "Berries-140",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": -79701162852352.0,
+				"id": "Berries-141",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 4079754806296576.0,
+				"id": "Berries-142",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 578785430732800.0,
+				"id": "Berries-143",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 1.805390022852191e+30,
+				"id": "Berries-144",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": -465053908992.0,
+				"id": "Berries-145",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 1560551296.0,
+				"id": "Berries-146",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": -2.9385201698095615e+28,
+				"id": "Berries-147",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": -445994991616.0,
+				"id": "Berries-148",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 3.7565251131644314e+17,
+				"id": "Berries-149",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 186583026237440.0,
+				"id": "Berries-150",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 252976.97,
+				"id": "Berries-151",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.0,
+				"y": 98175.49,
+				"id": "Berries-152",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.01,
+				"y": 25893502.0,
+				"id": "Berries-153",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.07,
+				"y": 4079479928389632.0,
+				"id": "Berries-154",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 0.42,
+				"y": -17983697059840.0,
+				"id": "Berries-155",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 8.59,
+				"y": 3862479.75,
+				"id": "Berries-156",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 20.12,
+				"y": -5.271917686967575e+23,
+				"id": "Berries-157",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 38.25,
+				"y": -5.51652638571681e+20,
+				"id": "Berries-158",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 56.2,
+				"y": -267985.97,
+				"id": "Berries-159",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1168.3,
+				"y": -72.85,
+				"id": "Berries-160",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 101",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1276.4,
+				"y": -2.5197563873831523e+34,
+				"id": "Berries-161",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1500.0,
+				"y": -49600.0,
+				"id": "Berries-162",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2983.51,
+				"y": -31649.98,
+				"id": "Berries-163",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 7907.09,
+				"y": -17529.87,
+				"id": "Berries-164",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 8643.94,
+				"y": 4.127772292911389e+24,
+				"id": "Berries-165",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 8895.1,
+				"y": -34574.54,
+				"id": "Berries-166",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 10070.56,
+				"y": 1.7284701020638675e+20,
+				"id": "Berries-167",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 11382.74,
+				"y": -36319.37,
+				"id": "Berries-168",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 13761.31,
+				"y": -17912.78,
+				"id": "Berries-169",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 15021.85,
+				"y": -53700.0,
+				"id": "Berries-170",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 16123.26,
+				"y": -32128.62,
+				"id": "Berries-171",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 16256.81,
+				"y": 0.0,
+				"id": "Berries-172",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 17998.6,
+				"y": -25909.73,
+				"id": "Berries-173",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 18183.03,
+				"y": -18458.65,
+				"id": "Berries-174",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 20283.21,
+				"y": -53306.04,
+				"id": "Berries-175",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 20800.0,
+				"y": -35886.9,
+				"id": "Berries-176",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 20886.28,
+				"y": -9597.37,
+				"id": "Berries-177",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 22209.07,
+				"y": -13282.17,
+				"id": "Berries-178",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 23150.77,
+				"y": -27031.65,
+				"id": "Berries-179",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 25055.82,
+				"y": -53515.53,
+				"id": "Berries-180",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 27692.43,
+				"y": -15444.25,
+				"id": "Berries-181",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 29008.2,
+				"y": -37944.0,
+				"id": "Berries-182",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 29327.74,
+				"y": -52683.8,
+				"id": "Berries-183",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 30038.19,
+				"y": -29838.19,
+				"id": "Berries-184",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 30745.2,
+				"y": -3054.81,
+				"id": "Berries-185",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 32755.17,
+				"y": -49851.83,
+				"id": "Berries-186",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 33382.0,
+				"y": -21506.44,
+				"id": "Berries-187",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 33817.68,
+				"y": -14877.88,
+				"id": "Berries-188",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 34611.76,
+				"y": -26200.0,
+				"id": "Berries-189",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 34859.51,
+				"y": -51805.5,
+				"id": "Berries-190",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 10",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 35801.7,
+				"y": -12101.29,
+				"id": "Berries-191",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 36260.57,
+				"y": -20666.01,
+				"id": "Berries-192",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 40043.07,
+				"y": -46680.66,
+				"id": "Berries-193",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 9",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 40500.0,
+				"y": -53416.86,
+				"id": "Berries-194",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 41772.28,
+				"y": -19809.41,
+				"id": "Berries-195",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 42382.24,
+				"y": -6.409518114352708e+33,
+				"id": "Berries-196",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 42915.02,
+				"y": -41634.98,
+				"id": "Berries-197",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 43446.09,
+				"y": -7144.13,
+				"id": "Berries-198",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 43600.0,
+				"y": -48837.61,
+				"id": "Berries-199",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 45248.59,
+				"y": -53154.2,
+				"id": "Berries-200",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 9",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 47630.88,
+				"y": -47307.19,
+				"id": "Berries-201",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 48560.46,
+				"y": -44596.5,
+				"id": "Berries-202",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 50350.26,
+				"y": -52249.74,
+				"id": "Berries-203",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 50887.43,
+				"y": -32982.17,
+				"id": "Berries-204",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 51697.45,
+				"y": -42992.38,
+				"id": "Berries-205",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2861551.5,
+				"y": -0.0,
+				"id": "Berries-206",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 12732734.0,
+				"y": 5.7611107324605235e+17,
+				"id": "Berries-207",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 59322616.0,
+				"y": -0.0,
+				"id": "Berries-208",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 121404912.0,
+				"y": -3657751592960.0,
+				"id": "Berries-209",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 8074853888.0,
+				"y": 7403109888.0,
+				"id": "Berries-210",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 11681986560.0,
+				"y": -0.0,
+				"id": "Berries-211",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 35296899072.0,
+				"y": 9.354860933015336e+22,
+				"id": "Berries-212",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 118906937344.0,
+				"y": -1.9759773048669047e+22,
+				"id": "Berries-213",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 128070443008.0,
+				"y": -0.0,
+				"id": "Berries-214",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 460851150848.0,
+				"y": -0.0,
+				"id": "Berries-215",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 4016079110144.0,
+				"y": 0.0,
+				"id": "Berries-216",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 64624489660416.0,
+				"y": 1.9212094807631462e+17,
+				"id": "Berries-217",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 89472213450752.0,
+				"y": 3.5103180078629515e+31,
+				"id": "Berries-218",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 244524265766912.0,
+				"y": 54313346924544.0,
+				"id": "Berries-219",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 375906241609728.0,
+				"y": -5.169645055359762e+26,
+				"id": "Berries-220",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1205897699262464.0,
+				"y": -5.227583710198497e+17,
+				"id": "Berries-221",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1208388780294144.0,
+				"y": -2.230624334994435e+25,
+				"id": "Berries-222",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2150498580824064.0,
+				"y": -1.7547412556543427e+18,
+				"id": "Berries-223",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1.2323268771551642e+17,
+				"y": -1.0776400737568031e+18,
+				"id": "Berries-224",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1.6554355300971315e+17,
+				"y": 3.758002283521964e+27,
+				"id": "Berries-225",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1.7878387203139174e+17,
+				"y": 0.0,
+				"id": "Berries-226",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2.7954091857752883e+17,
+				"y": 0.0,
+				"id": "Berries-227",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 5.273411354844201e+17,
+				"y": -100604043264.0,
+				"id": "Berries-228",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 6.312603568561979e+18,
+				"y": -6.433993409188879e+28,
+				"id": "Berries-229",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 8.276735956048937e+18,
+				"y": 0.0,
+				"id": "Berries-230",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 3.0240681937327882e+19,
+				"y": 0.0,
+				"id": "Berries-231",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 3.037297517638189e+19,
+				"y": 0.0,
+				"id": "Berries-232",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 8.701910615391312e+19,
+				"y": -8.283488246071109e+21,
+				"id": "Berries-233",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2.9617233335709126e+20,
+				"y": -0.0,
+				"id": "Berries-234",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1.1061515521078602e+21,
+				"y": 0.0,
+				"id": "Berries-235",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1.2867052944000266e+21,
+				"y": 0.0,
+				"id": "Berries-236",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 6.859630187881653e+21,
+				"y": -1413.96,
+				"id": "Berries-237",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 3.677862383892302e+22,
+				"y": 0.0,
+				"id": "Berries-238",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 3.751937815743273e+22,
+				"y": 1.39,
+				"id": "Berries-239",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 8.594279517146124e+22,
+				"y": -0.0,
+				"id": "Berries-240",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1.245071926396687e+24,
+				"y": -107937272.0,
+				"id": "Berries-241",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1.4084544504271562e+24,
+				"y": -0.0,
+				"id": "Berries-242",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 7.276022475508801e+24,
+				"y": 5.072161818506155e+32,
+				"id": "Berries-243",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1.089089774919988e+26,
+				"y": 0.0,
+				"id": "Berries-244",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2.036319476227131e+26,
+				"y": 1.2447548024875807e+32,
+				"id": "Berries-245",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 4.0964400484628066e+26,
+				"y": -0.0,
+				"id": "Berries-246",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1.019601351162926e+27,
+				"y": 7.007938063379581e+30,
+				"id": "Berries-247",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 4.741047574380067e+27,
+				"y": 0.0,
+				"id": "Berries-248",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 3.0491675776864387e+28,
+				"y": -0.0,
+				"id": "Berries-249",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 3.0085445061618437e+29,
+				"y": 0.0,
+				"id": "Berries-250",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2.509990827265552e+30,
+				"y": 6.498578615628997e+34,
+				"id": "Berries-251",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 4.8819129567560114e+30,
+				"y": 0.0,
+				"id": "Berries-252",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2.9956441947448907e+31,
+				"y": 0.0,
+				"id": "Berries-253",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 4.239478472756384e+31,
+				"y": -0.0,
+				"id": "Berries-254",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2.221309779407105e+33,
+				"y": -5402833453056.0,
+				"id": "Berries-255",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 6.466315422325141e+34,
+				"y": 248712773632.0,
+				"id": "Berries-256",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2.5813545506219378e+35,
+				"y": 0.02,
+				"id": "Berries-257",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 4.796038788282985e+36,
+				"y": 213318.98,
+				"id": "Berries-258",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 1.7541117715959325e+37,
+				"y": -0.0,
+				"id": "Berries-259",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 9.363722236850496e+37,
+				"y": -15433.44,
+				"id": "Berries-260",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2.0047324306899585e+38,
+				"y": -0.0,
+				"id": "Berries-261",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 3.1289427878397228e+38,
+				"y": -0.0,
+				"id": "Berries-262",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			}
+		],
+		"Carrot": [
+			{
+				"x": -29615.05,
+				"y": -13133.38,
+				"id": "Carrot-1",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 6",
+				"article": "Carrots"
+			},
+			{
+				"x": -29228.09,
+				"y": -25225.38,
+				"id": "Carrot-2",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 4",
+				"article": "Carrots"
+			},
+			{
+				"x": -23300.0,
+				"y": -11666.66,
+				"id": "Carrot-3",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 1",
+				"article": "Carrots"
+			},
+			{
+				"x": -22552.64,
+				"y": -4407.45,
+				"id": "Carrot-4",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 4",
+				"article": "Carrots"
+			},
+			{
+				"x": -21577.19,
+				"y": 18195.34,
+				"id": "Carrot-5",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 12",
+				"article": "Carrots"
+			},
+			{
+				"x": -18900.82,
+				"y": 2933.92,
+				"id": "Carrot-6",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 1",
+				"article": "Carrots"
+			},
+			{
+				"x": -18093.96,
+				"y": -22230.16,
+				"id": "Carrot-7",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 4",
+				"article": "Carrots"
+			},
+			{
+				"x": -13811.5,
+				"y": 21073.66,
+				"id": "Carrot-8",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 3",
+				"article": "Carrots"
+			},
+			{
+				"x": 16202.23,
+				"y": 1071.43,
+				"id": "Carrot-9",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 3",
+				"article": "Carrots"
+			},
+			{
+				"x": 18175.05,
+				"y": -16325.16,
+				"id": "Carrot-10",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 8",
+				"article": "Carrots"
+			},
+			{
+				"x": 18361.29,
+				"y": 27146.88,
+				"id": "Carrot-11",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 13",
+				"article": "Carrots"
+			},
+			{
+				"x": 20556.23,
+				"y": 22315.61,
+				"id": "Carrot-12",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 4",
+				"article": "Carrots"
+			},
+			{
+				"x": 20741.66,
+				"y": 16891.83,
+				"id": "Carrot-13",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 3",
+				"article": "Carrots"
+			},
+			{
+				"x": 23237.53,
+				"y": 33101.92,
+				"id": "Carrot-14",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 2",
+				"article": "Carrots"
+			},
+			{
+				"x": 24052.24,
+				"y": -36546.89,
+				"id": "Carrot-15",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 2",
+				"article": "Carrots"
+			},
+			{
+				"x": 24112.24,
+				"y": -7270.49,
+				"id": "Carrot-16",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 4",
+				"article": "Carrots"
+			},
+			{
+				"x": 24794.25,
+				"y": -1273.91,
+				"id": "Carrot-17",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 1",
+				"article": "Carrots"
+			},
+			{
+				"x": 25030.62,
+				"y": -31163.5,
+				"id": "Carrot-18",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 1",
+				"article": "Carrots"
+			},
+			{
+				"x": 28339.51,
+				"y": -24060.09,
+				"id": "Carrot-19",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 6",
+				"article": "Carrots"
+			},
+			{
+				"x": 28983.54,
+				"y": 21817.43,
+				"id": "Carrot-20",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 8",
+				"article": "Carrots"
+			},
+			{
+				"x": 29076.95,
+				"y": 5293.32,
+				"id": "Carrot-21",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 9",
+				"article": "Carrots"
+			},
+			{
+				"x": 30566.06,
+				"y": -15724.46,
+				"id": "Carrot-22",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 5",
+				"article": "Carrots"
+			},
+			{
+				"x": 32451.52,
+				"y": 1466.76,
+				"id": "Carrot-23",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 6",
+				"article": "Carrots"
+			},
+			{
+				"x": 32750.0,
+				"y": 13701.71,
+				"id": "Carrot-24",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 7",
+				"article": "Carrots"
+			},
+			{
+				"x": 35483.96,
+				"y": 5584.9,
+				"id": "Carrot-25",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 3",
+				"article": "Carrots"
+			},
+			{
+				"x": 35497.24,
+				"y": 18464.62,
+				"id": "Carrot-26",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 6",
+				"article": "Carrots"
+			},
+			{
+				"x": 37655.57,
+				"y": -25066.67,
+				"id": "Carrot-27",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 4",
+				"article": "Carrots"
+			},
+			{
+				"x": 38220.89,
+				"y": 6607.62,
+				"id": "Carrot-28",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 4",
+				"article": "Carrots"
+			},
+			{
+				"x": 41539.14,
+				"y": -2634.52,
+				"id": "Carrot-29",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 1",
+				"article": "Carrots"
+			},
+			{
+				"x": 43100.0,
+				"y": 2941.63,
+				"id": "Carrot-30",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 1",
+				"article": "Carrots"
+			},
+			{
+				"x": 43552.45,
+				"y": -21000.01,
+				"id": "Carrot-31",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 3",
+				"article": "Carrots"
+			},
+			{
+				"x": 44634.32,
+				"y": -36218.4,
+				"id": "Carrot-32",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 1",
+				"article": "Carrots"
+			}
+		],
+		"Cocoa": [
+			{
+				"x": -27170.49,
+				"y": -24428.99,
+				"id": "Cocoa-1",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 2",
+				"article": "Cocoa"
+			},
+			{
+				"x": -26228.0,
+				"y": -28224.48,
+				"id": "Cocoa-2",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 4",
+				"article": "Cocoa"
+			},
+			{
+				"x": -22025.9,
+				"y": -496.9,
+				"id": "Cocoa-3",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 1",
+				"article": "Cocoa"
+			},
+			{
+				"x": -14770.67,
+				"y": 18383.99,
+				"id": "Cocoa-4",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 2",
+				"article": "Cocoa"
+			},
+			{
+				"x": -7017.77,
+				"y": -29259.67,
+				"id": "Cocoa-5",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 2",
+				"article": "Cocoa"
+			},
+			{
+				"x": 17979.33,
+				"y": -20549.22,
+				"id": "Cocoa-6",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 1",
+				"article": "Cocoa"
+			},
+			{
+				"x": 27000.0,
+				"y": 22977.76,
+				"id": "Cocoa-7",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 1",
+				"article": "Cocoa"
+			},
+			{
+				"x": 27624.88,
+				"y": 19579.44,
+				"id": "Cocoa-8",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 2",
+				"article": "Cocoa"
+			},
+			{
+				"x": 28329.48,
+				"y": -20600.0,
+				"id": "Cocoa-9",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 1",
+				"article": "Cocoa"
+			},
+			{
+				"x": 31255.54,
+				"y": 3084.42,
+				"id": "Cocoa-10",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 4",
+				"article": "Cocoa"
+			}
+		],
+		"Coffee": [
+			{
+				"x": -24673.62,
+				"y": 17322.03,
+				"id": "Coffee-1",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 1",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -23974.13,
+				"y": -17936.23,
+				"id": "Coffee-2",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 1",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -23548.56,
+				"y": -7339.09,
+				"id": "Coffee-3",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 5",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -23333.83,
+				"y": 1366.35,
+				"id": "Coffee-4",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 5",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -15800.0,
+				"y": 17800.0,
+				"id": "Coffee-5",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 1",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -13855.63,
+				"y": 8929.16,
+				"id": "Coffee-6",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 1",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -13800.0,
+				"y": -15751.09,
+				"id": "Coffee-7",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 4",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 16944.55,
+				"y": -29121.78,
+				"id": "Coffee-8",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 2",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 17161.58,
+				"y": 26201.54,
+				"id": "Coffee-9",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 5",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 17660.9,
+				"y": -17043.58,
+				"id": "Coffee-10",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 4",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 21947.43,
+				"y": 24675.05,
+				"id": "Coffee-11",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 2",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 22744.59,
+				"y": 13837.54,
+				"id": "Coffee-12",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 2",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 24435.77,
+				"y": -11013.07,
+				"id": "Coffee-13",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 3",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 30416.67,
+				"y": 5261.13,
+				"id": "Coffee-14",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 5",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 32405.37,
+				"y": -15000.81,
+				"id": "Coffee-15",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 5",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 32570.03,
+				"y": 14367.75,
+				"id": "Coffee-16",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 4",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 32728.8,
+				"y": 23764.81,
+				"id": "Coffee-17",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 2",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 32835.3,
+				"y": -24778.0,
+				"id": "Coffee-18",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 5",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 36511.78,
+				"y": -7513.16,
+				"id": "Coffee-19",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 4",
+				"article": "Coffee Beans"
+			}
+		],
+		"ConiferFlower": [
+			{
+				"x": -54809.99,
+				"y": 28893.07,
+				"id": "ConiferFlower-1",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -53384.44,
+				"y": -9794.24,
+				"id": "ConiferFlower-2",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -53300.0,
+				"y": 67076.71,
+				"id": "ConiferFlower-3",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -53282.66,
+				"y": -12924.39,
+				"id": "ConiferFlower-4",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -52948.81,
+				"y": -2401.64,
+				"id": "ConiferFlower-5",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -52938.9,
+				"y": 57234.42,
+				"id": "ConiferFlower-6",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 6",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -52932.62,
+				"y": -52941.39,
+				"id": "ConiferFlower-7",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 9",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -52881.52,
+				"y": -32687.86,
+				"id": "ConiferFlower-8",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -52842.05,
+				"y": -22606.15,
+				"id": "ConiferFlower-9",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 15",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -52726.27,
+				"y": 73483.45,
+				"id": "ConiferFlower-10",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 11",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -52514.82,
+				"y": -27198.58,
+				"id": "ConiferFlower-11",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 9",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -52346.85,
+				"y": -46101.85,
+				"id": "ConiferFlower-12",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -51269.96,
+				"y": 2689.58,
+				"id": "ConiferFlower-13",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -50433.97,
+				"y": 4779.14,
+				"id": "ConiferFlower-14",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -49800.0,
+				"y": -22301.07,
+				"id": "ConiferFlower-15",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -49533.38,
+				"y": 72810.11,
+				"id": "ConiferFlower-16",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -48916.91,
+				"y": -7281.02,
+				"id": "ConiferFlower-17",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -48378.54,
+				"y": 18275.27,
+				"id": "ConiferFlower-18",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -48250.03,
+				"y": 46088.66,
+				"id": "ConiferFlower-19",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -47816.78,
+				"y": 62598.79,
+				"id": "ConiferFlower-20",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -47565.5,
+				"y": -38000.0,
+				"id": "ConiferFlower-21",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -47404.29,
+				"y": -52568.11,
+				"id": "ConiferFlower-22",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 13",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -47015.86,
+				"y": -44253.81,
+				"id": "ConiferFlower-23",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -46878.48,
+				"y": 66813.58,
+				"id": "ConiferFlower-24",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 6",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -46602.15,
+				"y": 4255.85,
+				"id": "ConiferFlower-25",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 21",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -46240.34,
+				"y": -28316.43,
+				"id": "ConiferFlower-26",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -45674.8,
+				"y": -34875.26,
+				"id": "ConiferFlower-27",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -45430.61,
+				"y": 38600.0,
+				"id": "ConiferFlower-28",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -44393.66,
+				"y": -35274.17,
+				"id": "ConiferFlower-29",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 19",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -43861.97,
+				"y": 49445.88,
+				"id": "ConiferFlower-30",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -43848.93,
+				"y": 8499.02,
+				"id": "ConiferFlower-31",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -43577.41,
+				"y": -39990.75,
+				"id": "ConiferFlower-32",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -42537.43,
+				"y": -32974.61,
+				"id": "ConiferFlower-33",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -41328.6,
+				"y": 74022.92,
+				"id": "ConiferFlower-34",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -40609.13,
+				"y": -40933.24,
+				"id": "ConiferFlower-35",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -40400.0,
+				"y": -45848.37,
+				"id": "ConiferFlower-36",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 12",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -40325.62,
+				"y": -51381.05,
+				"id": "ConiferFlower-37",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -40287.12,
+				"y": 29006.88,
+				"id": "ConiferFlower-38",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -39929.25,
+				"y": 53241.06,
+				"id": "ConiferFlower-39",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 9",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -38651.93,
+				"y": 42807.63,
+				"id": "ConiferFlower-40",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -36212.21,
+				"y": -46836.37,
+				"id": "ConiferFlower-41",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -35955.24,
+				"y": 30081.69,
+				"id": "ConiferFlower-42",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -35608.06,
+				"y": 71516.02,
+				"id": "ConiferFlower-43",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -35050.6,
+				"y": 44050.42,
+				"id": "ConiferFlower-44",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 10",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -34628.42,
+				"y": 52213.11,
+				"id": "ConiferFlower-45",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -34456.44,
+				"y": -42594.46,
+				"id": "ConiferFlower-46",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 11",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -34123.05,
+				"y": -37774.22,
+				"id": "ConiferFlower-47",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -34085.01,
+				"y": -16147.77,
+				"id": "ConiferFlower-48",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 9",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -34077.97,
+				"y": 56361.11,
+				"id": "ConiferFlower-49",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -33922.19,
+				"y": 38699.13,
+				"id": "ConiferFlower-50",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -33763.39,
+				"y": -11668.96,
+				"id": "ConiferFlower-51",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -33570.04,
+				"y": 59412.73,
+				"id": "ConiferFlower-52",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -33374.03,
+				"y": -52247.83,
+				"id": "ConiferFlower-53",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 15",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -33139.48,
+				"y": 29316.49,
+				"id": "ConiferFlower-54",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -32814.53,
+				"y": -23729.8,
+				"id": "ConiferFlower-55",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -31831.3,
+				"y": 44833.94,
+				"id": "ConiferFlower-56",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -31401.55,
+				"y": 48247.5,
+				"id": "ConiferFlower-57",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -30929.27,
+				"y": 37265.02,
+				"id": "ConiferFlower-58",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -30812.21,
+				"y": -26765.11,
+				"id": "ConiferFlower-59",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 12",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -30610.93,
+				"y": 73251.71,
+				"id": "ConiferFlower-60",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 6",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -29965.88,
+				"y": 40332.7,
+				"id": "ConiferFlower-61",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 14",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -28704.85,
+				"y": -14809.02,
+				"id": "ConiferFlower-62",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -28368.39,
+				"y": -11721.81,
+				"id": "ConiferFlower-63",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -27556.65,
+				"y": -41837.46,
+				"id": "ConiferFlower-64",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -27512.18,
+				"y": -47219.01,
+				"id": "ConiferFlower-65",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 13",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -26770.16,
+				"y": -53678.43,
+				"id": "ConiferFlower-66",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 6",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -26425.65,
+				"y": 14214.7,
+				"id": "ConiferFlower-67",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -25764.31,
+				"y": 49453.34,
+				"id": "ConiferFlower-68",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -25607.82,
+				"y": 73627.46,
+				"id": "ConiferFlower-69",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -24896.11,
+				"y": 37019.53,
+				"id": "ConiferFlower-70",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -24788.16,
+				"y": -4396.08,
+				"id": "ConiferFlower-71",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 13",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -24694.38,
+				"y": -26616.52,
+				"id": "ConiferFlower-72",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -24449.58,
+				"y": -22890.0,
+				"id": "ConiferFlower-73",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -23955.63,
+				"y": 4591.25,
+				"id": "ConiferFlower-74",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 12",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -23894.56,
+				"y": 885.91,
+				"id": "ConiferFlower-75",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -23730.5,
+				"y": 9751.33,
+				"id": "ConiferFlower-76",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -23674.05,
+				"y": -14536.6,
+				"id": "ConiferFlower-77",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -23184.0,
+				"y": 53979.19,
+				"id": "ConiferFlower-78",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 11",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -23065.34,
+				"y": 16191.03,
+				"id": "ConiferFlower-79",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 12",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -23047.13,
+				"y": 28434.55,
+				"id": "ConiferFlower-80",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -22637.77,
+				"y": 40216.29,
+				"id": "ConiferFlower-81",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -22577.6,
+				"y": -52881.69,
+				"id": "ConiferFlower-82",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 12",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -22572.12,
+				"y": -9551.19,
+				"id": "ConiferFlower-83",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -22553.16,
+				"y": -30303.16,
+				"id": "ConiferFlower-84",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -21788.67,
+				"y": 19125.3,
+				"id": "ConiferFlower-85",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -21505.6,
+				"y": 71874.52,
+				"id": "ConiferFlower-86",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -20463.41,
+				"y": -48785.0,
+				"id": "ConiferFlower-87",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -19930.33,
+				"y": 35459.32,
+				"id": "ConiferFlower-88",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 19",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -19838.9,
+				"y": 8612.58,
+				"id": "ConiferFlower-89",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -19282.57,
+				"y": 46301.99,
+				"id": "ConiferFlower-90",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 10",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -19203.94,
+				"y": -16046.61,
+				"id": "ConiferFlower-91",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -17496.35,
+				"y": 54877.28,
+				"id": "ConiferFlower-92",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -17015.26,
+				"y": -22158.9,
+				"id": "ConiferFlower-93",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -16756.71,
+				"y": 24468.76,
+				"id": "ConiferFlower-94",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 12",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -16280.68,
+				"y": -35020.15,
+				"id": "ConiferFlower-95",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -15837.25,
+				"y": 16870.54,
+				"id": "ConiferFlower-96",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -15587.08,
+				"y": 73461.63,
+				"id": "ConiferFlower-97",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -15562.2,
+				"y": 34648.57,
+				"id": "ConiferFlower-98",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -15514.25,
+				"y": -52574.78,
+				"id": "ConiferFlower-99",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -15440.4,
+				"y": 46665.94,
+				"id": "ConiferFlower-100",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 10",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -15087.33,
+				"y": 43407.33,
+				"id": "ConiferFlower-101",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -13892.0,
+				"y": -16237.97,
+				"id": "ConiferFlower-102",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -13805.56,
+				"y": -27587.3,
+				"id": "ConiferFlower-103",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -12668.52,
+				"y": 73952.9,
+				"id": "ConiferFlower-104",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -12340.5,
+				"y": 65533.92,
+				"id": "ConiferFlower-105",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -12272.52,
+				"y": -21200.0,
+				"id": "ConiferFlower-106",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -11813.88,
+				"y": 34528.51,
+				"id": "ConiferFlower-107",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -11690.34,
+				"y": -32976.49,
+				"id": "ConiferFlower-108",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -10755.1,
+				"y": -1257.84,
+				"id": "ConiferFlower-109",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -10504.59,
+				"y": 15626.84,
+				"id": "ConiferFlower-110",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -10181.87,
+				"y": 44217.18,
+				"id": "ConiferFlower-111",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 6",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -9957.58,
+				"y": -27087.67,
+				"id": "ConiferFlower-112",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -8723.56,
+				"y": -53577.15,
+				"id": "ConiferFlower-113",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -8522.39,
+				"y": 32538.5,
+				"id": "ConiferFlower-114",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -8015.59,
+				"y": 62481.56,
+				"id": "ConiferFlower-115",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 6",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -6978.38,
+				"y": -27357.7,
+				"id": "ConiferFlower-116",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -6494.31,
+				"y": -35865.62,
+				"id": "ConiferFlower-117",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -5933.79,
+				"y": 66898.99,
+				"id": "ConiferFlower-118",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -5489.59,
+				"y": 28521.27,
+				"id": "ConiferFlower-119",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 9",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -5361.27,
+				"y": 8810.46,
+				"id": "ConiferFlower-120",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -5341.94,
+				"y": 43205.7,
+				"id": "ConiferFlower-121",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 11",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -4350.0,
+				"y": 56818.21,
+				"id": "ConiferFlower-122",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -4312.64,
+				"y": 20123.9,
+				"id": "ConiferFlower-123",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -4227.01,
+				"y": -53830.78,
+				"id": "ConiferFlower-124",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 12",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -3935.32,
+				"y": 71987.36,
+				"id": "ConiferFlower-125",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 12",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -3365.96,
+				"y": 63073.09,
+				"id": "ConiferFlower-126",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 6",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -2134.2,
+				"y": 43285.26,
+				"id": "ConiferFlower-127",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -1686.97,
+				"y": -3572.39,
+				"id": "ConiferFlower-128",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -1642.45,
+				"y": 24446.18,
+				"id": "ConiferFlower-129",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -1456.32,
+				"y": 13885.8,
+				"id": "ConiferFlower-130",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -1418.09,
+				"y": -38213.46,
+				"id": "ConiferFlower-131",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -1415.36,
+				"y": 27244.17,
+				"id": "ConiferFlower-132",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 194.16,
+				"y": -12301.6,
+				"id": "ConiferFlower-133",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 200.0,
+				"y": 67700.0,
+				"id": "ConiferFlower-134",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 2007.21,
+				"y": -37576.84,
+				"id": "ConiferFlower-135",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 2282.05,
+				"y": -2455.38,
+				"id": "ConiferFlower-136",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 2335.5,
+				"y": 9603.86,
+				"id": "ConiferFlower-137",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 2445.0,
+				"y": -54268.94,
+				"id": "ConiferFlower-138",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 2923.67,
+				"y": 59684.55,
+				"id": "ConiferFlower-139",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 2927.04,
+				"y": 24983.01,
+				"id": "ConiferFlower-140",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 16",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 3190.1,
+				"y": -33742.61,
+				"id": "ConiferFlower-141",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 3236.56,
+				"y": 68347.61,
+				"id": "ConiferFlower-142",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 14",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 3347.22,
+				"y": 42727.18,
+				"id": "ConiferFlower-143",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 3798.55,
+				"y": -30568.15,
+				"id": "ConiferFlower-144",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 3867.32,
+				"y": 29292.37,
+				"id": "ConiferFlower-145",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 4066.54,
+				"y": 3482.9,
+				"id": "ConiferFlower-146",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 9",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 4249.59,
+				"y": 35487.53,
+				"id": "ConiferFlower-147",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 10",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 4474.61,
+				"y": -24608.71,
+				"id": "ConiferFlower-148",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 6288.24,
+				"y": 15775.26,
+				"id": "ConiferFlower-149",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 6685.56,
+				"y": 56802.16,
+				"id": "ConiferFlower-150",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 7386.41,
+				"y": -16330.14,
+				"id": "ConiferFlower-151",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 7730.44,
+				"y": 68800.0,
+				"id": "ConiferFlower-152",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 7904.64,
+				"y": 25540.5,
+				"id": "ConiferFlower-153",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 8415.08,
+				"y": 32935.48,
+				"id": "ConiferFlower-154",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 8917.01,
+				"y": 29106.71,
+				"id": "ConiferFlower-155",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 9446.32,
+				"y": 40320.28,
+				"id": "ConiferFlower-156",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 9946.26,
+				"y": 53868.8,
+				"id": "ConiferFlower-157",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 6",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 10000.83,
+				"y": 7594.91,
+				"id": "ConiferFlower-158",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 10",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 10116.65,
+				"y": 12779.53,
+				"id": "ConiferFlower-159",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 10304.81,
+				"y": 3289.72,
+				"id": "ConiferFlower-160",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 10662.21,
+				"y": 19468.08,
+				"id": "ConiferFlower-161",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 11144.69,
+				"y": -24749.01,
+				"id": "ConiferFlower-162",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 12058.6,
+				"y": -3973.48,
+				"id": "ConiferFlower-163",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 12350.04,
+				"y": -33621.89,
+				"id": "ConiferFlower-164",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 13056.59,
+				"y": 72550.0,
+				"id": "ConiferFlower-165",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 14442.95,
+				"y": 55139.98,
+				"id": "ConiferFlower-166",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 12",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 15825.93,
+				"y": -31816.29,
+				"id": "ConiferFlower-167",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 16000.0,
+				"y": 40912.97,
+				"id": "ConiferFlower-168",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 16180.1,
+				"y": -54047.8,
+				"id": "ConiferFlower-169",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 11",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 16244.33,
+				"y": -18219.94,
+				"id": "ConiferFlower-170",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 17663.45,
+				"y": -26678.61,
+				"id": "ConiferFlower-171",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 10",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 18018.07,
+				"y": 8513.86,
+				"id": "ConiferFlower-172",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 18145.07,
+				"y": 27613.29,
+				"id": "ConiferFlower-173",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 10",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 18219.11,
+				"y": 277.93,
+				"id": "ConiferFlower-174",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 18356.66,
+				"y": -15054.79,
+				"id": "ConiferFlower-175",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 6",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 18459.48,
+				"y": 22335.59,
+				"id": "ConiferFlower-176",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 12",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 18612.49,
+				"y": -41142.17,
+				"id": "ConiferFlower-177",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 19261.5,
+				"y": 36605.66,
+				"id": "ConiferFlower-178",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 20710.13,
+				"y": -7014.78,
+				"id": "ConiferFlower-179",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 21108.92,
+				"y": -10089.88,
+				"id": "ConiferFlower-180",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 21245.17,
+				"y": -20142.48,
+				"id": "ConiferFlower-181",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 22487.48,
+				"y": 28154.87,
+				"id": "ConiferFlower-182",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 22628.6,
+				"y": 72686.17,
+				"id": "ConiferFlower-183",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 10",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 22815.82,
+				"y": 23759.03,
+				"id": "ConiferFlower-184",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 22880.53,
+				"y": 19396.99,
+				"id": "ConiferFlower-185",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 11",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 23121.21,
+				"y": -53515.53,
+				"id": "ConiferFlower-186",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 23227.27,
+				"y": 66178.39,
+				"id": "ConiferFlower-187",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 23863.71,
+				"y": -13832.24,
+				"id": "ConiferFlower-188",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 9",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 25157.91,
+				"y": 15099.52,
+				"id": "ConiferFlower-189",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 13",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 26345.12,
+				"y": 61336.89,
+				"id": "ConiferFlower-190",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 26361.46,
+				"y": 11588.32,
+				"id": "ConiferFlower-191",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 26425.99,
+				"y": 152.53,
+				"id": "ConiferFlower-192",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 27312.93,
+				"y": 28459.35,
+				"id": "ConiferFlower-193",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 27776.78,
+				"y": -27051.12,
+				"id": "ConiferFlower-194",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 28011.38,
+				"y": -53688.04,
+				"id": "ConiferFlower-195",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 12",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 28147.19,
+				"y": -15286.33,
+				"id": "ConiferFlower-196",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 28245.17,
+				"y": 67267.35,
+				"id": "ConiferFlower-197",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 13",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 28662.94,
+				"y": 73484.56,
+				"id": "ConiferFlower-198",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 10",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 30017.53,
+				"y": 7165.48,
+				"id": "ConiferFlower-199",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 30470.43,
+				"y": -34726.58,
+				"id": "ConiferFlower-200",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 30728.11,
+				"y": 15827.13,
+				"id": "ConiferFlower-201",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 30922.78,
+				"y": -20433.39,
+				"id": "ConiferFlower-202",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 31458.2,
+				"y": 69687.77,
+				"id": "ConiferFlower-203",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 31659.35,
+				"y": 60414.31,
+				"id": "ConiferFlower-204",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 32080.05,
+				"y": 21798.7,
+				"id": "ConiferFlower-205",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 32383.92,
+				"y": 73955.21,
+				"id": "ConiferFlower-206",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 32787.03,
+				"y": 66108.82,
+				"id": "ConiferFlower-207",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 33030.05,
+				"y": -53052.54,
+				"id": "ConiferFlower-208",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 16",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 33062.58,
+				"y": -18500.63,
+				"id": "ConiferFlower-209",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 33622.08,
+				"y": -13455.99,
+				"id": "ConiferFlower-210",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 33724.98,
+				"y": 1938.04,
+				"id": "ConiferFlower-211",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 33801.15,
+				"y": -27037.81,
+				"id": "ConiferFlower-212",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 34677.79,
+				"y": 56863.11,
+				"id": "ConiferFlower-213",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 34878.75,
+				"y": -23188.24,
+				"id": "ConiferFlower-214",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 34904.56,
+				"y": -9076.88,
+				"id": "ConiferFlower-215",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 35193.13,
+				"y": 23338.76,
+				"id": "ConiferFlower-216",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 15",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 35461.66,
+				"y": 14809.81,
+				"id": "ConiferFlower-217",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 36586.39,
+				"y": 12417.91,
+				"id": "ConiferFlower-218",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 36643.59,
+				"y": -52708.18,
+				"id": "ConiferFlower-219",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 36812.42,
+				"y": 67467.73,
+				"id": "ConiferFlower-220",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 36976.45,
+				"y": -45995.68,
+				"id": "ConiferFlower-221",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 38269.12,
+				"y": 23869.14,
+				"id": "ConiferFlower-222",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 39200.92,
+				"y": -20979.75,
+				"id": "ConiferFlower-223",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 39838.98,
+				"y": 6813.23,
+				"id": "ConiferFlower-224",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 39983.79,
+				"y": 72018.98,
+				"id": "ConiferFlower-225",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 40341.42,
+				"y": -43224.56,
+				"id": "ConiferFlower-226",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 11",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 40427.41,
+				"y": -52994.93,
+				"id": "ConiferFlower-227",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 11",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 40658.9,
+				"y": 57400.0,
+				"id": "ConiferFlower-228",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 41819.24,
+				"y": 9017.57,
+				"id": "ConiferFlower-229",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 41953.92,
+				"y": 64427.95,
+				"id": "ConiferFlower-230",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 11",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 42469.41,
+				"y": -11314.5,
+				"id": "ConiferFlower-231",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 42484.68,
+				"y": -47219.49,
+				"id": "ConiferFlower-232",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 43557.84,
+				"y": 50833.66,
+				"id": "ConiferFlower-233",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 43966.06,
+				"y": -3085.62,
+				"id": "ConiferFlower-234",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 45227.02,
+				"y": 74254.65,
+				"id": "ConiferFlower-235",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 45324.27,
+				"y": 5102.48,
+				"id": "ConiferFlower-236",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 45775.44,
+				"y": -41904.56,
+				"id": "ConiferFlower-237",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 10",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 45829.07,
+				"y": -52900.92,
+				"id": "ConiferFlower-238",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 14",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 46243.8,
+				"y": 46486.75,
+				"id": "ConiferFlower-239",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 48781.57,
+				"y": 69744.1,
+				"id": "ConiferFlower-240",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 48860.46,
+				"y": 58281.38,
+				"id": "ConiferFlower-241",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 49170.05,
+				"y": -36738.81,
+				"id": "ConiferFlower-242",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 49217.58,
+				"y": -32487.36,
+				"id": "ConiferFlower-243",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 7",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 50043.19,
+				"y": 50046.51,
+				"id": "ConiferFlower-244",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 50257.13,
+				"y": -51488.14,
+				"id": "ConiferFlower-245",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 51293.17,
+				"y": 41348.74,
+				"id": "ConiferFlower-246",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 52357.37,
+				"y": -44178.77,
+				"id": "ConiferFlower-247",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 52722.91,
+				"y": 23062.35,
+				"id": "ConiferFlower-248",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 6",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 52852.43,
+				"y": -31259.81,
+				"id": "ConiferFlower-249",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 17",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 52883.53,
+				"y": 47657.64,
+				"id": "ConiferFlower-250",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 9",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 53940.23,
+				"y": 67430.56,
+				"id": "ConiferFlower-251",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 54120.12,
+				"y": 73749.05,
+				"id": "ConiferFlower-252",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 1",
+				"article": "Conifer Flower"
+			}
+		],
+		"Corn": [
+			{
+				"x": -19405.07,
+				"y": -13720.81,
+				"id": "Corn-1",
+				"name": "Corn",
+				"description": "Amount of Corn: 105",
+				"article": "Corn"
+			},
+			{
+				"x": -14448.04,
+				"y": 21379.54,
+				"id": "Corn-2",
+				"name": "Corn",
+				"description": "Amount of Corn: 131",
+				"article": "Corn"
+			},
+			{
+				"x": 8185.44,
+				"y": -36455.45,
+				"id": "Corn-3",
+				"name": "Corn",
+				"description": "Amount of Corn: 65",
+				"article": "Corn"
+			},
+			{
+				"x": 23270.61,
+				"y": -12747.14,
+				"id": "Corn-4",
+				"name": "Corn",
+				"description": "Amount of Corn: 130",
+				"article": "Corn"
+			}
+		],
+		"Pumpkin": [
+			{
+				"x": -26050.0,
+				"y": -24075.71,
+				"id": "Pumpkin-1",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 8",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -26046.08,
+				"y": 16092.29,
+				"id": "Pumpkin-2",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -25414.81,
+				"y": -14500.0,
+				"id": "Pumpkin-3",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -24220.2,
+				"y": -1803.87,
+				"id": "Pumpkin-4",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 4",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -15424.83,
+				"y": 10891.46,
+				"id": "Pumpkin-5",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -14952.25,
+				"y": 18099.48,
+				"id": "Pumpkin-6",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 5",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -12458.06,
+				"y": 8516.69,
+				"id": "Pumpkin-7",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -12145.93,
+				"y": -620.47,
+				"id": "Pumpkin-8",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -8213.88,
+				"y": -26488.07,
+				"id": "Pumpkin-9",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 3",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 19543.55,
+				"y": 35163.23,
+				"id": "Pumpkin-10",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 21424.69,
+				"y": 23590.95,
+				"id": "Pumpkin-11",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 21496.86,
+				"y": 46086.48,
+				"id": "Pumpkin-12",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 21791.63,
+				"y": -14891.53,
+				"id": "Pumpkin-13",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 21869.24,
+				"y": -35802.43,
+				"id": "Pumpkin-14",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 3",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 27474.92,
+				"y": -33862.2,
+				"id": "Pumpkin-15",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 28067.96,
+				"y": -21600.0,
+				"id": "Pumpkin-16",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 5",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 33154.97,
+				"y": 38174.54,
+				"id": "Pumpkin-17",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 35032.05,
+				"y": -3193.53,
+				"id": "Pumpkin-18",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 36111.52,
+				"y": 3051.86,
+				"id": "Pumpkin-19",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 36156.77,
+				"y": 46001.89,
+				"id": "Pumpkin-20",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 36556.6,
+				"y": -10827.56,
+				"id": "Pumpkin-21",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 41514.04,
+				"y": 6058.35,
+				"id": "Pumpkin-22",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 46109.45,
+				"y": 23051.66,
+				"id": "Pumpkin-23",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 47545.89,
+				"y": 44199.55,
+				"id": "Pumpkin-24",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 48903.3,
+				"y": 33411.11,
+				"id": "Pumpkin-25",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 51504.96,
+				"y": 16039.36,
+				"id": "Pumpkin-26",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			}
+		],
+		"Reed": [
+			{
+				"x": -2531.88,
+				"y": 7821.36,
+				"id": "Reed-1",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 235",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -2428.29,
+				"y": -3493.26,
+				"id": "Reed-2",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 164",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": -948.53,
+				"y": -1213.67,
+				"id": "Reed-3",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 74",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 830.1,
+				"y": 4189.06,
+				"id": "Reed-4",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 105",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 3181.3,
+				"y": 9170.59,
+				"id": "Reed-5",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 98",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 3756.02,
+				"y": 16325.07,
+				"id": "Reed-6",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 79",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 6852.18,
+				"y": 15863.47,
+				"id": "Reed-7",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 124",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 6875.27,
+				"y": -513.11,
+				"id": "Reed-8",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 182",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 8061.23,
+				"y": 8207.76,
+				"id": "Reed-9",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 170",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 8689.56,
+				"y": 2423.94,
+				"id": "Reed-10",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 164",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 8933.27,
+				"y": 21992.1,
+				"id": "Reed-11",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 5",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 10349.03,
+				"y": 11461.51,
+				"id": "Reed-12",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 73",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 10765.22,
+				"y": 18732.49,
+				"id": "Reed-13",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 81",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 13478.21,
+				"y": 6608.84,
+				"id": "Reed-14",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 69",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 17671.9,
+				"y": -18312.25,
+				"id": "Reed-15",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 192",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 21806.46,
+				"y": -16171.25,
+				"id": "Reed-16",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 89",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 25878.8,
+				"y": -11784.93,
+				"id": "Reed-17",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 45",
+				"article": "Reed Flowers"
+			},
+			{
+				"x": 26448.9,
+				"y": -9537.37,
+				"id": "Reed-18",
+				"name": "Reed Flowers",
+				"description": "Amount of Reed Flowers: 134",
+				"article": "Reed Flowers"
+			}
+		],
+		"Tea": [
+			{
+				"x": -32200.0,
+				"y": -14660.63,
+				"id": "Tea-1",
+				"name": "Tea",
+				"description": "Amount of Tea: 1",
+				"article": "Tea"
+			},
+			{
+				"x": -22021.78,
+				"y": 16401.57,
+				"id": "Tea-2",
+				"name": "Tea",
+				"description": "Amount of Tea: 3",
+				"article": "Tea"
+			},
+			{
+				"x": -19309.66,
+				"y": -14207.53,
+				"id": "Tea-3",
+				"name": "Tea",
+				"description": "Amount of Tea: 1",
+				"article": "Tea"
+			},
+			{
+				"x": -14868.67,
+				"y": -27868.67,
+				"id": "Tea-4",
+				"name": "Tea",
+				"description": "Amount of Tea: 1",
+				"article": "Tea"
+			},
+			{
+				"x": -7607.59,
+				"y": -27277.25,
+				"id": "Tea-5",
+				"name": "Tea",
+				"description": "Amount of Tea: 2",
+				"article": "Tea"
+			},
+			{
+				"x": 22019.04,
+				"y": -12187.84,
+				"id": "Tea-6",
+				"name": "Tea",
+				"description": "Amount of Tea: 1",
+				"article": "Tea"
+			},
+			{
+				"x": 22263.75,
+				"y": -9427.45,
+				"id": "Tea-7",
+				"name": "Tea",
+				"description": "Amount of Tea: 3",
+				"article": "Tea"
+			},
+			{
+				"x": 23174.44,
+				"y": 21641.43,
+				"id": "Tea-8",
+				"name": "Tea",
+				"description": "Amount of Tea: 4",
+				"article": "Tea"
+			},
+			{
+				"x": 23666.88,
+				"y": 16578.17,
+				"id": "Tea-9",
+				"name": "Tea",
+				"description": "Amount of Tea: 4",
+				"article": "Tea"
+			},
+			{
+				"x": 25167.94,
+				"y": -1674.08,
+				"id": "Tea-10",
+				"name": "Tea",
+				"description": "Amount of Tea: 1",
+				"article": "Tea"
+			},
+			{
+				"x": 31022.71,
+				"y": -19531.98,
+				"id": "Tea-11",
+				"name": "Tea",
+				"description": "Amount of Tea: 1",
+				"article": "Tea"
+			},
+			{
+				"x": 35100.0,
+				"y": 28463.38,
+				"id": "Tea-12",
+				"name": "Tea",
+				"description": "Amount of Tea: 1",
+				"article": "Tea"
+			},
+			{
+				"x": 35809.26,
+				"y": 13631.86,
+				"id": "Tea-13",
+				"name": "Tea",
+				"description": "Amount of Tea: 3",
+				"article": "Tea"
+			},
+			{
+				"x": 38581.38,
+				"y": 10381.38,
+				"id": "Tea-14",
+				"name": "Tea",
+				"description": "Amount of Tea: 3",
+				"article": "Tea"
+			},
+			{
+				"x": 41448.7,
+				"y": -20619.1,
+				"id": "Tea-15",
+				"name": "Tea",
+				"description": "Amount of Tea: 1",
+				"article": "Tea"
+			},
+			{
+				"x": 44720.54,
+				"y": -3579.46,
+				"id": "Tea-16",
+				"name": "Tea",
+				"description": "Amount of Tea: 1",
+				"article": "Tea"
+			}
+		],
+		"Watermelon": [
+			{
+				"x": -27356.34,
+				"y": -26673.08,
+				"id": "Watermelon-1",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 3",
+				"article": "Watermelon"
+			},
+			{
+				"x": -21200.0,
+				"y": 14127.93,
+				"id": "Watermelon-2",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": -15156.26,
+				"y": 19348.63,
+				"id": "Watermelon-3",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": 18850.37,
+				"y": 35800.0,
+				"id": "Watermelon-4",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": 20024.2,
+				"y": 21945.07,
+				"id": "Watermelon-5",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 10",
+				"article": "Watermelon"
+			},
+			{
+				"x": 23064.1,
+				"y": 18866.23,
+				"id": "Watermelon-6",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 6",
+				"article": "Watermelon"
+			},
+			{
+				"x": 23124.61,
+				"y": -35665.32,
+				"id": "Watermelon-7",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": 23428.43,
+				"y": -9654.28,
+				"id": "Watermelon-8",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": 25200.0,
+				"y": 15200.0,
+				"id": "Watermelon-9",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": 28593.39,
+				"y": -17906.61,
+				"id": "Watermelon-10",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": 29583.73,
+				"y": 2781.77,
+				"id": "Watermelon-11",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 7",
+				"article": "Watermelon"
+			},
+			{
+				"x": 30099.38,
+				"y": -21272.62,
+				"id": "Watermelon-12",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 6",
+				"article": "Watermelon"
+			},
+			{
+				"x": 32533.69,
+				"y": 15818.48,
+				"id": "Watermelon-13",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 3",
+				"article": "Watermelon"
+			},
+			{
+				"x": 33609.39,
+				"y": 21742.69,
+				"id": "Watermelon-14",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 5",
+				"article": "Watermelon"
+			},
+			{
+				"x": 37497.23,
+				"y": 14602.23,
+				"id": "Watermelon-15",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			}
+		],
+		"Wheat": [
+			{
+				"x": -53696.32,
+				"y": 58063.26,
+				"id": "Wheat-1",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 33",
+				"article": "Wheat"
+			},
+			{
+				"x": -53404.62,
+				"y": 21543.91,
+				"id": "Wheat-2",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 42",
+				"article": "Wheat"
+			},
+			{
+				"x": -53402.97,
+				"y": -38409.0,
+				"id": "Wheat-3",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 21",
+				"article": "Wheat"
+			},
+			{
+				"x": -53002.21,
+				"y": -24491.34,
+				"id": "Wheat-4",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 50",
+				"article": "Wheat"
+			},
+			{
+				"x": -51893.87,
+				"y": -46354.01,
+				"id": "Wheat-5",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 130",
+				"article": "Wheat"
+			},
+			{
+				"x": -48767.89,
+				"y": 70116.66,
+				"id": "Wheat-6",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 2",
+				"article": "Wheat"
+			},
+			{
+				"x": -47528.62,
+				"y": -26185.57,
+				"id": "Wheat-7",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 80",
+				"article": "Wheat"
+			},
+			{
+				"x": -47414.68,
+				"y": -54663.39,
+				"id": "Wheat-8",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 20",
+				"article": "Wheat"
+			},
+			{
+				"x": -45630.57,
+				"y": 7624.62,
+				"id": "Wheat-9",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 35",
+				"article": "Wheat"
+			},
+			{
+				"x": -45554.1,
+				"y": -32089.8,
+				"id": "Wheat-10",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 18",
+				"article": "Wheat"
+			},
+			{
+				"x": -38266.67,
+				"y": 38257.56,
+				"id": "Wheat-11",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 1",
+				"article": "Wheat"
+			},
+			{
+				"x": -35629.16,
+				"y": 47704.56,
+				"id": "Wheat-12",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 19",
+				"article": "Wheat"
+			},
+			{
+				"x": -35579.09,
+				"y": -42353.48,
+				"id": "Wheat-13",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 9",
+				"article": "Wheat"
+			},
+			{
+				"x": -33696.06,
+				"y": 38064.77,
+				"id": "Wheat-14",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 34",
+				"article": "Wheat"
+			},
+			{
+				"x": -33001.48,
+				"y": 55511.98,
+				"id": "Wheat-15",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 50",
+				"article": "Wheat"
+			},
+			{
+				"x": -31249.07,
+				"y": -54101.71,
+				"id": "Wheat-16",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 61",
+				"article": "Wheat"
+			},
+			{
+				"x": -28685.0,
+				"y": -39851.78,
+				"id": "Wheat-17",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 4",
+				"article": "Wheat"
+			},
+			{
+				"x": -28341.62,
+				"y": 28101.7,
+				"id": "Wheat-18",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 5",
+				"article": "Wheat"
+			},
+			{
+				"x": -27412.58,
+				"y": 35362.43,
+				"id": "Wheat-19",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 17",
+				"article": "Wheat"
+			},
+			{
+				"x": -25598.64,
+				"y": -48379.93,
+				"id": "Wheat-20",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 36",
+				"article": "Wheat"
+			},
+			{
+				"x": -23799.8,
+				"y": 72756.74,
+				"id": "Wheat-21",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 35",
+				"article": "Wheat"
+			},
+			{
+				"x": -23695.86,
+				"y": 28062.85,
+				"id": "Wheat-22",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 33",
+				"article": "Wheat"
+			},
+			{
+				"x": -23496.88,
+				"y": -2296.88,
+				"id": "Wheat-23",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 1",
+				"article": "Wheat"
+			},
+			{
+				"x": -22937.21,
+				"y": 15771.97,
+				"id": "Wheat-24",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 8",
+				"article": "Wheat"
+			},
+			{
+				"x": -21121.55,
+				"y": -53432.81,
+				"id": "Wheat-25",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 8",
+				"article": "Wheat"
+			},
+			{
+				"x": -20980.02,
+				"y": 4570.52,
+				"id": "Wheat-26",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 76",
+				"article": "Wheat"
+			},
+			{
+				"x": -20846.39,
+				"y": 47893.94,
+				"id": "Wheat-27",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 13",
+				"article": "Wheat"
+			},
+			{
+				"x": -18715.35,
+				"y": 50700.4,
+				"id": "Wheat-28",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 28",
+				"article": "Wheat"
+			},
+			{
+				"x": -17412.56,
+				"y": -4663.49,
+				"id": "Wheat-29",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 19",
+				"article": "Wheat"
+			},
+			{
+				"x": -16748.46,
+				"y": 27397.65,
+				"id": "Wheat-30",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 10",
+				"article": "Wheat"
+			},
+			{
+				"x": -15476.73,
+				"y": 30172.31,
+				"id": "Wheat-31",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 30",
+				"article": "Wheat"
+			},
+			{
+				"x": -13873.47,
+				"y": 73924.86,
+				"id": "Wheat-32",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 60",
+				"article": "Wheat"
+			},
+			{
+				"x": -13817.85,
+				"y": 32973.12,
+				"id": "Wheat-33",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 9",
+				"article": "Wheat"
+			},
+			{
+				"x": -13799.0,
+				"y": -37257.11,
+				"id": "Wheat-34",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 34",
+				"article": "Wheat"
+			},
+			{
+				"x": -11524.09,
+				"y": 44321.96,
+				"id": "Wheat-35",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 23",
+				"article": "Wheat"
+			},
+			{
+				"x": -6669.6,
+				"y": -54234.12,
+				"id": "Wheat-36",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 31",
+				"article": "Wheat"
+			},
+			{
+				"x": -6641.76,
+				"y": 57943.62,
+				"id": "Wheat-37",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 118",
+				"article": "Wheat"
+			},
+			{
+				"x": -6602.59,
+				"y": -34190.02,
+				"id": "Wheat-38",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 7",
+				"article": "Wheat"
+			},
+			{
+				"x": -5626.32,
+				"y": 67648.54,
+				"id": "Wheat-39",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 34",
+				"article": "Wheat"
+			},
+			{
+				"x": -3398.41,
+				"y": 42047.23,
+				"id": "Wheat-40",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 37",
+				"article": "Wheat"
+			},
+			{
+				"x": 252.82,
+				"y": 3330.84,
+				"id": "Wheat-41",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 69",
+				"article": "Wheat"
+			},
+			{
+				"x": 2357.2,
+				"y": 38643.12,
+				"id": "Wheat-42",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 83",
+				"article": "Wheat"
+			},
+			{
+				"x": 2472.58,
+				"y": 63899.9,
+				"id": "Wheat-43",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 87",
+				"article": "Wheat"
+			},
+			{
+				"x": 2474.58,
+				"y": 72975.04,
+				"id": "Wheat-44",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 67",
+				"article": "Wheat"
+			},
+			{
+				"x": 2571.94,
+				"y": 55298.39,
+				"id": "Wheat-45",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 19",
+				"article": "Wheat"
+			},
+			{
+				"x": 4144.58,
+				"y": -17531.38,
+				"id": "Wheat-46",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 34",
+				"article": "Wheat"
+			},
+			{
+				"x": 4725.08,
+				"y": -36760.59,
+				"id": "Wheat-47",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 17",
+				"article": "Wheat"
+			},
+			{
+				"x": 7283.71,
+				"y": 10008.13,
+				"id": "Wheat-48",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 1",
+				"article": "Wheat"
+			},
+			{
+				"x": 10251.0,
+				"y": 33180.28,
+				"id": "Wheat-49",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 40",
+				"article": "Wheat"
+			},
+			{
+				"x": 11527.23,
+				"y": 67900.0,
+				"id": "Wheat-50",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 13",
+				"article": "Wheat"
+			},
+			{
+				"x": 12492.46,
+				"y": -31906.32,
+				"id": "Wheat-51",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 36",
+				"article": "Wheat"
+			},
+			{
+				"x": 12587.17,
+				"y": -54664.18,
+				"id": "Wheat-52",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 20",
+				"article": "Wheat"
+			},
+			{
+				"x": 13228.65,
+				"y": 7695.58,
+				"id": "Wheat-53",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 102",
+				"article": "Wheat"
+			},
+			{
+				"x": 13637.88,
+				"y": -41702.37,
+				"id": "Wheat-54",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 7",
+				"article": "Wheat"
+			},
+			{
+				"x": 14342.56,
+				"y": -107.25,
+				"id": "Wheat-55",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 5",
+				"article": "Wheat"
+			},
+			{
+				"x": 14680.22,
+				"y": 73178.04,
+				"id": "Wheat-56",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 19",
+				"article": "Wheat"
+			},
+			{
+				"x": 15376.99,
+				"y": 29811.29,
+				"id": "Wheat-57",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 6",
+				"article": "Wheat"
+			},
+			{
+				"x": 16599.97,
+				"y": -18409.76,
+				"id": "Wheat-58",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 29",
+				"article": "Wheat"
+			},
+			{
+				"x": 18292.93,
+				"y": 67389.71,
+				"id": "Wheat-59",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 47",
+				"article": "Wheat"
+			},
+			{
+				"x": 20253.5,
+				"y": -36648.49,
+				"id": "Wheat-60",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 64",
+				"article": "Wheat"
+			},
+			{
+				"x": 20944.04,
+				"y": 66730.51,
+				"id": "Wheat-61",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 22",
+				"article": "Wheat"
+			},
+			{
+				"x": 21568.38,
+				"y": -52102.74,
+				"id": "Wheat-62",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 19",
+				"article": "Wheat"
+			},
+			{
+				"x": 22231.45,
+				"y": 71709.92,
+				"id": "Wheat-63",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 85",
+				"article": "Wheat"
+			},
+			{
+				"x": 23332.97,
+				"y": -14235.37,
+				"id": "Wheat-64",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 31",
+				"article": "Wheat"
+			},
+			{
+				"x": 24680.92,
+				"y": 23091.45,
+				"id": "Wheat-65",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 18",
+				"article": "Wheat"
+			},
+			{
+				"x": 26168.96,
+				"y": 61273.37,
+				"id": "Wheat-66",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 40",
+				"article": "Wheat"
+			},
+			{
+				"x": 26305.25,
+				"y": -51936.09,
+				"id": "Wheat-67",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 34",
+				"article": "Wheat"
+			},
+			{
+				"x": 28235.31,
+				"y": 15217.4,
+				"id": "Wheat-68",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 59",
+				"article": "Wheat"
+			},
+			{
+				"x": 29915.47,
+				"y": 68644.57,
+				"id": "Wheat-69",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 70",
+				"article": "Wheat"
+			},
+			{
+				"x": 32491.44,
+				"y": 8129.89,
+				"id": "Wheat-70",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 52",
+				"article": "Wheat"
+			},
+			{
+				"x": 32612.44,
+				"y": 18130.38,
+				"id": "Wheat-71",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 46",
+				"article": "Wheat"
+			},
+			{
+				"x": 33332.74,
+				"y": 55768.12,
+				"id": "Wheat-72",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 31",
+				"article": "Wheat"
+			},
+			{
+				"x": 34622.45,
+				"y": -26821.67,
+				"id": "Wheat-73",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 14",
+				"article": "Wheat"
+			},
+			{
+				"x": 34763.45,
+				"y": 61603.09,
+				"id": "Wheat-74",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 14",
+				"article": "Wheat"
+			},
+			{
+				"x": 35912.68,
+				"y": -1600.0,
+				"id": "Wheat-75",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 1",
+				"article": "Wheat"
+			},
+			{
+				"x": 36128.31,
+				"y": 23923.84,
+				"id": "Wheat-76",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 60",
+				"article": "Wheat"
+			},
+			{
+				"x": 38624.93,
+				"y": 6832.21,
+				"id": "Wheat-77",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 40",
+				"article": "Wheat"
+			},
+			{
+				"x": 38846.17,
+				"y": -53855.11,
+				"id": "Wheat-78",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 85",
+				"article": "Wheat"
+			},
+			{
+				"x": 41643.18,
+				"y": -39395.15,
+				"id": "Wheat-79",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 1",
+				"article": "Wheat"
+			},
+			{
+				"x": 42473.46,
+				"y": -6295.83,
+				"id": "Wheat-80",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 42",
+				"article": "Wheat"
+			},
+			{
+				"x": 44385.63,
+				"y": -48591.19,
+				"id": "Wheat-81",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 12",
+				"article": "Wheat"
+			},
+			{
+				"x": 44624.04,
+				"y": 53179.99,
+				"id": "Wheat-82",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 10",
+				"article": "Wheat"
+			},
+			{
+				"x": 46600.07,
+				"y": 61593.8,
+				"id": "Wheat-83",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 45",
+				"article": "Wheat"
+			},
+			{
+				"x": 48649.22,
+				"y": -53254.44,
+				"id": "Wheat-84",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 40",
+				"article": "Wheat"
+			},
+			{
+				"x": 51281.58,
+				"y": 60540.87,
+				"id": "Wheat-85",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 38",
+				"article": "Wheat"
+			},
+			{
+				"x": 52345.57,
+				"y": -41909.9,
+				"id": "Wheat-86",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 32",
+				"article": "Wheat"
+			},
+			{
+				"x": 52469.48,
+				"y": 43897.08,
+				"id": "Wheat-87",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 59",
+				"article": "Wheat"
+			},
+			{
+				"x": 52474.04,
+				"y": -36106.17,
+				"id": "Wheat-88",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 87",
+				"article": "Wheat"
+			},
+			{
+				"x": 53103.47,
+				"y": 67756.46,
+				"id": "Wheat-89",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 45",
+				"article": "Wheat"
+			}
+		],
+		"Yeast": [
+			{
+				"x": -53604.73,
+				"y": 5342.86,
+				"id": "Yeast-1",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 10",
+				"article": "Yeast"
+			},
+			{
+				"x": -52277.23,
+				"y": -33577.93,
+				"id": "Yeast-2",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": -51912.14,
+				"y": -51475.82,
+				"id": "Yeast-3",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": -51653.8,
+				"y": -11308.27,
+				"id": "Yeast-4",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": -47908.63,
+				"y": -28576.58,
+				"id": "Yeast-5",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 6",
+				"article": "Yeast"
+			},
+			{
+				"x": -47668.36,
+				"y": -39514.58,
+				"id": "Yeast-6",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": -47585.88,
+				"y": -23483.93,
+				"id": "Yeast-7",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": -46650.0,
+				"y": 39765.64,
+				"id": "Yeast-8",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": -45938.16,
+				"y": -50277.82,
+				"id": "Yeast-9",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": -45727.42,
+				"y": 67026.12,
+				"id": "Yeast-10",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 8",
+				"article": "Yeast"
+			},
+			{
+				"x": -45390.62,
+				"y": 10142.83,
+				"id": "Yeast-11",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 11",
+				"article": "Yeast"
+			},
+			{
+				"x": -42230.93,
+				"y": -30882.78,
+				"id": "Yeast-12",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 6",
+				"article": "Yeast"
+			},
+			{
+				"x": -37814.54,
+				"y": -37554.61,
+				"id": "Yeast-13",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": -36839.76,
+				"y": -47407.28,
+				"id": "Yeast-14",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": -35381.41,
+				"y": 50188.55,
+				"id": "Yeast-15",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 12",
+				"article": "Yeast"
+			},
+			{
+				"x": -31431.76,
+				"y": -21685.99,
+				"id": "Yeast-16",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": -30920.68,
+				"y": -40359.97,
+				"id": "Yeast-17",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 8",
+				"article": "Yeast"
+			},
+			{
+				"x": -29622.11,
+				"y": -15017.97,
+				"id": "Yeast-18",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 9",
+				"article": "Yeast"
+			},
+			{
+				"x": -28046.0,
+				"y": -27827.63,
+				"id": "Yeast-19",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": -27801.34,
+				"y": 39678.33,
+				"id": "Yeast-20",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 12",
+				"article": "Yeast"
+			},
+			{
+				"x": -27233.75,
+				"y": 1900.01,
+				"id": "Yeast-21",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 6",
+				"article": "Yeast"
+			},
+			{
+				"x": -26542.26,
+				"y": 61467.57,
+				"id": "Yeast-22",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": -26342.4,
+				"y": -16615.17,
+				"id": "Yeast-23",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": -25706.58,
+				"y": -3482.33,
+				"id": "Yeast-24",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": -25468.84,
+				"y": 28702.32,
+				"id": "Yeast-25",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 8",
+				"article": "Yeast"
+			},
+			{
+				"x": -25349.32,
+				"y": -43379.69,
+				"id": "Yeast-26",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 9",
+				"article": "Yeast"
+			},
+			{
+				"x": -23902.8,
+				"y": -6413.01,
+				"id": "Yeast-27",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": -23825.14,
+				"y": -51664.62,
+				"id": "Yeast-28",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": -21553.74,
+				"y": 34728.0,
+				"id": "Yeast-29",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": -21195.43,
+				"y": 74383.3,
+				"id": "Yeast-30",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": -20590.36,
+				"y": 16916.54,
+				"id": "Yeast-31",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": -18356.45,
+				"y": 46868.31,
+				"id": "Yeast-32",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 9",
+				"article": "Yeast"
+			},
+			{
+				"x": -18133.71,
+				"y": 7940.33,
+				"id": "Yeast-33",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": -17703.22,
+				"y": -17667.19,
+				"id": "Yeast-34",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": -17165.37,
+				"y": -47486.99,
+				"id": "Yeast-35",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": -16489.51,
+				"y": -51770.46,
+				"id": "Yeast-36",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 8",
+				"article": "Yeast"
+			},
+			{
+				"x": -15690.52,
+				"y": -28932.84,
+				"id": "Yeast-37",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": -15541.24,
+				"y": 46949.86,
+				"id": "Yeast-38",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": -14565.71,
+				"y": -34807.83,
+				"id": "Yeast-39",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": -14078.77,
+				"y": 24894.64,
+				"id": "Yeast-40",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": -12400.61,
+				"y": -52043.68,
+				"id": "Yeast-41",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": -11372.73,
+				"y": 34616.5,
+				"id": "Yeast-42",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": -10063.89,
+				"y": 72568.33,
+				"id": "Yeast-43",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 9",
+				"article": "Yeast"
+			},
+			{
+				"x": -9443.86,
+				"y": -29945.33,
+				"id": "Yeast-44",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 8",
+				"article": "Yeast"
+			},
+			{
+				"x": -9107.0,
+				"y": 42398.83,
+				"id": "Yeast-45",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 6",
+				"article": "Yeast"
+			},
+			{
+				"x": -7167.32,
+				"y": 71771.75,
+				"id": "Yeast-46",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 6",
+				"article": "Yeast"
+			},
+			{
+				"x": -6669.4,
+				"y": -26849.68,
+				"id": "Yeast-47",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": -6651.02,
+				"y": 9764.28,
+				"id": "Yeast-48",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": -4533.91,
+				"y": 40705.73,
+				"id": "Yeast-49",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": -3493.55,
+				"y": 55655.91,
+				"id": "Yeast-50",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 6",
+				"article": "Yeast"
+			},
+			{
+				"x": -2130.93,
+				"y": 66202.46,
+				"id": "Yeast-51",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 9",
+				"article": "Yeast"
+			},
+			{
+				"x": -1574.44,
+				"y": 14520.74,
+				"id": "Yeast-52",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": -1010.45,
+				"y": -52355.9,
+				"id": "Yeast-53",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 201.82,
+				"y": 25247.43,
+				"id": "Yeast-54",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": 447.87,
+				"y": -988.37,
+				"id": "Yeast-55",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 1696.62,
+				"y": 71612.98,
+				"id": "Yeast-56",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": 2115.3,
+				"y": 2447.26,
+				"id": "Yeast-57",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 27",
+				"article": "Yeast"
+			},
+			{
+				"x": 3485.49,
+				"y": 24130.69,
+				"id": "Yeast-58",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 3644.8,
+				"y": 9847.13,
+				"id": "Yeast-59",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": 4006.83,
+				"y": 61009.01,
+				"id": "Yeast-60",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 4559.55,
+				"y": 39267.67,
+				"id": "Yeast-61",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 6128.25,
+				"y": -34225.55,
+				"id": "Yeast-62",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 6930.93,
+				"y": 27297.8,
+				"id": "Yeast-63",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 7",
+				"article": "Yeast"
+			},
+			{
+				"x": 7352.04,
+				"y": 2915.39,
+				"id": "Yeast-64",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 8",
+				"article": "Yeast"
+			},
+			{
+				"x": 7398.63,
+				"y": -16058.42,
+				"id": "Yeast-65",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 7464.76,
+				"y": 17661.47,
+				"id": "Yeast-66",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": 7657.21,
+				"y": 75446.81,
+				"id": "Yeast-67",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 8030.34,
+				"y": 54647.37,
+				"id": "Yeast-68",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 6",
+				"article": "Yeast"
+			},
+			{
+				"x": 8970.33,
+				"y": -1553.65,
+				"id": "Yeast-69",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 9444.67,
+				"y": 40350.41,
+				"id": "Yeast-70",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 8",
+				"article": "Yeast"
+			},
+			{
+				"x": 9776.55,
+				"y": 20045.76,
+				"id": "Yeast-71",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": 10389.19,
+				"y": 12023.65,
+				"id": "Yeast-72",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 6",
+				"article": "Yeast"
+			},
+			{
+				"x": 10747.74,
+				"y": 7497.86,
+				"id": "Yeast-73",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 6",
+				"article": "Yeast"
+			},
+			{
+				"x": 11065.22,
+				"y": -33205.49,
+				"id": "Yeast-74",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": 11330.44,
+				"y": 29273.81,
+				"id": "Yeast-75",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 13859.75,
+				"y": 41296.39,
+				"id": "Yeast-76",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": 13990.65,
+				"y": 73586.43,
+				"id": "Yeast-77",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": 14363.48,
+				"y": 55453.1,
+				"id": "Yeast-78",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 7",
+				"article": "Yeast"
+			},
+			{
+				"x": 15079.52,
+				"y": 19972.79,
+				"id": "Yeast-79",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": 16523.21,
+				"y": 26133.7,
+				"id": "Yeast-80",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 16550.39,
+				"y": -27937.07,
+				"id": "Yeast-81",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": 17080.43,
+				"y": -13388.71,
+				"id": "Yeast-82",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 17093.86,
+				"y": -53470.74,
+				"id": "Yeast-83",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": 17252.99,
+				"y": -16065.82,
+				"id": "Yeast-84",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": 17466.02,
+				"y": 30008.98,
+				"id": "Yeast-85",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": 18869.36,
+				"y": -7567.89,
+				"id": "Yeast-86",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 19968.91,
+				"y": -40444.33,
+				"id": "Yeast-87",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 21170.54,
+				"y": 23079.28,
+				"id": "Yeast-88",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 6",
+				"article": "Yeast"
+			},
+			{
+				"x": 22575.04,
+				"y": 32885.72,
+				"id": "Yeast-89",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": 22632.99,
+				"y": -9352.58,
+				"id": "Yeast-90",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 8",
+				"article": "Yeast"
+			},
+			{
+				"x": 23678.17,
+				"y": 14634.25,
+				"id": "Yeast-91",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 9",
+				"article": "Yeast"
+			},
+			{
+				"x": 23826.95,
+				"y": -32520.9,
+				"id": "Yeast-92",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": 24323.3,
+				"y": -51275.29,
+				"id": "Yeast-93",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 25508.63,
+				"y": 18556.54,
+				"id": "Yeast-94",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 26314.23,
+				"y": -7334.54,
+				"id": "Yeast-95",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": 26849.61,
+				"y": 69728.25,
+				"id": "Yeast-96",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 10",
+				"article": "Yeast"
+			},
+			{
+				"x": 27386.27,
+				"y": 10995.27,
+				"id": "Yeast-97",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": 27421.07,
+				"y": -52584.98,
+				"id": "Yeast-98",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": 27491.23,
+				"y": 66146.59,
+				"id": "Yeast-99",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 29436.34,
+				"y": -20903.96,
+				"id": "Yeast-100",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 9",
+				"article": "Yeast"
+			},
+			{
+				"x": 29665.88,
+				"y": -34329.34,
+				"id": "Yeast-101",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": 31633.69,
+				"y": 24790.56,
+				"id": "Yeast-102",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 32184.64,
+				"y": -17003.65,
+				"id": "Yeast-103",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 7",
+				"article": "Yeast"
+			},
+			{
+				"x": 32254.32,
+				"y": 30603.5,
+				"id": "Yeast-104",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 34135.33,
+				"y": 21765.06,
+				"id": "Yeast-105",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 10",
+				"article": "Yeast"
+			},
+			{
+				"x": 34341.27,
+				"y": -1401.53,
+				"id": "Yeast-106",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 34564.82,
+				"y": -26435.48,
+				"id": "Yeast-107",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 34693.77,
+				"y": 65118.85,
+				"id": "Yeast-108",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 35287.28,
+				"y": -51835.39,
+				"id": "Yeast-109",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": 35597.91,
+				"y": -22681.93,
+				"id": "Yeast-110",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": 35830.97,
+				"y": -10151.82,
+				"id": "Yeast-111",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 7",
+				"article": "Yeast"
+			},
+			{
+				"x": 35837.09,
+				"y": -14654.57,
+				"id": "Yeast-112",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 7",
+				"article": "Yeast"
+			},
+			{
+				"x": 35944.28,
+				"y": 29427.12,
+				"id": "Yeast-113",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 36564.49,
+				"y": 14806.5,
+				"id": "Yeast-114",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": 36806.58,
+				"y": 10592.77,
+				"id": "Yeast-115",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 8",
+				"article": "Yeast"
+			},
+			{
+				"x": 37643.39,
+				"y": 58969.96,
+				"id": "Yeast-116",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 39396.05,
+				"y": -52187.67,
+				"id": "Yeast-117",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 5",
+				"article": "Yeast"
+			},
+			{
+				"x": 40089.97,
+				"y": -20792.69,
+				"id": "Yeast-118",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 8",
+				"article": "Yeast"
+			},
+			{
+				"x": 40616.02,
+				"y": -43250.27,
+				"id": "Yeast-119",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": 41417.91,
+				"y": 9752.04,
+				"id": "Yeast-120",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 6",
+				"article": "Yeast"
+			},
+			{
+				"x": 42171.92,
+				"y": -11361.53,
+				"id": "Yeast-121",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 42619.04,
+				"y": 3616.27,
+				"id": "Yeast-122",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 4",
+				"article": "Yeast"
+			},
+			{
+				"x": 43288.52,
+				"y": -18397.16,
+				"id": "Yeast-123",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": 43391.81,
+				"y": -5393.82,
+				"id": "Yeast-124",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 7",
+				"article": "Yeast"
+			},
+			{
+				"x": 43696.5,
+				"y": -1804.07,
+				"id": "Yeast-125",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": 44488.38,
+				"y": 66586.85,
+				"id": "Yeast-126",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 46449.36,
+				"y": -43040.47,
+				"id": "Yeast-127",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 6",
+				"article": "Yeast"
+			},
+			{
+				"x": 46591.25,
+				"y": 76173.72,
+				"id": "Yeast-128",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 48395.79,
+				"y": 61982.29,
+				"id": "Yeast-129",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 48414.22,
+				"y": -38843.31,
+				"id": "Yeast-130",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": 51152.46,
+				"y": -44800.25,
+				"id": "Yeast-131",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": 52496.47,
+				"y": 41405.99,
+				"id": "Yeast-132",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 53023.18,
+				"y": -52602.41,
+				"id": "Yeast-133",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 3",
+				"article": "Yeast"
+			},
+			{
+				"x": 54749.72,
+				"y": 56034.29,
+				"id": "Yeast-134",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			},
+			{
+				"x": 55191.79,
+				"y": -33815.28,
+				"id": "Yeast-135",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 2",
+				"article": "Yeast"
+			},
+			{
+				"x": 2.859123197673367e+19,
+				"y": 0.0,
+				"id": "Yeast-136",
+				"name": "Yeast",
+				"description": "Amount of Yeast: 1",
+				"article": "Yeast"
+			}
+		]
+	}
+}

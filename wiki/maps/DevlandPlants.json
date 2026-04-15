@@ -1,0 +1,43 @@
+{
+	"$schema": "https://icarus.wiki.gg/extensions/DataMaps/schemas/v17.3.json",
+	"crs": {
+		"order": "xy",
+		"topLeft": [
+			-100800.0,
+			-100800.0
+		],
+		"bottomRight": [
+			100800.0,
+			100800.0
+		]
+	},
+	"backgrounds": [
+		{
+			"name": "Devland",
+			"associatedLayer": null,
+			"image": "MAP Devland.jpg",
+			"overlays": [
+				{
+					"name": "Grid",
+					"image": "MAP Grid 4096.png",
+					"at": [
+						[
+							-100800.0,
+							-100800.0
+						],
+						[
+							100800.0,
+							100800.0
+						]
+					]
+				}
+			]
+		}
+	],
+	"settings": {
+		"enableSearch": true,
+		"showCoordinates": true
+	},
+	"groups": {},
+	"markers": {}
+}

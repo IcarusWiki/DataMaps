@@ -1,0 +1,3457 @@
+{
+	"$schema": "https://icarus.wiki.gg/extensions/DataMaps/schemas/v17.3.json",
+	"crs": {
+		"order": "xy",
+		"topLeft": [
+			-100800.0,
+			-100800.0
+		],
+		"bottomRight": [
+			100800.0,
+			100800.0
+		]
+	},
+	"backgrounds": [
+		{
+			"name": "Aquatica Isle",
+			"associatedLayer": null,
+			"image": "MAP Aquatica Isle.jpg",
+			"overlays": [
+				{
+					"name": "Grid",
+					"image": "MAP Grid 4096.png",
+					"at": [
+						[
+							-100800.0,
+							-100800.0
+						],
+						[
+							100800.0,
+							100800.0
+						]
+					]
+				}
+			]
+		}
+	],
+	"settings": {
+		"enableSearch": true,
+		"showCoordinates": true
+	},
+	"groups": {
+		"Beans": {
+			"name": "Soy Beans",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Bean.png"
+		},
+		"Berries": {
+			"name": "Wild Berries",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Wild Berry.png"
+		},
+		"Carrot": {
+			"name": "Carrots",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Carrot.png"
+		},
+		"Cocoa": {
+			"name": "Cocoa",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Cocoa.png"
+		},
+		"Coffee": {
+			"name": "Coffee Beans",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Coffee Bean.png"
+		},
+		"ConiferFlower": {
+			"name": "Conifer Flower",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Fibre.png"
+		},
+		"PalmBush": {
+			"name": "Palm Bush",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Fibre.png"
+		},
+		"Pumpkin": {
+			"name": "Pumpkin",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Pumpkin.png"
+		},
+		"Watermelon": {
+			"name": "Watermelon",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Watermelon.png"
+		},
+		"Wheat": {
+			"name": "Wheat",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM_Wheat.png"
+		}
+	},
+	"markers": {
+		"Beans": [
+			{
+				"x": -29305.87,
+				"y": 81203.5,
+				"id": "Beans-1",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 6",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -25482.72,
+				"y": 73599.7,
+				"id": "Beans-2",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 7",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -22777.07,
+				"y": 79474.23,
+				"id": "Beans-3",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 5",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -20712.1,
+				"y": 61192.9,
+				"id": "Beans-4",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 12",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -18962.32,
+				"y": 71731.56,
+				"id": "Beans-5",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 3",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -18657.07,
+				"y": 55417.15,
+				"id": "Beans-6",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 4",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -15457.82,
+				"y": 64129.43,
+				"id": "Beans-7",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 2",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -12102.07,
+				"y": 47448.4,
+				"id": "Beans-8",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 2",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -11455.22,
+				"y": -23733.51,
+				"id": "Beans-9",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 8",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -11264.93,
+				"y": -15128.32,
+				"id": "Beans-10",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 11",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -11121.9,
+				"y": -21257.0,
+				"id": "Beans-11",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 15",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -10562.3,
+				"y": -10660.53,
+				"id": "Beans-12",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 9",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -9858.63,
+				"y": -18300.25,
+				"id": "Beans-13",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 2",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -7510.99,
+				"y": 75922.8,
+				"id": "Beans-14",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 8",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -6435.89,
+				"y": 40633.17,
+				"id": "Beans-15",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 13",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -5556.79,
+				"y": -17921.75,
+				"id": "Beans-16",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 7",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -5229.55,
+				"y": -13656.48,
+				"id": "Beans-17",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 5",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -4193.53,
+				"y": -10879.07,
+				"id": "Beans-18",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 15",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -4108.53,
+				"y": -6476.88,
+				"id": "Beans-19",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 18",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -3901.81,
+				"y": -27546.27,
+				"id": "Beans-20",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 5",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -3784.88,
+				"y": 22783.36,
+				"id": "Beans-21",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 12",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -1326.64,
+				"y": 48568.51,
+				"id": "Beans-22",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 5",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -385.94,
+				"y": 29242.54,
+				"id": "Beans-23",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 7",
+				"article": "Soy Beans"
+			},
+			{
+				"x": -381.25,
+				"y": 64624.78,
+				"id": "Beans-24",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 13",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 1649.7,
+				"y": 47739.43,
+				"id": "Beans-25",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 9",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 2268.28,
+				"y": 23216.78,
+				"id": "Beans-26",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 7",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 2455.38,
+				"y": 52143.88,
+				"id": "Beans-27",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 9",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 5435.28,
+				"y": 29679.17,
+				"id": "Beans-28",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 12",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 7088.7,
+				"y": -5797.07,
+				"id": "Beans-29",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 5",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 8751.49,
+				"y": -13009.24,
+				"id": "Beans-30",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 1",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 9316.41,
+				"y": -10158.88,
+				"id": "Beans-31",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 21",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 9491.21,
+				"y": -18417.05,
+				"id": "Beans-32",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 5",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 10625.95,
+				"y": 24862.96,
+				"id": "Beans-33",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 1",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 10857.3,
+				"y": 22127.91,
+				"id": "Beans-34",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 8",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 11948.31,
+				"y": -4763.77,
+				"id": "Beans-35",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 6",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 14536.9,
+				"y": -8418.43,
+				"id": "Beans-36",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 17",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 15483.99,
+				"y": 18762.28,
+				"id": "Beans-37",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 2",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 15944.54,
+				"y": 13984.98,
+				"id": "Beans-38",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 3",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 17496.37,
+				"y": -22493.29,
+				"id": "Beans-39",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 3",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 19108.13,
+				"y": 1302.42,
+				"id": "Beans-40",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 9",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 19276.81,
+				"y": 14490.89,
+				"id": "Beans-41",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 10",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 20370.7,
+				"y": -11235.71,
+				"id": "Beans-42",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 16",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 21010.48,
+				"y": 9389.97,
+				"id": "Beans-43",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 2",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 22591.46,
+				"y": -20493.59,
+				"id": "Beans-44",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 6",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 25496.85,
+				"y": -25503.42,
+				"id": "Beans-45",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 1",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 25905.18,
+				"y": -13294.25,
+				"id": "Beans-46",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 7",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 28715.35,
+				"y": -22244.83,
+				"id": "Beans-47",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 10",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 30424.03,
+				"y": -12012.61,
+				"id": "Beans-48",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 9",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 33564.48,
+				"y": -12186.97,
+				"id": "Beans-49",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 1",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 35596.92,
+				"y": 15377.25,
+				"id": "Beans-50",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 12",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 43978.08,
+				"y": 6803.31,
+				"id": "Beans-51",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 4",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 47764.36,
+				"y": 5169.74,
+				"id": "Beans-52",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 5",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 52736.97,
+				"y": 3073.37,
+				"id": "Beans-53",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 15",
+				"article": "Soy Beans"
+			},
+			{
+				"x": 74836.18,
+				"y": -927.6,
+				"id": "Beans-54",
+				"name": "Soy Beans",
+				"description": "Amount of Soy Beans: 5",
+				"article": "Soy Beans"
+			}
+		],
+		"Berries": [
+			{
+				"x": -79439.64,
+				"y": -68589.96,
+				"id": "Berries-1",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -77200.85,
+				"y": -65447.34,
+				"id": "Berries-2",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 11",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -76577.18,
+				"y": -62675.49,
+				"id": "Berries-3",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -71499.48,
+				"y": -77468.51,
+				"id": "Berries-4",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 10",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -69747.42,
+				"y": -74778.8,
+				"id": "Berries-5",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -28514.29,
+				"y": 81721.17,
+				"id": "Berries-6",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 11",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -25817.71,
+				"y": 73865.2,
+				"id": "Berries-7",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -24641.73,
+				"y": 61611.81,
+				"id": "Berries-8",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -22939.65,
+				"y": 79035.54,
+				"id": "Berries-9",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -21279.1,
+				"y": 61875.27,
+				"id": "Berries-10",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 7",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -20895.6,
+				"y": 65875.47,
+				"id": "Berries-11",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 11",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -20750.55,
+				"y": 58457.49,
+				"id": "Berries-12",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 11",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -19041.42,
+				"y": 71083.35,
+				"id": "Berries-13",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 7",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -18801.48,
+				"y": -37910.73,
+				"id": "Berries-14",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 10",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -18084.33,
+				"y": 62742.02,
+				"id": "Berries-15",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -17394.45,
+				"y": 53274.89,
+				"id": "Berries-16",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 7",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -16076.96,
+				"y": 66730.64,
+				"id": "Berries-17",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 9",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -14375.72,
+				"y": 41954.13,
+				"id": "Berries-18",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 11",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -14035.62,
+				"y": 48956.18,
+				"id": "Berries-19",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 7",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -12043.83,
+				"y": -19566.49,
+				"id": "Berries-20",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 10",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -11505.99,
+				"y": 40243.94,
+				"id": "Berries-21",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -11091.64,
+				"y": 46519.26,
+				"id": "Berries-22",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 9",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -10211.19,
+				"y": -13858.23,
+				"id": "Berries-23",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -9938.38,
+				"y": -24818.49,
+				"id": "Berries-24",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -9095.05,
+				"y": 36361.97,
+				"id": "Berries-25",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -8507.18,
+				"y": 76574.06,
+				"id": "Berries-26",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -7050.03,
+				"y": 40604.74,
+				"id": "Berries-27",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 15",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -6571.08,
+				"y": 17742.21,
+				"id": "Berries-28",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -5986.65,
+				"y": 23171.49,
+				"id": "Berries-29",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -5790.48,
+				"y": 42416.87,
+				"id": "Berries-30",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 8",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -4728.21,
+				"y": -14147.46,
+				"id": "Berries-31",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -4105.52,
+				"y": -8908.97,
+				"id": "Berries-32",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -2991.25,
+				"y": 27179.85,
+				"id": "Berries-33",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -2454.62,
+				"y": 69354.48,
+				"id": "Berries-34",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -1157.97,
+				"y": 64620.04,
+				"id": "Berries-35",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -448.71,
+				"y": 55032.8,
+				"id": "Berries-36",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": -447.9,
+				"y": 23142.82,
+				"id": "Berries-37",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2281.22,
+				"y": 31819.37,
+				"id": "Berries-38",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 9",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2318.27,
+				"y": 27605.86,
+				"id": "Berries-39",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2433.01,
+				"y": 47924.39,
+				"id": "Berries-40",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 7",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 2660.37,
+				"y": 53615.93,
+				"id": "Berries-41",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 3172.91,
+				"y": 13378.16,
+				"id": "Berries-42",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 3374.23,
+				"y": 44617.58,
+				"id": "Berries-43",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 4195.89,
+				"y": -23976.25,
+				"id": "Berries-44",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 4408.81,
+				"y": -19809.8,
+				"id": "Berries-45",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 11",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 4615.4,
+				"y": 23232.33,
+				"id": "Berries-46",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 14",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 5695.56,
+				"y": 33828.37,
+				"id": "Berries-47",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 5930.89,
+				"y": 28221.16,
+				"id": "Berries-48",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 14",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 6991.64,
+				"y": 13579.65,
+				"id": "Berries-49",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 8415.09,
+				"y": -8417.16,
+				"id": "Berries-50",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 7",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 8734.08,
+				"y": -17333.65,
+				"id": "Berries-51",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 9441.37,
+				"y": -20801.22,
+				"id": "Berries-52",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 14",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 9674.22,
+				"y": 41269.57,
+				"id": "Berries-53",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 8",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 10315.04,
+				"y": 24259.31,
+				"id": "Berries-54",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 10324.15,
+				"y": 4590.7,
+				"id": "Berries-55",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 8",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 11433.65,
+				"y": 16467.05,
+				"id": "Berries-56",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 12",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 12025.04,
+				"y": -5903.21,
+				"id": "Berries-57",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 15129.93,
+				"y": 2823.38,
+				"id": "Berries-58",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 15276.37,
+				"y": -8795.19,
+				"id": "Berries-59",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 9",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 15974.16,
+				"y": -22969.6,
+				"id": "Berries-60",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 15",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 16870.43,
+				"y": 14344.95,
+				"id": "Berries-61",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 8",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 18345.68,
+				"y": -19512.47,
+				"id": "Berries-62",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 18850.39,
+				"y": 10176.44,
+				"id": "Berries-63",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 7",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 19752.69,
+				"y": -10826.1,
+				"id": "Berries-64",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 8",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 20084.58,
+				"y": 1807.76,
+				"id": "Berries-65",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 10",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 21079.03,
+				"y": -14780.11,
+				"id": "Berries-66",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 21503.56,
+				"y": -21737.14,
+				"id": "Berries-67",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 16",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 22959.2,
+				"y": 8753.98,
+				"id": "Berries-68",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 8",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 23913.39,
+				"y": -10252.44,
+				"id": "Berries-69",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 23953.7,
+				"y": -18693.71,
+				"id": "Berries-70",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 24614.85,
+				"y": -22309.54,
+				"id": "Berries-71",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 25596.27,
+				"y": -285.26,
+				"id": "Berries-72",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 1",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 26003.61,
+				"y": 3898.01,
+				"id": "Berries-73",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 26040.85,
+				"y": -23261.75,
+				"id": "Berries-74",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 5",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 26547.26,
+				"y": 12416.04,
+				"id": "Berries-75",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 28040.16,
+				"y": -11674.6,
+				"id": "Berries-76",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 6",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 29043.73,
+				"y": -13305.68,
+				"id": "Berries-77",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 31759.17,
+				"y": -11667.52,
+				"id": "Berries-78",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 3",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 33896.66,
+				"y": 12175.19,
+				"id": "Berries-79",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 12",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 35448.78,
+				"y": 16772.83,
+				"id": "Berries-80",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 4",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 43680.61,
+				"y": 8840.88,
+				"id": "Berries-81",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 47328.84,
+				"y": 6049.98,
+				"id": "Berries-82",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 10",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 52306.5,
+				"y": 2489.48,
+				"id": "Berries-83",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 12",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 52888.43,
+				"y": -674.91,
+				"id": "Berries-84",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 2",
+				"article": "Wild Berries"
+			},
+			{
+				"x": 74584.15,
+				"y": -1407.54,
+				"id": "Berries-85",
+				"name": "Wild Berries",
+				"description": "Amount of Wild Berries: 11",
+				"article": "Wild Berries"
+			}
+		],
+		"Carrot": [
+			{
+				"x": -9874.68,
+				"y": 38545.05,
+				"id": "Carrot-1",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 34",
+				"article": "Carrots"
+			},
+			{
+				"x": 4177.7,
+				"y": 4165.88,
+				"id": "Carrot-2",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 38",
+				"article": "Carrots"
+			},
+			{
+				"x": 4206.13,
+				"y": -19568.54,
+				"id": "Carrot-3",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 31",
+				"article": "Carrots"
+			},
+			{
+				"x": 5135.4,
+				"y": -23330.98,
+				"id": "Carrot-4",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 24",
+				"article": "Carrots"
+			},
+			{
+				"x": 6993.02,
+				"y": 27553.09,
+				"id": "Carrot-5",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 37",
+				"article": "Carrots"
+			},
+			{
+				"x": 7707.29,
+				"y": -24201.48,
+				"id": "Carrot-6",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 4",
+				"article": "Carrots"
+			},
+			{
+				"x": 9774.93,
+				"y": -20634.39,
+				"id": "Carrot-7",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 109",
+				"article": "Carrots"
+			},
+			{
+				"x": 10338.89,
+				"y": -3841.18,
+				"id": "Carrot-8",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 35",
+				"article": "Carrots"
+			},
+			{
+				"x": 10935.63,
+				"y": 4389.72,
+				"id": "Carrot-9",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 50",
+				"article": "Carrots"
+			},
+			{
+				"x": 25885.93,
+				"y": 6642.33,
+				"id": "Carrot-10",
+				"name": "Carrots",
+				"description": "Amount of Carrots: 14",
+				"article": "Carrots"
+			}
+		],
+		"Cocoa": [
+			{
+				"x": -25896.81,
+				"y": 76724.79,
+				"id": "Cocoa-1",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 18",
+				"article": "Cocoa"
+			},
+			{
+				"x": -21335.34,
+				"y": 14905.8,
+				"id": "Cocoa-2",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 25",
+				"article": "Cocoa"
+			},
+			{
+				"x": -20246.89,
+				"y": 72853.48,
+				"id": "Cocoa-3",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 1",
+				"article": "Cocoa"
+			},
+			{
+				"x": -18164.98,
+				"y": -38972.88,
+				"id": "Cocoa-4",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 3",
+				"article": "Cocoa"
+			},
+			{
+				"x": -11934.48,
+				"y": -34633.05,
+				"id": "Cocoa-5",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 7",
+				"article": "Cocoa"
+			},
+			{
+				"x": -8998.05,
+				"y": -22607.89,
+				"id": "Cocoa-6",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 66",
+				"article": "Cocoa"
+			},
+			{
+				"x": -8069.7,
+				"y": -16148.13,
+				"id": "Cocoa-7",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 23",
+				"article": "Cocoa"
+			},
+			{
+				"x": -7887.37,
+				"y": -10029.93,
+				"id": "Cocoa-8",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 30",
+				"article": "Cocoa"
+			},
+			{
+				"x": -7013.73,
+				"y": -26242.92,
+				"id": "Cocoa-9",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 35",
+				"article": "Cocoa"
+			},
+			{
+				"x": 10889.02,
+				"y": 22672.41,
+				"id": "Cocoa-10",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 38",
+				"article": "Cocoa"
+			},
+			{
+				"x": 22372.28,
+				"y": 12433.54,
+				"id": "Cocoa-11",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 9",
+				"article": "Cocoa"
+			},
+			{
+				"x": 35131.64,
+				"y": 15089.76,
+				"id": "Cocoa-12",
+				"name": "Cocoa",
+				"description": "Amount of Cocoa: 22",
+				"article": "Cocoa"
+			}
+		],
+		"Coffee": [
+			{
+				"x": -14685.71,
+				"y": 43004.01,
+				"id": "Coffee-1",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 6",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -13742.38,
+				"y": -35540.48,
+				"id": "Coffee-2",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 32",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -10465.78,
+				"y": -15920.16,
+				"id": "Coffee-3",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 10",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -10053.57,
+				"y": -24267.05,
+				"id": "Coffee-4",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 15",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -9199.12,
+				"y": -27498.84,
+				"id": "Coffee-5",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 3",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -7822.35,
+				"y": 39249.71,
+				"id": "Coffee-6",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 26",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -6524.43,
+				"y": -19280.8,
+				"id": "Coffee-7",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 34",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -5501.47,
+				"y": -15011.95,
+				"id": "Coffee-8",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 36",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": -5259.14,
+				"y": -8590.58,
+				"id": "Coffee-9",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 23",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 1947.47,
+				"y": 23880.54,
+				"id": "Coffee-10",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 25",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 5171.6,
+				"y": 30732.23,
+				"id": "Coffee-11",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 17",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 9219.82,
+				"y": -15180.23,
+				"id": "Coffee-12",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 5",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 9682.39,
+				"y": -23379.27,
+				"id": "Coffee-13",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 4",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 10407.15,
+				"y": -20209.68,
+				"id": "Coffee-14",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 4",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 10593.56,
+				"y": -12243.14,
+				"id": "Coffee-15",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 14",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 10895.71,
+				"y": 4755.42,
+				"id": "Coffee-16",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 35",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 11929.6,
+				"y": 16461.88,
+				"id": "Coffee-17",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 1",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 15147.26,
+				"y": 14209.27,
+				"id": "Coffee-18",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 6",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 18228.16,
+				"y": -20066.42,
+				"id": "Coffee-19",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 1",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 18728.93,
+				"y": 13813.75,
+				"id": "Coffee-20",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 14",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 20308.34,
+				"y": 1964.42,
+				"id": "Coffee-21",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 18",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 22700.86,
+				"y": -12000.48,
+				"id": "Coffee-22",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 54",
+				"article": "Coffee Beans"
+			},
+			{
+				"x": 25960.15,
+				"y": -19905.53,
+				"id": "Coffee-23",
+				"name": "Coffee Beans",
+				"description": "Amount of Coffee Beans: 15",
+				"article": "Coffee Beans"
+			}
+		],
+		"ConiferFlower": [
+			{
+				"x": -77904.88,
+				"y": -62801.16,
+				"id": "ConiferFlower-1",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -77527.22,
+				"y": -65450.9,
+				"id": "ConiferFlower-2",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 10",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -73441.82,
+				"y": -75701.07,
+				"id": "ConiferFlower-3",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 6",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -27619.54,
+				"y": 82145.49,
+				"id": "ConiferFlower-4",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 10",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -21474.82,
+				"y": 74188.99,
+				"id": "ConiferFlower-5",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -21027.78,
+				"y": 15407.83,
+				"id": "ConiferFlower-6",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 5",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -20377.83,
+				"y": 65204.73,
+				"id": "ConiferFlower-7",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 14",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -17851.93,
+				"y": 57976.75,
+				"id": "ConiferFlower-8",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -10789.18,
+				"y": 37452.03,
+				"id": "ConiferFlower-9",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 3",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -10600.8,
+				"y": 40132.07,
+				"id": "ConiferFlower-10",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 13",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -9938.51,
+				"y": 45393.98,
+				"id": "ConiferFlower-11",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 13",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": -5779.9,
+				"y": 21907.8,
+				"id": "ConiferFlower-12",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 21067.93,
+				"y": 13195.26,
+				"id": "ConiferFlower-13",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 4",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 25660.84,
+				"y": -58.53,
+				"id": "ConiferFlower-14",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 2",
+				"article": "Conifer Flower"
+			},
+			{
+				"x": 34101.32,
+				"y": 14822.7,
+				"id": "ConiferFlower-15",
+				"name": "Conifer Flower",
+				"description": "Amount of Conifer Flower: 8",
+				"article": "Conifer Flower"
+			}
+		],
+		"PalmBush": [
+			{
+				"x": -82733.55,
+				"y": -76203.2,
+				"id": "PalmBush-1",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 4",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -78776.45,
+				"y": -80436.93,
+				"id": "PalmBush-2",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 29",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -78204.22,
+				"y": -57595.04,
+				"id": "PalmBush-3",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 12",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -76091.97,
+				"y": -83312.51,
+				"id": "PalmBush-4",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -74877.76,
+				"y": -56116.18,
+				"id": "PalmBush-5",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -66611.64,
+				"y": -62617.76,
+				"id": "PalmBush-6",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 42",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -65603.66,
+				"y": -74264.52,
+				"id": "PalmBush-7",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 24",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -64057.14,
+				"y": -78515.55,
+				"id": "PalmBush-8",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 10",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -63870.61,
+				"y": -87557.64,
+				"id": "PalmBush-9",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 18",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -60057.42,
+				"y": -71169.59,
+				"id": "PalmBush-10",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 21",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -57189.94,
+				"y": 7595.24,
+				"id": "PalmBush-11",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 8",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -54196.55,
+				"y": -60394.67,
+				"id": "PalmBush-12",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 21",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -51340.89,
+				"y": -53367.74,
+				"id": "PalmBush-13",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 5",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -47346.53,
+				"y": -48946.13,
+				"id": "PalmBush-14",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 8",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -46723.79,
+				"y": 13365.02,
+				"id": "PalmBush-15",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 5",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -45985.75,
+				"y": -59757.11,
+				"id": "PalmBush-16",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -45477.61,
+				"y": -9225.43,
+				"id": "PalmBush-17",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 18",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -45214.99,
+				"y": 69287.79,
+				"id": "PalmBush-18",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -44600.6,
+				"y": 66678.74,
+				"id": "PalmBush-19",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 32",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -44146.15,
+				"y": 73055.75,
+				"id": "PalmBush-20",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 32",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -43145.17,
+				"y": -46978.48,
+				"id": "PalmBush-21",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 13",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -43054.77,
+				"y": -59997.77,
+				"id": "PalmBush-22",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 113",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -42247.49,
+				"y": 75948.82,
+				"id": "PalmBush-23",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 3",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -41830.74,
+				"y": 62340.96,
+				"id": "PalmBush-24",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 27",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -40472.1,
+				"y": 79356.12,
+				"id": "PalmBush-25",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 41",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -38917.56,
+				"y": 53328.21,
+				"id": "PalmBush-26",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 16",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -38732.12,
+				"y": 47771.28,
+				"id": "PalmBush-27",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 26",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -38711.75,
+				"y": -57335.85,
+				"id": "PalmBush-28",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 15",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -38370.61,
+				"y": 56844.01,
+				"id": "PalmBush-29",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 41",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -38344.37,
+				"y": 44453.35,
+				"id": "PalmBush-30",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 8",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -36801.38,
+				"y": -39654.91,
+				"id": "PalmBush-31",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 10",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -35377.35,
+				"y": 82468.46,
+				"id": "PalmBush-32",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 23",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -34911.16,
+				"y": 40492.81,
+				"id": "PalmBush-33",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 38",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -34503.5,
+				"y": -53053.68,
+				"id": "PalmBush-34",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 16",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -32596.02,
+				"y": -31730.95,
+				"id": "PalmBush-35",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 13",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -31361.36,
+				"y": -27944.57,
+				"id": "PalmBush-36",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 26",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -31092.86,
+				"y": -50192.64,
+				"id": "PalmBush-37",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 37",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -30500.91,
+				"y": 84485.68,
+				"id": "PalmBush-38",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 21",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -29704.97,
+				"y": 33271.47,
+				"id": "PalmBush-39",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 56",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -27225.73,
+				"y": -20418.88,
+				"id": "PalmBush-40",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 15",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -27086.76,
+				"y": 10763.28,
+				"id": "PalmBush-41",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 44",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -26138.04,
+				"y": -10289.7,
+				"id": "PalmBush-42",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 15",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -26077.68,
+				"y": 83669.55,
+				"id": "PalmBush-43",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 10",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -26076.24,
+				"y": 28468.44,
+				"id": "PalmBush-44",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 29",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -24859.05,
+				"y": -16942.23,
+				"id": "PalmBush-45",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 6",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -24424.2,
+				"y": -6204.81,
+				"id": "PalmBush-46",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 18",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -22931.28,
+				"y": -46238.04,
+				"id": "PalmBush-47",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 6",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -22652.69,
+				"y": 9816.33,
+				"id": "PalmBush-48",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 116",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -22559.66,
+				"y": 14211.41,
+				"id": "PalmBush-49",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 13",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -22547.93,
+				"y": 18855.12,
+				"id": "PalmBush-50",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 10",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -21891.67,
+				"y": 82447.44,
+				"id": "PalmBush-51",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 37",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -21657.48,
+				"y": 5781.68,
+				"id": "PalmBush-52",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 24",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -18739.24,
+				"y": -45017.96,
+				"id": "PalmBush-53",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -16095.92,
+				"y": 83744.11,
+				"id": "PalmBush-54",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 19",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -14563.97,
+				"y": -37988.21,
+				"id": "PalmBush-55",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 8",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -11777.0,
+				"y": 82768.98,
+				"id": "PalmBush-56",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 8",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -9714.89,
+				"y": -34753.71,
+				"id": "PalmBush-57",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 24",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -9346.27,
+				"y": 80202.86,
+				"id": "PalmBush-58",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 34",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -7317.45,
+				"y": 77854.27,
+				"id": "PalmBush-59",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 3",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -3568.71,
+				"y": -42628.83,
+				"id": "PalmBush-60",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 69",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -3256.08,
+				"y": -32437.59,
+				"id": "PalmBush-61",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 39",
+				"article": "Palm Bush"
+			},
+			{
+				"x": -2575.89,
+				"y": -40819.97,
+				"id": "PalmBush-62",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 24",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 0.0,
+				"y": 32768.0,
+				"id": "PalmBush-63",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 0.0,
+				"y": 0.0,
+				"id": "PalmBush-64",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 32.13,
+				"y": 72204.18,
+				"id": "PalmBush-65",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 14",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 632.92,
+				"y": -43094.78,
+				"id": "PalmBush-66",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 5",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 1309.61,
+				"y": 65543.81,
+				"id": "PalmBush-67",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 20",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 4302.2,
+				"y": 61092.31,
+				"id": "PalmBush-68",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 37",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 5791.76,
+				"y": -35749.12,
+				"id": "PalmBush-69",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 2",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 7259.2,
+				"y": 56536.05,
+				"id": "PalmBush-70",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 23",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 10752.88,
+				"y": 49057.39,
+				"id": "PalmBush-71",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 34",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 13793.93,
+				"y": 44070.95,
+				"id": "PalmBush-72",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 13",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 14786.35,
+				"y": 40651.51,
+				"id": "PalmBush-73",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 19",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 16069.48,
+				"y": -34112.18,
+				"id": "PalmBush-74",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 43",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 17173.09,
+				"y": 35527.75,
+				"id": "PalmBush-75",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 16",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 21383.74,
+				"y": 32840.21,
+				"id": "PalmBush-76",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 30",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 22802.76,
+				"y": -34072.5,
+				"id": "PalmBush-77",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 26",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 26221.51,
+				"y": 29400.0,
+				"id": "PalmBush-78",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 28",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 28740.92,
+				"y": -34834.32,
+				"id": "PalmBush-79",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 20",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 29623.46,
+				"y": -15645.11,
+				"id": "PalmBush-80",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 38",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 30870.72,
+				"y": -27450.6,
+				"id": "PalmBush-81",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 32",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 31996.02,
+				"y": 24808.46,
+				"id": "PalmBush-82",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 10",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 32405.39,
+				"y": -23541.83,
+				"id": "PalmBush-83",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 39",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 32431.78,
+				"y": -19392.73,
+				"id": "PalmBush-84",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 24",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 33858.18,
+				"y": -16196.93,
+				"id": "PalmBush-85",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 81",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 34738.12,
+				"y": -12953.64,
+				"id": "PalmBush-86",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 3",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 34885.93,
+				"y": 22108.09,
+				"id": "PalmBush-87",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 23",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 36497.96,
+				"y": -16419.88,
+				"id": "PalmBush-88",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 4",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 38374.7,
+				"y": 14960.25,
+				"id": "PalmBush-89",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 38",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 40914.79,
+				"y": -16628.6,
+				"id": "PalmBush-90",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 6",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 42854.74,
+				"y": 13526.53,
+				"id": "PalmBush-91",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 28",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 43801.05,
+				"y": -16663.26,
+				"id": "PalmBush-92",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 15",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 46478.18,
+				"y": -16551.59,
+				"id": "PalmBush-93",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 1",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 47335.54,
+				"y": 10006.17,
+				"id": "PalmBush-94",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 6",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 48720.76,
+				"y": 6970.93,
+				"id": "PalmBush-95",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 40",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 54311.51,
+				"y": -11356.16,
+				"id": "PalmBush-96",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 58",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 54411.62,
+				"y": 6011.38,
+				"id": "PalmBush-97",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 30",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 60029.11,
+				"y": 8458.3,
+				"id": "PalmBush-98",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 16",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 61983.89,
+				"y": -11450.52,
+				"id": "PalmBush-99",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 16",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 63723.09,
+				"y": 12381.02,
+				"id": "PalmBush-100",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 6",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 66496.27,
+				"y": -9575.65,
+				"id": "PalmBush-101",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 32",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 67135.74,
+				"y": 13216.93,
+				"id": "PalmBush-102",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 13",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 71771.89,
+				"y": -7751.97,
+				"id": "PalmBush-103",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 28",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 71961.9,
+				"y": 9003.03,
+				"id": "PalmBush-104",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 32",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 73200.93,
+				"y": 5233.52,
+				"id": "PalmBush-105",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 43",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 74931.33,
+				"y": -6882.91,
+				"id": "PalmBush-106",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 9",
+				"article": "Palm Bush"
+			},
+			{
+				"x": 76760.29,
+				"y": 3359.29,
+				"id": "PalmBush-107",
+				"name": "Palm Bush",
+				"description": "Amount of Palm Bush: 32",
+				"article": "Palm Bush"
+			}
+		],
+		"Pumpkin": [
+			{
+				"x": -79109.66,
+				"y": -80000.31,
+				"id": "Pumpkin-1",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -77383.28,
+				"y": -57138.97,
+				"id": "Pumpkin-2",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -67939.27,
+				"y": -62278.67,
+				"id": "Pumpkin-3",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -65548.8,
+				"y": -74259.23,
+				"id": "Pumpkin-4",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 3",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -64389.54,
+				"y": -87766.08,
+				"id": "Pumpkin-5",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -59251.64,
+				"y": -70568.19,
+				"id": "Pumpkin-6",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -55684.7,
+				"y": -60671.71,
+				"id": "Pumpkin-7",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -45268.03,
+				"y": -48590.43,
+				"id": "Pumpkin-8",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -42579.0,
+				"y": -60004.6,
+				"id": "Pumpkin-9",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -40009.31,
+				"y": -55892.89,
+				"id": "Pumpkin-10",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -36861.63,
+				"y": -38487.98,
+				"id": "Pumpkin-11",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -31901.04,
+				"y": -30101.42,
+				"id": "Pumpkin-12",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 3",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -30926.71,
+				"y": -50140.22,
+				"id": "Pumpkin-13",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -28828.45,
+				"y": -22635.07,
+				"id": "Pumpkin-14",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -25964.34,
+				"y": -10056.02,
+				"id": "Pumpkin-15",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -24689.64,
+				"y": 76400.57,
+				"id": "Pumpkin-16",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 6",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -21829.72,
+				"y": 61261.97,
+				"id": "Pumpkin-17",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 9",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -21616.31,
+				"y": -46175.61,
+				"id": "Pumpkin-18",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -20963.16,
+				"y": 18028.01,
+				"id": "Pumpkin-19",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 4",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -20414.83,
+				"y": 8711.92,
+				"id": "Pumpkin-20",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 5",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -19616.13,
+				"y": 64760.84,
+				"id": "Pumpkin-21",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 6",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -12925.62,
+				"y": -37780.62,
+				"id": "Pumpkin-22",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -10827.02,
+				"y": 47264.88,
+				"id": "Pumpkin-23",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 3",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -7785.68,
+				"y": 38018.08,
+				"id": "Pumpkin-24",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 6",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -5050.59,
+				"y": -39171.24,
+				"id": "Pumpkin-25",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -4128.82,
+				"y": 2947.05,
+				"id": "Pumpkin-26",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 19",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -3678.24,
+				"y": -42409.98,
+				"id": "Pumpkin-27",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 4",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -2106.08,
+				"y": -32497.91,
+				"id": "Pumpkin-28",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": -642.02,
+				"y": 23065.17,
+				"id": "Pumpkin-29",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 8",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 2102.53,
+				"y": 3.31,
+				"id": "Pumpkin-30",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 5",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 2115.78,
+				"y": -22917.25,
+				"id": "Pumpkin-31",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 2625.48,
+				"y": 11293.35,
+				"id": "Pumpkin-32",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 3705.66,
+				"y": -15376.55,
+				"id": "Pumpkin-33",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 5510.01,
+				"y": -9119.76,
+				"id": "Pumpkin-34",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 6261.7,
+				"y": 28086.31,
+				"id": "Pumpkin-35",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 7530.55,
+				"y": 3875.18,
+				"id": "Pumpkin-36",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 3",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 9778.68,
+				"y": -25828.07,
+				"id": "Pumpkin-37",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 11162.67,
+				"y": 22294.6,
+				"id": "Pumpkin-38",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 4",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 11825.32,
+				"y": 42550.02,
+				"id": "Pumpkin-39",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 13086.87,
+				"y": 37927.66,
+				"id": "Pumpkin-40",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 13749.23,
+				"y": -14731.84,
+				"id": "Pumpkin-41",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 15042.22,
+				"y": -32062.52,
+				"id": "Pumpkin-42",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 15748.96,
+				"y": -25456.69,
+				"id": "Pumpkin-43",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 16130.73,
+				"y": 10814.65,
+				"id": "Pumpkin-44",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 16376.85,
+				"y": -6938.98,
+				"id": "Pumpkin-45",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 17088.05,
+				"y": 33056.38,
+				"id": "Pumpkin-46",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 19159.95,
+				"y": -23342.84,
+				"id": "Pumpkin-47",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 6",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 20286.37,
+				"y": 16447.81,
+				"id": "Pumpkin-48",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 22012.84,
+				"y": -14463.14,
+				"id": "Pumpkin-49",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 22275.94,
+				"y": -32042.97,
+				"id": "Pumpkin-50",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 23295.58,
+				"y": -7884.57,
+				"id": "Pumpkin-51",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 3",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 24690.49,
+				"y": 10971.7,
+				"id": "Pumpkin-52",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 29300.02,
+				"y": -28491.22,
+				"id": "Pumpkin-53",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 1",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 29978.29,
+				"y": 9896.91,
+				"id": "Pumpkin-54",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 3",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 50254.96,
+				"y": -10947.17,
+				"id": "Pumpkin-55",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 2",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 60125.34,
+				"y": -10486.08,
+				"id": "Pumpkin-56",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 4",
+				"article": "Pumpkin"
+			},
+			{
+				"x": 77074.47,
+				"y": -2580.83,
+				"id": "Pumpkin-57",
+				"name": "Pumpkin",
+				"description": "Amount of Pumpkin: 3",
+				"article": "Pumpkin"
+			}
+		],
+		"Watermelon": [
+			{
+				"x": -81615.11,
+				"y": -61960.12,
+				"id": "Watermelon-1",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -76923.77,
+				"y": -77979.93,
+				"id": "Watermelon-2",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -74276.48,
+				"y": -80669.71,
+				"id": "Watermelon-3",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 3",
+				"article": "Watermelon"
+			},
+			{
+				"x": -73679.05,
+				"y": -59780.79,
+				"id": "Watermelon-4",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 3",
+				"article": "Watermelon"
+			},
+			{
+				"x": -67295.16,
+				"y": -87827.61,
+				"id": "Watermelon-5",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 3",
+				"article": "Watermelon"
+			},
+			{
+				"x": -62157.94,
+				"y": -69382.07,
+				"id": "Watermelon-6",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -52296.36,
+				"y": -3824.56,
+				"id": "Watermelon-7",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -44132.4,
+				"y": 72773.23,
+				"id": "Watermelon-8",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -44039.87,
+				"y": 64275.38,
+				"id": "Watermelon-9",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -41278.49,
+				"y": 79398.57,
+				"id": "Watermelon-10",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -39610.2,
+				"y": -43542.58,
+				"id": "Watermelon-11",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": -39013.51,
+				"y": 48498.28,
+				"id": "Watermelon-12",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": -38453.65,
+				"y": 55645.92,
+				"id": "Watermelon-13",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -34734.41,
+				"y": -36648.62,
+				"id": "Watermelon-14",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -34528.9,
+				"y": 41398.03,
+				"id": "Watermelon-15",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -32105.07,
+				"y": 84449.56,
+				"id": "Watermelon-16",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -29971.64,
+				"y": 33795.04,
+				"id": "Watermelon-17",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": -28430.44,
+				"y": -26081.85,
+				"id": "Watermelon-18",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": -28236.21,
+				"y": -45879.62,
+				"id": "Watermelon-19",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 5",
+				"article": "Watermelon"
+			},
+			{
+				"x": -27825.77,
+				"y": 86714.77,
+				"id": "Watermelon-20",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": -26909.08,
+				"y": -22112.11,
+				"id": "Watermelon-21",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -25773.68,
+				"y": 10888.12,
+				"id": "Watermelon-22",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 3",
+				"article": "Watermelon"
+			},
+			{
+				"x": -25773.15,
+				"y": 28410.26,
+				"id": "Watermelon-23",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": -22607.79,
+				"y": -5153.61,
+				"id": "Watermelon-24",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": -22556.52,
+				"y": 17578.26,
+				"id": "Watermelon-25",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -22020.97,
+				"y": -43024.58,
+				"id": "Watermelon-26",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": -21193.37,
+				"y": 7596.4,
+				"id": "Watermelon-27",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 4",
+				"article": "Watermelon"
+			},
+			{
+				"x": -21005.34,
+				"y": 83509.47,
+				"id": "Watermelon-28",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -15237.13,
+				"y": -31748.07,
+				"id": "Watermelon-29",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -14128.84,
+				"y": -24300.26,
+				"id": "Watermelon-30",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": -13339.27,
+				"y": -38191.57,
+				"id": "Watermelon-31",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": -10647.1,
+				"y": 83214.93,
+				"id": "Watermelon-32",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -10042.7,
+				"y": -29136.11,
+				"id": "Watermelon-33",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 3",
+				"article": "Watermelon"
+			},
+			{
+				"x": -9950.31,
+				"y": -10664.42,
+				"id": "Watermelon-34",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": -8364.84,
+				"y": -18089.2,
+				"id": "Watermelon-35",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": -7048.61,
+				"y": 78231.36,
+				"id": "Watermelon-36",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": 0.0,
+				"y": 0.0,
+				"id": "Watermelon-37",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 2",
+				"article": "Watermelon"
+			},
+			{
+				"x": 47.3,
+				"y": 72919.71,
+				"id": "Watermelon-38",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": 2504.15,
+				"y": -18063.27,
+				"id": "Watermelon-39",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 17",
+				"article": "Watermelon"
+			},
+			{
+				"x": 8691.17,
+				"y": -17036.52,
+				"id": "Watermelon-40",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 1",
+				"article": "Watermelon"
+			},
+			{
+				"x": 19484.12,
+				"y": -12277.96,
+				"id": "Watermelon-41",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 17",
+				"article": "Watermelon"
+			},
+			{
+				"x": 21067.93,
+				"y": 13195.26,
+				"id": "Watermelon-42",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 4",
+				"article": "Watermelon"
+			},
+			{
+				"x": 25609.77,
+				"y": -25.57,
+				"id": "Watermelon-43",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 3",
+				"article": "Watermelon"
+			},
+			{
+				"x": 29386.05,
+				"y": -20530.08,
+				"id": "Watermelon-44",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 21",
+				"article": "Watermelon"
+			},
+			{
+				"x": 33543.01,
+				"y": -14461.58,
+				"id": "Watermelon-45",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 3",
+				"article": "Watermelon"
+			},
+			{
+				"x": 34101.32,
+				"y": 14822.7,
+				"id": "Watermelon-46",
+				"name": "Watermelon",
+				"description": "Amount of Watermelon: 8",
+				"article": "Watermelon"
+			}
+		],
+		"Wheat": [
+			{
+				"x": -42678.2,
+				"y": -60305.77,
+				"id": "Wheat-1",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 82",
+				"article": "Wheat"
+			},
+			{
+				"x": -25187.39,
+				"y": 10544.43,
+				"id": "Wheat-2",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 276",
+				"article": "Wheat"
+			},
+			{
+				"x": -5912.92,
+				"y": -40845.51,
+				"id": "Wheat-3",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 76",
+				"article": "Wheat"
+			},
+			{
+				"x": -2201.88,
+				"y": -43445.01,
+				"id": "Wheat-4",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 335",
+				"article": "Wheat"
+			},
+			{
+				"x": -10.84,
+				"y": -33595.74,
+				"id": "Wheat-5",
+				"name": "Wheat",
+				"description": "Amount of Wheat: 4",
+				"article": "Wheat"
+			}
+		]
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"$schema": "https://icarus.wiki.gg/extensions/DataMaps/schemas/v17.3.json",
+	"crs": {
+		"order": "xy",
+		"topLeft": [
+			-151200.0,
+			-151200.0
+		],
+		"bottomRight": [
+			151200.0,
+			151200.0
+		]
+	},
+	"backgrounds": [
+		{
+			"name": "Outpost_013",
+			"associatedLayer": null,
+			"image": "MAP Outpost_013.jpg",
+			"overlays": [
+				{
+					"name": "Grid",
+					"image": "MAP Grid 4096.png",
+					"at": [
+						[
+							-151200.0,
+							-151200.0
+						],
+						[
+							151200.0,
+							151200.0
+						]
+					]
+				}
+			]
+		}
+	],
+	"settings": {
+		"enableSearch": true,
+		"showCoordinates": true
+	},
+	"groups": {},
+	"markers": {}
+}

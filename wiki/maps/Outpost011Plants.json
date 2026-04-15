@@ -1,0 +1,151 @@
+{
+	"$schema": "https://icarus.wiki.gg/extensions/DataMaps/schemas/v17.3.json",
+	"crs": {
+		"order": "xy",
+		"topLeft": [
+			-100800.0,
+			-100800.0
+		],
+		"bottomRight": [
+			100800.0,
+			100800.0
+		]
+	},
+	"backgrounds": [
+		{
+			"name": "Outpost_011",
+			"associatedLayer": null,
+			"image": "MAP Outpost_011.jpg",
+			"overlays": [
+				{
+					"name": "Grid",
+					"image": "MAP Grid 4096.png",
+					"at": [
+						[
+							-100800.0,
+							-100800.0
+						],
+						[
+							100800.0,
+							100800.0
+						]
+					]
+				}
+			]
+		}
+	],
+	"settings": {
+		"enableSearch": true,
+		"showCoordinates": true
+	},
+	"groups": {
+		"Mushroom": {
+			"name": "Mushrooms",
+			"size": [
+				40,
+				40
+			],
+			"icon": "ITEM Mushroom.png"
+		}
+	},
+	"markers": {
+		"Mushroom": [
+			{
+				"x": -81520.38,
+				"y": 1056.11,
+				"id": "Mushroom-1",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 110",
+				"article": "Mushrooms"
+			},
+			{
+				"x": -69314.01,
+				"y": -12405.39,
+				"id": "Mushroom-2",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 17",
+				"article": "Mushrooms"
+			},
+			{
+				"x": -55880.91,
+				"y": -3211.39,
+				"id": "Mushroom-3",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 89",
+				"article": "Mushrooms"
+			},
+			{
+				"x": -5535.71,
+				"y": 31720.11,
+				"id": "Mushroom-4",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 100",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 0.0,
+				"y": 0.0,
+				"id": "Mushroom-5",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 2",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 9184.72,
+				"y": 16990.58,
+				"id": "Mushroom-6",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 19",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 25858.42,
+				"y": 24364.06,
+				"id": "Mushroom-7",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 91",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 54753.42,
+				"y": -89823.46,
+				"id": "Mushroom-8",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 2",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 57624.97,
+				"y": -90863.66,
+				"id": "Mushroom-9",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 41",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 62052.76,
+				"y": -89870.89,
+				"id": "Mushroom-10",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 9",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 79412.5,
+				"y": -85322.64,
+				"id": "Mushroom-11",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 51",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 99926.35,
+				"y": 28426.8,
+				"id": "Mushroom-12",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 15",
+				"article": "Mushrooms"
+			}
+		]
+	}
+}
