@@ -1,0 +1,18 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+
+# Local scratch and extracted research data
+tmp/
+
+# Downloaded tool binaries and local export output
+tools/Ue4Export/
+tools/ue4export_output/
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+wiki/maps/MapStructure.md
