@@ -22,6 +22,7 @@ AUTO_CLUSTER_TARGET_PIXELS = 16.0
 AUTO_CLUSTER_MIN_THRESHOLD = 800.0
 AUTO_CLUSTER_MAX_THRESHOLD = 3200.0
 DEFAULT_MAX_CLUSTER_COUNT = 20
+DEFAULT_OUTPUT_DIR = Path(__file__).resolve().parents[1] / "plantMaps"
 
 INCLUDED_WORLD_IDS = {
     "Terrain_016",
@@ -352,12 +353,18 @@ def find_data_root(explicit_root: str | None = None) -> Path:
             return path
         fail(f"Data root does not contain InGameFiles: {path}")
 
-    candidates = [
-        Path.cwd(),
-        Path(__file__).resolve().parents[2],
-        Path(__file__).resolve().parents[3] / "Data",
-        Path.cwd().parent / "Data",
-    ]
+    candidates: list[Path] = []
+    github_workspace = os.environ.get("GITHUB_WORKSPACE")
+    if github_workspace:
+        candidates.append(Path(github_workspace))
+    candidates.extend(
+        [
+            Path.cwd(),
+            Path(__file__).resolve().parents[2],
+            Path(__file__).resolve().parents[3] / "Data",
+            Path.cwd().parent / "Data",
+        ]
+    )
     for candidate in candidates:
         if candidate.joinpath("InGameFiles").is_dir():
             return candidate.resolve()
@@ -482,6 +489,15 @@ def write_asset_list(asset_list_path: str | Path, mode: str, package_refs: list[
         for asset_path in asset_paths:
             handle.write(asset_path)
             handle.write("\n")
+
+
+def collect_package_refs(worlds: list[WorldConfig]) -> list[str]:
+    package_refs: list[str] = []
+    for world in worlds:
+        for package_ref in world.package_refs:
+            if package_ref not in package_refs:
+                package_refs.append(package_ref)
+    return package_refs
 
 
 def extract_positions_from_binary(
@@ -940,6 +956,119 @@ def dedupe_exact_positions(
         seen.add(key)
         deduped.append(position)
     return deduped
+
+
+def extract_world_positions(
+    worlds: list[WorldConfig],
+    text_dir: str | Path,
+    raw_dir: str | Path,
+    foliage_to_group: dict[str, str],
+    resource_actor_by_foliage: dict[str, str],
+    static_mesh_groups: dict[str, str] | None = None,
+) -> tuple[
+    dict[str, dict[str, list[tuple[float, float, float]]]],
+    dict[str, Counter[str]],
+    dict[str, int],
+]:
+    static_mesh_groups = static_mesh_groups or STATIC_MESH_GROUPS
+    dedupe_group_ids = set(static_mesh_groups.values())
+
+    positions_by_world: dict[str, dict[str, list[tuple[float, float, float]]]] = {
+        world.world_id: defaultdict(list) for world in worlds
+    }
+    unknown_by_world: dict[str, Counter[str]] = {
+        world.world_id: Counter() for world in worlds
+    }
+    processed_counts: dict[str, int] = {}
+
+    for world in worlds:
+        grouped_positions = positions_by_world[world.world_id]
+        processed_levels = 0
+        for package_ref in world.package_refs:
+            json_path = exported_json_path(text_dir, package_ref)
+            uexp_path = exported_uexp_path(raw_dir, package_ref)
+            if not json_path.is_file() or not uexp_path.is_file():
+                continue
+
+            level_positions, unknown = process_sublevel(
+                json_path,
+                uexp_path,
+                foliage_to_group,
+                resource_actor_by_foliage,
+                static_mesh_groups,
+            )
+            processed_levels += 1
+            for group_id, group_positions in level_positions.items():
+                grouped_positions[group_id].extend(group_positions)
+            unknown_by_world[world.world_id].update(unknown)
+
+        for group_id in dedupe_group_ids:
+            if group_id in grouped_positions:
+                grouped_positions[group_id] = dedupe_exact_positions(
+                    grouped_positions[group_id]
+                )
+
+        positions_by_world[world.world_id] = dict(grouped_positions)
+        processed_counts[world.world_id] = processed_levels
+
+    return positions_by_world, unknown_by_world, processed_counts
+
+
+def serialize_position_groups(
+    grouped_positions: dict[str, list[tuple[float, float, float]]],
+) -> dict[str, list[list[float]]]:
+    return {
+        group_id: [
+            [round(x, 2), round(y, 2), round(z, 2)]
+            for x, y, z in positions
+        ]
+        for group_id, positions in sorted(grouped_positions.items())
+        if positions
+    }
+
+
+def serialize_positions_by_world(
+    positions_by_world: dict[str, dict[str, list[tuple[float, float, float]]]],
+) -> dict[str, dict[str, list[list[float]]]]:
+    serialized: dict[str, dict[str, list[list[float]]]] = {}
+    for world_id, grouped_positions in sorted(positions_by_world.items()):
+        world_data = serialize_position_groups(grouped_positions)
+        if world_data:
+            serialized[world_id] = world_data
+    return serialized
+
+
+def load_partial_positions(
+    partials_dir: str | Path,
+) -> dict[str, dict[str, list[tuple[float, float, float]]]]:
+    merged: dict[str, dict[str, list[tuple[float, float, float]]]] = defaultdict(
+        lambda: defaultdict(list)
+    )
+    partial_paths = sorted(Path(partials_dir).glob("*.json"))
+    for partial_path in partial_paths:
+        data = _load_json(partial_path)
+        worlds = data.get("worlds", data) if isinstance(data, dict) else {}
+        if not isinstance(worlds, dict):
+            continue
+        for world_id, grouped_positions in worlds.items():
+            if not isinstance(grouped_positions, dict):
+                continue
+            for group_id, positions in grouped_positions.items():
+                if not isinstance(positions, list):
+                    continue
+                merged[world_id][group_id].extend(
+                    (
+                        float(position[0]),
+                        float(position[1]),
+                        float(position[2]) if len(position) > 2 else 0.0,
+                    )
+                    for position in positions
+                    if isinstance(position, (list, tuple)) and len(position) >= 2
+                )
+    return {
+        world_id: {group_id: list(positions) for group_id, positions in grouped.items()}
+        for world_id, grouped in merged.items()
+    }
 
 
 def exported_json_path(output_root: str | Path, package_ref: str) -> Path:

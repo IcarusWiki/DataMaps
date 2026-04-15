@@ -2,26 +2,21 @@
 from __future__ import annotations
 
 import argparse
-import os
 import re
 import shutil
 import tempfile
-from collections import Counter, defaultdict
 from pathlib import Path
 
 from map_plants_common import (
+    DEFAULT_OUTPUT_DIR,
     DEFAULT_MAX_CLUSTER_COUNT,
-    STATIC_MESH_GROUPS,
-    WorldConfig,
     build_datamaps_json,
     build_foliage_group_map,
     cluster_positions,
-    dedupe_exact_positions,
-    exported_json_path,
-    exported_uexp_path,
+    collect_package_refs,
+    extract_world_positions,
     find_data_root,
     load_world_configs,
-    process_sublevel,
     run_ue4export,
     write_asset_list,
     write_datamaps_json,
@@ -45,7 +40,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--out-dir",
-        default=str(Path(__file__).resolve().parents[1] / "wiki" / "maps"),
+        default=str(DEFAULT_OUTPUT_DIR),
         help="Output directory for *Plants.json files.",
     )
     parser.add_argument(
@@ -103,15 +98,6 @@ def stage_paks(pak_paths: list[Path], staging_dir: Path) -> None:
             shutil.copy2(sig_path, staging_dir / sig_path.name)
 
 
-def collect_package_refs(worlds: list[WorldConfig]) -> list[str]:
-    package_refs: list[str] = []
-    for world in worlds:
-        for package_ref in world.package_refs:
-            if package_ref not in package_refs:
-                package_refs.append(package_ref)
-    return package_refs
-
-
 def main() -> None:
     args = parse_args()
 
@@ -153,38 +139,21 @@ def main() -> None:
         print("Exporting raw packages...")
         run_ue4export(str(ue4export_exe), staged_paks_dir, raw_list, raw_dir)
 
-        positions_by_world: dict[str, dict[str, list[tuple[float, float, float]]]] = {
-            world.world_id: defaultdict(list) for world in worlds
-        }
-        unknown_by_world: dict[str, Counter[str]] = {world.world_id: Counter() for world in worlds}
+        positions_by_world, unknown_by_world, processed_counts = extract_world_positions(
+            worlds,
+            text_dir,
+            raw_dir,
+            foliage_to_group,
+            resource_actor_by_foliage,
+        )
 
         for world in worlds:
             print(f"\n{world.display_name}")
-            processed_levels = 0
-            for package_ref in world.package_refs:
-                json_path = exported_json_path(text_dir, package_ref)
-                uexp_path = exported_uexp_path(raw_dir, package_ref)
-                if not json_path.is_file() or not uexp_path.is_file():
-                    continue
-                level_positions, unknown = process_sublevel(
-                    json_path,
-                    uexp_path,
-                    foliage_to_group,
-                    resource_actor_by_foliage,
-                )
-                processed_levels += 1
-                for group_id, group_positions in level_positions.items():
-                    positions_by_world[world.world_id][group_id].extend(group_positions)
-                unknown_by_world[world.world_id].update(unknown)
-
-            for group_id in set(STATIC_MESH_GROUPS.values()):
-                if group_id in positions_by_world[world.world_id]:
-                    positions_by_world[world.world_id][group_id] = dedupe_exact_positions(
-                        positions_by_world[world.world_id][group_id]
-                    )
-
             raw_count = sum(len(group_positions) for group_positions in positions_by_world[world.world_id].values())
-            print(f"  Processed {processed_levels} packages and found {raw_count} raw instances")
+            print(
+                f"  Processed {processed_counts[world.world_id]} packages "
+                f"and found {raw_count} raw instances"
+            )
             if unknown_by_world[world.world_id]:
                 print(f"  Unmapped plant-like foliage: {len(unknown_by_world[world.world_id])}")
 
