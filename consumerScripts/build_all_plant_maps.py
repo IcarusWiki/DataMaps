@@ -44,6 +44,10 @@ def parse_args() -> argparse.Namespace:
         help="Output directory for *Plants.json files.",
     )
     parser.add_argument(
+        "--work-dir",
+        help="Optional persistent working directory for staging/export temp files.",
+    )
+    parser.add_argument(
         "--threshold",
         type=float,
         default=None,
@@ -98,6 +102,12 @@ def stage_paks(pak_paths: list[Path], staging_dir: Path) -> None:
             shutil.copy2(sig_path, staging_dir / sig_path.name)
 
 
+def prepare_work_dir(work_dir: Path) -> None:
+    if work_dir.exists():
+        shutil.rmtree(work_dir)
+    work_dir.mkdir(parents=True, exist_ok=True)
+
+
 def main() -> None:
     args = parse_args()
 
@@ -118,8 +128,15 @@ def main() -> None:
     out_dir = Path(args.out_dir)
     output_paths = []
 
-    with tempfile.TemporaryDirectory(prefix="icarus-map-plants-") as tmp_dir_str:
-        tmp_dir = Path(tmp_dir_str)
+    if args.work_dir:
+        tmp_dir = Path(args.work_dir)
+        prepare_work_dir(tmp_dir)
+        cleanup_tmp_dir = False
+    else:
+        tmp_dir = Path(tempfile.mkdtemp(prefix="icarus-map-plants-"))
+        cleanup_tmp_dir = True
+
+    try:
         staged_paks_dir = tmp_dir / "paks"
         text_dir = tmp_dir / "text"
         raw_dir = tmp_dir / "raw"
@@ -188,6 +205,9 @@ def main() -> None:
             if unknown_by_world[world.world_id]:
                 for entry, count in unknown_by_world[world.world_id].most_common():
                     print(f"  skipped {entry}: {count}")
+    finally:
+        if cleanup_tmp_dir:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
 
     print("\nGenerated files:")
     for output_path in output_paths:

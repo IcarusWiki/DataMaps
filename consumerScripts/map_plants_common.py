@@ -10,7 +10,7 @@ import subprocess
 import sys
 from collections import Counter, defaultdict
 from dataclasses import dataclass
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 ENGINE_VERSION = "UE4_27"
 
@@ -43,6 +43,12 @@ INCLUDED_WORLD_IDS = {
     "Outpost_DEV",
 }
 
+BACKGROUND_IMAGE_OVERRIDES = {
+    "Olympus": "Map_Olympus.png",
+    "Prometheus": "Map_Prometheus.png",
+    "Styx": "Terrain_017.jpg",
+}
+
 
 @dataclass(frozen=True)
 class PlantGroupMeta:
@@ -66,13 +72,13 @@ class WorldConfig:
 PLANT_GROUPS: dict[str, PlantGroupMeta] = {
     "Agave": PlantGroupMeta(
         display_name="Agave",
-        icon="T ITEM Agave.png",
+        icon="T_ITEM_Agave.png",
         size=(40, 40),
         blueprint_patterns=(r"^BP_DC_Agave_",),
     ),
     "Aloe": PlantGroupMeta(
         display_name="Aloe",
-        icon="ITEM_Fibre.png",
+        icon="ITEM_Aloe.png",
         size=(40, 40),
         blueprint_patterns=(r"^BP_Herb_Aloe_Vera$",),
     ),
@@ -136,7 +142,7 @@ PLANT_GROUPS: dict[str, PlantGroupMeta] = {
     ),
     "Corn": PlantGroupMeta(
         display_name="Corn",
-        icon="ITEM_Corn_Cob.png",
+        icon="ITEM_Corn.png",
         size=(40, 40),
         blueprint_patterns=(r"^BP_CornCob$", r"^BP_Corn$", r"^BP_Corn_Crops_Large$"),
     ),
@@ -160,7 +166,7 @@ PLANT_GROUPS: dict[str, PlantGroupMeta] = {
     ),
     "Lily": PlantGroupMeta(
         display_name="Lily",
-        icon="ITEM_Alpine_Lily.png",
+        icon="ITEM_Lily.png",
         size=(40, 40),
         blueprint_patterns=(r"^BP_Lily$",),
     ),
@@ -178,7 +184,7 @@ PLANT_GROUPS: dict[str, PlantGroupMeta] = {
     ),
     "PalmBush": PlantGroupMeta(
         display_name="Palm Bush",
-        icon="ITEM_Fibre.png",
+        icon="Bulbous_Palm.png",
         size=(40, 40),
         article="Palm Bush",
         blueprint_patterns=(r"^BP_PalmBush_\d+$",),
@@ -346,6 +352,14 @@ def _package_ref_to_asset_path(package_ref: str) -> str:
     return "Icarus/Content/" + package_ref[len("/Game/") :]
 
 
+def package_ref_to_asset_candidates(package_ref: str) -> tuple[str, ...]:
+    asset_path = _package_ref_to_asset_path(package_ref)
+    return (
+        f"{asset_path}.umap",
+        f"{asset_path}.uasset",
+    )
+
+
 def _package_ref_parts(package_ref: str) -> tuple[str, ...]:
     if not package_ref.startswith("/Game/"):
         fail(f"Unexpected package ref: {package_ref}")
@@ -456,6 +470,59 @@ def filter_present_world_package_refs(
     return present_refs, present_counts
 
 
+def normalize_pak_mount_point(mount_point: str) -> str:
+    mount = mount_point.replace("\\", "/").strip()
+    while mount.startswith("../"):
+        mount = mount[3:]
+    return mount.strip("/")
+
+
+def load_pak_asset_paths(pak_file: str | Path) -> set[str]:
+    try:
+        from pyuepak import PakFile
+    except Exception as exc:
+        raise RuntimeError(f"pyuepak is required to inspect pak contents: {exc}") from exc
+
+    pak = PakFile()
+    pak.read(str(pak_file))
+
+    index = getattr(pak, "_index", None)
+    mount_point = getattr(index, "mount_point", None) or getattr(pak, "mount_point", "../../../")
+    mount_root = normalize_pak_mount_point(mount_point)
+
+    asset_paths: set[str] = set()
+    for archive_path in pak.list_files():
+        relative = archive_path.replace("\\", "/").lstrip("/")
+        if mount_root:
+            full_path = PurePosixPath(mount_root) / PurePosixPath(relative)
+        else:
+            full_path = PurePosixPath(relative)
+        asset_paths.add(str(full_path))
+    return asset_paths
+
+
+def filter_present_world_package_refs_in_pak(
+    pak_file: str | Path,
+    worlds: list[WorldConfig],
+) -> tuple[list[str], dict[str, int]]:
+    asset_paths = load_pak_asset_paths(pak_file)
+    present_refs: list[str] = []
+    present_counts: dict[str, int] = {}
+
+    for world in worlds:
+        matched_refs: list[str] = []
+        for package_ref in world.package_refs:
+            if any(candidate in asset_paths for candidate in package_ref_to_asset_candidates(package_ref)):
+                matched_refs.append(package_ref)
+
+        present_counts[world.world_id] = len(matched_refs)
+        for package_ref in matched_refs:
+            if package_ref not in present_refs:
+                present_refs.append(package_ref)
+
+    return present_refs, present_counts
+
+
 def find_data_root(explicit_root: str | None = None) -> Path:
     if explicit_root:
         path = Path(explicit_root).resolve()
@@ -517,7 +584,10 @@ def load_world_configs(data_root: str | Path, selected_world_ids: list[str] | No
                 display_name=display_name,
                 output_stem=normalize_output_stem(display_name),
                 bounds=_extract_bounds(row),
-                background_image=f"MAP {display_name}.jpg",
+                background_image=BACKGROUND_IMAGE_OVERRIDES.get(
+                    display_name,
+                    f"MAP {display_name}.jpg",
+                ),
                 package_refs=tuple(package_refs),
             )
         )

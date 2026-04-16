@@ -30,6 +30,7 @@ from map_plants_common import (
     build_foliage_group_map,
     collect_package_refs,
     extract_world_positions,
+    filter_present_world_package_refs_in_pak,
     filter_present_world_package_refs,
     find_data_root,
     load_world_configs,
@@ -103,15 +104,34 @@ def main() -> None:
 
     foliage_to_group, resource_actor_by_foliage = build_foliage_group_map(data_root)
     package_refs = collect_package_refs(worlds)
-    if unpack_dir:
-        unpack_path = Path(unpack_dir)
-        if not unpack_path.is_dir():
-            fail(f"ICARUS_PAK_UNPACK_DIR does not exist: {unpack_path}")
-        all_package_refs = len(package_refs)
-        package_refs, present_counts = filter_present_world_package_refs(unpack_path, worlds)
+    all_package_refs = len(package_refs)
+    present_counts: dict[str, int] = {}
+    match_source = "all configured worlds"
+    try:
+        package_refs, present_counts = filter_present_world_package_refs_in_pak(pak_path, worlds)
+        match_source = "pak mount point + file index"
+    except Exception as exc:
+        if unpack_dir:
+            unpack_path = Path(unpack_dir)
+            if not unpack_path.is_dir():
+                fail(f"ICARUS_PAK_UNPACK_DIR does not exist: {unpack_path}")
+            print(
+                f"[plant-maps] {pak_name}: "
+                f"exact pak inspection failed ({exc}); falling back to unpacked-path matching"
+            )
+            package_refs, present_counts = filter_present_world_package_refs(unpack_path, worlds)
+            match_source = "unpacked-path heuristic"
+        else:
+            print(
+                f"[plant-maps] {pak_name}: "
+                f"exact pak inspection failed ({exc}); exporting all configured world packages"
+            )
+
+    if present_counts:
         print(
             f"[plant-maps] {pak_name}: "
-            f"{len(package_refs)}/{all_package_refs} known map packages present in this pak"
+            f"{len(package_refs)}/{all_package_refs} known map packages present in this pak "
+            f"via {match_source}"
         )
         present_worlds = [
             f"{world.display_name} ({present_counts.get(world.world_id, 0)})"
@@ -122,8 +142,8 @@ def main() -> None:
             print(f"[plant-maps] {pak_name}: matched worlds: {', '.join(present_worlds)}")
     else:
         print(
-            "[plant-maps] ICARUS_PAK_UNPACK_DIR is not set; "
-            "exporting all known map packages for the selected worlds"
+            f"[plant-maps] {pak_name}: "
+            f"using {match_source}, exporting all known map packages for the selected worlds"
         )
 
     if not package_refs:

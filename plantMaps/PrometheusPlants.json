@@ -15,7 +15,7 @@
 		{
 			"name": "Prometheus",
 			"associatedLayer": null,
-			"image": "MAP Prometheus.jpg",
+			"image": "Map_Prometheus.png",
 			"overlays": [
 				{
 					"name": "Grid",
