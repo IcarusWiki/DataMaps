@@ -6,6 +6,7 @@ Merge per-pak raw plant-position partials and generate `plantMaps/*Plants.json`.
 from __future__ import annotations
 
 import argparse
+import os
 from pathlib import Path
 
 from map_plants_common import (
@@ -23,16 +24,21 @@ from map_plants_common import (
 
 
 def parse_args() -> argparse.Namespace:
+    default_partials_dir = ""
+    finalizer_artifact_dir = os.environ.get("ICARUS_FINALIZER_ARTIFACT_DIR", "")
+    if finalizer_artifact_dir:
+        default_partials_dir = str(Path(finalizer_artifact_dir) / "plant-map-partials")
     parser = argparse.ArgumentParser(
         description="Merge raw plant-map partials and generate final *Plants.json files.",
     )
     parser.add_argument(
         "--partials-dir",
-        required=True,
+        default=default_partials_dir,
         help="Directory containing per-pak partial JSON files.",
     )
     parser.add_argument(
         "--data-root",
+        default=os.environ.get("ICARUS_DATA_REPO_DIR"),
         help="Path to the Data repo root (defaults to autodetect).",
     )
     parser.add_argument(
@@ -66,6 +72,8 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    if not args.partials_dir:
+        raise SystemExit("--partials-dir is required (or set ICARUS_FINALIZER_ARTIFACT_DIR)")
 
     data_root = find_data_root(args.data_root)
     worlds = load_world_configs(data_root, args.worlds)

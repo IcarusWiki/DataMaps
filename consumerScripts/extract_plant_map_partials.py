@@ -10,6 +10,9 @@ that is later merged into the final `plantMaps/*Plants.json` outputs.
 Environment variables (set by process_single_pak.py):
   ICARUS_PAK_FILE       - Path to the original .pak file
   ICARUS_PAK_WORK_ROOT  - Per-pak temp work directory
+  ICARUS_PAK_ARTIFACT_ROOT - Directory for this processor's persisted outputs
+  ICARUS_CONSUMER_ID    - Consumer id from the Data workflow config
+  ICARUS_PROCESSOR_ARTIFACT_ID - Artifact id from the Data workflow config
   ICARUS_PAK_NAME       - Friendly pak name
   UE4EXPORT_EXE         - Path to Ue4Export.exe
 """
@@ -63,8 +66,8 @@ def parse_args() -> argparse.Namespace:
 def resolve_partial_dir(args: argparse.Namespace, work_root: Path) -> Path:
     configured = (
         args.partial_dir
-        or os.environ.get("PLANT_MAP_PARTIAL_DIR")
-        or os.path.join(os.environ.get("RUNNER_TEMP", str(work_root)), "plant-map-partials")
+        or os.environ.get("ICARUS_PAK_ARTIFACT_ROOT")
+        or os.path.join(os.environ.get("RUNNER_TEMP", str(work_root.parent)), "consumer-artifacts")
     )
     path = Path(configured)
     path.mkdir(parents=True, exist_ok=True)
@@ -78,6 +81,8 @@ def main() -> None:
     work_root = os.environ.get("ICARUS_PAK_WORK_ROOT", "")
     pak_name = os.environ.get("ICARUS_PAK_NAME", "unknown")
     ue4export_exe = os.environ.get("UE4EXPORT_EXE", "")
+    consumer_id = os.environ.get("ICARUS_CONSUMER_ID", "")
+    artifact_id = os.environ.get("ICARUS_PROCESSOR_ARTIFACT_ID", "")
 
     if not pak_file or not work_root:
         fail("ICARUS_PAK_FILE and ICARUS_PAK_WORK_ROOT must be set")
@@ -154,7 +159,8 @@ def main() -> None:
 
     print(
         f"[plant-maps] Wrote {total_instances} raw instances across "
-        f"{len(serialized)} worlds to {partial_path}"
+        f"{len(serialized)} worlds to {partial_path} "
+        f"(consumer={consumer_id or 'n/a'}, artifact={artifact_id or 'n/a'})"
     )
 
 

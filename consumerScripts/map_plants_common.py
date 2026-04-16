@@ -1044,7 +1044,7 @@ def load_partial_positions(
     merged: dict[str, dict[str, list[tuple[float, float, float]]]] = defaultdict(
         lambda: defaultdict(list)
     )
-    partial_paths = sorted(Path(partials_dir).glob("*.json"))
+    partial_paths = sorted(Path(partials_dir).rglob("*.json"))
     for partial_path in partial_paths:
         data = _load_json(partial_path)
         worlds = data.get("worlds", data) if isinstance(data, dict) else {}
