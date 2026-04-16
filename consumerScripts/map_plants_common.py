@@ -346,13 +346,42 @@ def _package_ref_to_asset_path(package_ref: str) -> str:
     return "Icarus/Content/" + package_ref[len("/Game/") :]
 
 
+def _package_ref_parts(package_ref: str) -> tuple[str, ...]:
+    if not package_ref.startswith("/Game/"):
+        fail(f"Unexpected package ref: {package_ref}")
+    return tuple(part for part in package_ref[len("/Game/") :].split("/") if part)
+
+
+def _candidate_unpacked_strip_counts(package_ref: str) -> tuple[int, ...]:
+    parts = _package_ref_parts(package_ref)
+    strip_counts = [0]
+    if len(parts) >= 2 and parts[0] == "Maps":
+        strip_counts.append(1)
+    if len(parts) >= 3 and parts[0] == "Maps":
+        strip_counts.append(2)
+    return tuple(strip_counts)
+
+
+def _is_ambiguous_when_stripped(package_ref: str, *, strip_parts: int) -> bool:
+    parts = _package_ref_parts(package_ref)
+    if strip_parts >= len(parts):
+        return True
+    relative_parts = parts[strip_parts:]
+    return relative_parts[0].lower() == "heightmap"
+
+
 def package_ref_to_unpacked_candidates(
     unpack_root: str | Path,
     package_ref: str,
+    *,
+    strip_parts: int = 0,
 ) -> tuple[Path, ...]:
-    if not package_ref.startswith("/Game/"):
-        fail(f"Unexpected package ref: {package_ref}")
-    relative = Path(*package_ref[len("/Game/") :].split("/"))
+    parts = _package_ref_parts(package_ref)
+    if strip_parts:
+        if len(parts) <= strip_parts:
+            return ()
+        parts = parts[strip_parts:]
+    relative = Path(*parts)
     base = Path(unpack_root) / relative
     return (
         base.with_suffix(".umap"),
@@ -369,6 +398,62 @@ def filter_present_package_refs(
         if any(candidate.is_file() for candidate in package_ref_to_unpacked_candidates(unpack_root, package_ref)):
             present.append(package_ref)
     return present
+
+
+def filter_present_world_package_refs(
+    unpack_root: str | Path,
+    worlds: list[WorldConfig],
+) -> tuple[list[str], dict[str, int]]:
+    present_refs: list[str] = []
+    present_counts: dict[str, int] = {}
+    unpack_root = Path(unpack_root)
+
+    for world in worlds:
+        world_refs = list(world.package_refs)
+        if not world_refs:
+            present_counts[world.world_id] = 0
+            continue
+
+        best_refs: list[str] = []
+        best_score = (-1, -1)
+
+        for strip_parts in _candidate_unpacked_strip_counts(world_refs[0]):
+            matched_refs: list[str] = []
+            strong_count = 0
+            weak_count = 0
+            for package_ref in world_refs:
+                if any(
+                    candidate.is_file()
+                    for candidate in package_ref_to_unpacked_candidates(
+                        unpack_root,
+                        package_ref,
+                        strip_parts=strip_parts,
+                    )
+                ):
+                    matched_refs.append(package_ref)
+                    if _is_ambiguous_when_stripped(package_ref, strip_parts=strip_parts):
+                        weak_count += 1
+                    else:
+                        strong_count += 1
+
+            score = (strong_count, weak_count)
+            if score > best_score:
+                best_refs = matched_refs
+                best_score = score
+
+        strong_count, weak_count = best_score
+        if strong_count <= 0 and weak_count > 0:
+            # Heightmap-only matches after stripping the world mount point are ambiguous
+            # across some terrain worlds, so skip them unless we found at least one
+            # world-specific package (main/generated/developer).
+            best_refs = []
+
+        present_counts[world.world_id] = len(best_refs)
+        for package_ref in best_refs:
+            if package_ref not in present_refs:
+                present_refs.append(package_ref)
+
+    return present_refs, present_counts
 
 
 def find_data_root(explicit_root: str | None = None) -> Path:

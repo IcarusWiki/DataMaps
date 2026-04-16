@@ -30,7 +30,7 @@ from map_plants_common import (
     build_foliage_group_map,
     collect_package_refs,
     extract_world_positions,
-    filter_present_package_refs,
+    filter_present_world_package_refs,
     find_data_root,
     load_world_configs,
     run_ue4export,
@@ -108,11 +108,18 @@ def main() -> None:
         if not unpack_path.is_dir():
             fail(f"ICARUS_PAK_UNPACK_DIR does not exist: {unpack_path}")
         all_package_refs = len(package_refs)
-        package_refs = filter_present_package_refs(unpack_path, package_refs)
+        package_refs, present_counts = filter_present_world_package_refs(unpack_path, worlds)
         print(
             f"[plant-maps] {pak_name}: "
             f"{len(package_refs)}/{all_package_refs} known map packages present in this pak"
         )
+        present_worlds = [
+            f"{world.display_name} ({present_counts.get(world.world_id, 0)})"
+            for world in worlds
+            if present_counts.get(world.world_id, 0) > 0
+        ]
+        if present_worlds:
+            print(f"[plant-maps] {pak_name}: matched worlds: {', '.join(present_worlds)}")
     else:
         print(
             "[plant-maps] ICARUS_PAK_UNPACK_DIR is not set; "
