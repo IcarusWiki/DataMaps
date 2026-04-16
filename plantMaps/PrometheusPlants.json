@@ -45,7 +45,7 @@
 				40,
 				40
 			],
-			"icon": "ITEM_Fibre.png"
+			"icon": "ITEM_Aloe.png"
 		},
 		"Beans": {
 			"name": "Soy Beans",
@@ -101,7 +101,7 @@
 				40,
 				40
 			],
-			"icon": "ITEM_Corn_Cob.png"
+			"icon": "ITEM_Corn.png"
 		},
 		"Mushroom": {
 			"name": "Mushrooms",

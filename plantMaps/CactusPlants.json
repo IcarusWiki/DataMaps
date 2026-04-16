@@ -45,7 +45,7 @@
 				40,
 				40
 			],
-			"icon": "ITEM_Fibre.png"
+			"icon": "ITEM_Aloe.png"
 		},
 		"Cactus": {
 			"name": "Cactus",
@@ -61,7 +61,7 @@
 				40,
 				40
 			],
-			"icon": "ITEM_Fibre.png"
+			"icon": "Bulbous_Palm.png"
 		},
 		"Reed": {
 			"name": "Reed Flowers",
