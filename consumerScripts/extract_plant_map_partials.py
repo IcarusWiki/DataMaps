@@ -9,6 +9,7 @@ that is later merged into the final `plantMaps/*Plants.json` outputs.
 
 Environment variables (set by process_single_pak.py):
   ICARUS_PAK_FILE       - Path to the original .pak file
+  ICARUS_PAK_UNPACK_DIR - Directory containing the pak's extracted files
   ICARUS_PAK_WORK_ROOT  - Per-pak temp work directory
   ICARUS_PAK_ARTIFACT_ROOT - Directory for this processor's persisted outputs
   ICARUS_CONSUMER_ID    - Consumer id from the Data workflow config
@@ -29,6 +30,7 @@ from map_plants_common import (
     build_foliage_group_map,
     collect_package_refs,
     extract_world_positions,
+    filter_present_package_refs,
     find_data_root,
     load_world_configs,
     run_ue4export,
@@ -78,6 +80,7 @@ def main() -> None:
     args = parse_args()
 
     pak_file = os.environ.get("ICARUS_PAK_FILE", "")
+    unpack_dir = os.environ.get("ICARUS_PAK_UNPACK_DIR", "")
     work_root = os.environ.get("ICARUS_PAK_WORK_ROOT", "")
     pak_name = os.environ.get("ICARUS_PAK_NAME", "unknown")
     ue4export_exe = os.environ.get("UE4EXPORT_EXE", "")
@@ -100,6 +103,26 @@ def main() -> None:
 
     foliage_to_group, resource_actor_by_foliage = build_foliage_group_map(data_root)
     package_refs = collect_package_refs(worlds)
+    if unpack_dir:
+        unpack_path = Path(unpack_dir)
+        if not unpack_path.is_dir():
+            fail(f"ICARUS_PAK_UNPACK_DIR does not exist: {unpack_path}")
+        all_package_refs = len(package_refs)
+        package_refs = filter_present_package_refs(unpack_path, package_refs)
+        print(
+            f"[plant-maps] {pak_name}: "
+            f"{len(package_refs)}/{all_package_refs} known map packages present in this pak"
+        )
+    else:
+        print(
+            "[plant-maps] ICARUS_PAK_UNPACK_DIR is not set; "
+            "exporting all known map packages for the selected worlds"
+        )
+
+    if not package_refs:
+        print(f"[plant-maps] No supported map packages found in {pak_name}, skipping.")
+        return
+
     partial_dir = resolve_partial_dir(args, Path(work_root))
 
     with tempfile.TemporaryDirectory(prefix="icarus-plant-map-", dir=work_root) as tmp_dir_str:

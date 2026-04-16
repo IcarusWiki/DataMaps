@@ -346,6 +346,31 @@ def _package_ref_to_asset_path(package_ref: str) -> str:
     return "Icarus/Content/" + package_ref[len("/Game/") :]
 
 
+def package_ref_to_unpacked_candidates(
+    unpack_root: str | Path,
+    package_ref: str,
+) -> tuple[Path, ...]:
+    if not package_ref.startswith("/Game/"):
+        fail(f"Unexpected package ref: {package_ref}")
+    relative = Path(*package_ref[len("/Game/") :].split("/"))
+    base = Path(unpack_root) / relative
+    return (
+        base.with_suffix(".umap"),
+        base.with_suffix(".uasset"),
+    )
+
+
+def filter_present_package_refs(
+    unpack_root: str | Path,
+    package_refs: list[str],
+) -> list[str]:
+    present: list[str] = []
+    for package_ref in package_refs:
+        if any(candidate.is_file() for candidate in package_ref_to_unpacked_candidates(unpack_root, package_ref)):
+            present.append(package_ref)
+    return present
+
+
 def find_data_root(explicit_root: str | None = None) -> Path:
     if explicit_root:
         path = Path(explicit_root).resolve()
