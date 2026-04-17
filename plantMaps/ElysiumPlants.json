@@ -165,7 +165,7 @@
 				40,
 				40
 			],
-			"icon": "Bulbous_Palm.png"
+			"icon": "ITEM_Fibre.png"
 		},
 		"Potato": {
 			"name": "Potatoes",
@@ -5301,7 +5301,7 @@
 				"y": 0.0,
 				"id": "Beans-146",
 				"name": "Soy Beans",
-				"description": "Amount of Soy Beans: 3",
+				"description": "Amount of Soy Beans: 2",
 				"article": "Soy Beans"
 			},
 			{
