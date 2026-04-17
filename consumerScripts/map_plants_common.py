@@ -47,6 +47,9 @@ BACKGROUND_IMAGE_OVERRIDES = {
     "Olympus": "Map_Olympus.png",
     "Prometheus": "Map_Prometheus.png",
     "Styx": "Terrain_017.jpg",
+    "Holdfast": "Map_Holdfast_Outpost.png",
+    "Arcwood": "Map_Arcwood_Outpost.png",
+    "Iceholm": "Map_Iceholm_Outpost.png"
 }
 
 
@@ -184,7 +187,7 @@ PLANT_GROUPS: dict[str, PlantGroupMeta] = {
     ),
     "PalmBush": PlantGroupMeta(
         display_name="Palm Bush",
-        icon="Bulbous_Palm.png",
+        icon="ITEM_Fibre.png",
         size=(40, 40),
         article="Palm Bush",
         blueprint_patterns=(r"^BP_PalmBush_\d+$",),
